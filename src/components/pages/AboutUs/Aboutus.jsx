@@ -6,6 +6,21 @@ import Cards from '../../Card/Cards.jsx';
 import { Aayan, Baneen, Celin, Hassan, Kaitlyn, Karnbir, Leah, Lily, Mohammed, Rafiq, Sean, Siddhartha } from '../../../assets';
 import Footer from '../../Footer/Footer';
 
+// to do: change team introductions into a map function (for loop)
+// use an array of objects to store info and then map it
+const team = [
+  {
+    name: "Karnbir Saini",
+    discipline: "ECE 2T4+2",
+    role: "Director",
+    pronouns: "He/Him",
+    image: Karnbir,
+    funfact: "The +2 next to my discipline means I split both my first and second years in half! I enjoy the extra sleep...",
+    linkedin: "https://www.linkedin.com/in/karnbir-saini/",
+    instagram: "https://www.instagram.com/s.s_karn/"
+  },
+]
+
 const AboutUs = () => {
     return (
       <Background>
@@ -20,17 +35,20 @@ const AboutUs = () => {
               <Cards>
                 <Card 
                   title="Our Mission" 
-                  content="Commuting comes with its unique set of challenges, 
-                          whether it be navigating through bus routes, spending hours in commute, 
-                          or having more difficulty forming social circles. Our goal is to unite commuters around the campus and provide them 
-                          with the necessary resources and aid needed to overcome these obstacles."
-                />
-                <Card 
-                  title="What We Do" 
-                  content="We have created initiatives, such as the Commuter Buddy Program; 
-                          a tool to help commuters who take similar routes form small groups, easing the journey. 
-                          Additionally, we have monthly events. To learn more, check out the Events page."
-                />
+                  content='We are creating a "commuterty" between commuters and non-commuters! 
+                  We aim to create a hub for commuters and non-commuters alike. 
+                  We aim to make university easier for commuters and help others who want to take transit. 
+                  In short, our mission is to create a better experience for students taking transit. 
+                  Whether you are a commuter or simply like trains, we are creating a commuterty for you!'
+                  />
+                  <Card 
+                    title="What We Do" 
+                    content="We make transit and commuting enjoyable. 
+                    We provide resources, guidance, and tips for new commuters to get used to commuting and others taking transit. 
+                    We host events for the commuterty to have fun and learn more! 
+                    We advocate for a better commuting experience. 
+                    And of course, we provide a space for everyone to share their thoughts on transit!"
+                  />
               </Cards>
           </div>  
           
