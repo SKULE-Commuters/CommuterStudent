@@ -14,16 +14,14 @@ const NavBar = () => {
     const [firstOpen, setFirstOpen] = useState(false);
 
     const handleScrollEvent = useCallback(() => {
-        const currentYPos = window.pageYOffset;
+        const currentYPos = window.scrollY;
         updateDisplayNav(currentYPos < yPos || currentYPos < 100);
         setYPos(currentYPos);
     }, [yPos]);
     
     useEffect(() => {
         window.addEventListener("scroll", handleScrollEvent);
-        return () => {
-            window.removeEventListener("scroll", handleScrollEvent);
-        };
+        return () => window.removeEventListener("scroll", handleScrollEvent);
     }, [yPos, handleScrollEvent]);
 
     const handleScrollTo = (id) => {
