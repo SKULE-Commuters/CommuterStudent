@@ -6,13 +6,9 @@ import { useState } from 'react';
 const Dropdown = (props) => {
     const [isOpen, setIsOpen] = useState(false);
 
-    const toggleDrop = () => {
-        setIsOpen(!isOpen);
-    }
-
     return (
         <div className="dropdown">
-            <div className="dropdown__header" onClick={toggleDrop}>
+            <div className="dropdown__header" onClick={setIsOpen(!isOpen)}>
                 <span className={`dropdown__header__caret ${(isOpen ? "open" : "")}`}>
                     <img src={Caret} alt="" />
                 </span>
