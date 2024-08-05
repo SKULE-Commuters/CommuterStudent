@@ -34,8 +34,7 @@ const NavBar = () => {
             <span className="nav-container">
                 <NavLink to='/' className ="nav-link" onClick={SmoothScroll}><p>Home</p></NavLink>
                 <NavLink to='/about-us' className ="nav-link" onClick={SmoothScroll}><p>About Us</p></NavLink>
-                {/* <NavLink to='/join-us' className ="nav-link" onClick={SmoothScroll}><p>Join Us</p></NavLink> */}
-                <NavLink to='/info' className ="nav-link" onClick={SmoothScroll}><p>Info</p></NavLink>
+                <NavLink to='/resources' className ="nav-link" onClick={SmoothScroll}><p>Resources</p></NavLink>
             </span>
             <span className="nav-mobile-container">
                 <MobileMenu firstOpen={firstOpen} setFirstOpen={setFirstOpen}/>

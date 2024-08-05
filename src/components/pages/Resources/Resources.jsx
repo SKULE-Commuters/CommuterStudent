@@ -1,4 +1,4 @@
-import './Tips.css';
+import './Resources.css';
 import Dropdown from '../../Dropdown/Dropdown';
 import Dropdowns from '../../Dropdown/Dropdowns';
 import Footer from '../../Footer/Footer';

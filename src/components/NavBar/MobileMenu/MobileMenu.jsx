@@ -31,9 +31,7 @@ const MobileMenu = (props) => {
             }}>
                 <NavLink to='/' className ="nav-link__mobile" onClick={toggleMenu}><p>Home</p></NavLink>
                 <NavLink to='/about-us' className ="nav-link__mobile" onClick={toggleMenu}><p>About Us</p></NavLink>
-                {/* <NavLink to='/events' className ="nav-link__mobile" onClick={toggleMenu}><p>Events</p></NavLink> */}
-                {/* <NavLink to='/join-us' className ="nav-link__mobile" onClick={toggleMenu}><p>Join Us</p></NavLink> */}
-                <NavLink to='/info' className ="nav-link__mobile" onClick={toggleMenu}><p>Info</p></NavLink>
+                <NavLink to='/resources' className ="nav-link__mobile" onClick={toggleMenu}><p>Resources</p></NavLink>
             </div>
         </>
     )
