@@ -1,6 +1,4 @@
 import { React, useState, useEffect, useCallback } from "react";
-import { NavLink } from "react-router-dom";
-import { SmoothScroll } from "./SmoothScroll";
 import { useSelector, useDispatch } from "react-redux";
 import { setSideBar } from "../..";
 import './Navbar.css';
@@ -21,20 +19,32 @@ const NavBar = () => {
         setYPos(currentYPos);
     }, [yPos]);
     
-    useEffect (() => {
+    useEffect(() => {
         window.addEventListener("scroll", handleScrollEvent);
+        return () => {
+            window.removeEventListener("scroll", handleScrollEvent);
+        };
     }, [yPos, handleScrollEvent]);
+
+    const handleScrollTo = (id) => {
+        const element = document.getElementById(id);
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
     
     return (
         <div className = {displayNav || sideBarOn ? "nav-bar__active" : "nav-bar"} onClick={(e) => {
             e.stopPropagation(); 
             dispatch(setSideBar(false));
         }}>
-            <img src={CommuterLogo} alt=''/>
+            <button onClick={() => handleScrollTo('home')} className="logo-button">
+                <img src={CommuterLogo} alt='Skule Commuter logo'/>
+            </button>
             <span className="nav-container">
-                <NavLink to='/' className ="nav-link" onClick={SmoothScroll}><p>Home</p></NavLink>
-                <NavLink to='/about-us' className ="nav-link" onClick={SmoothScroll}><p>About Us</p></NavLink>
-                <NavLink to='/resources' className ="nav-link" onClick={SmoothScroll}><p>Resources</p></NavLink>
+                <button className="nav-link" onClick={() => handleScrollTo('home')}><p>Home</p></button>
+                <button className="nav-link" onClick={() => handleScrollTo('about-us')}><p>About Us</p></button>
+                <button className="nav-link" onClick={() => handleScrollTo('resources')}><p>Resources</p></button>
             </span>
             <span className="nav-mobile-container">
                 <MobileMenu firstOpen={firstOpen} setFirstOpen={setFirstOpen}/>

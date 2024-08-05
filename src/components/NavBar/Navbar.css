@@ -17,6 +17,12 @@
     transition: all 0.45s cubic-bezier(.53, 0, .55, 1);
 }
 
+.nav-bar button, .nav-bar__active button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
 /* nav-bar logo */
 .nav-bar img, .nav-bar__active img {
     height: 100%;

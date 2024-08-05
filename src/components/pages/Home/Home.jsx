@@ -8,7 +8,7 @@ const Home = () => {
 	const dispatch = useDispatch();
 
     return (
-		<div className="home-banner" onClick={() => dispatch(setSideBar(false))}>
+		<div id="home" className="home-banner" onClick={() => dispatch(setSideBar(false))}>
 			<div className="home-banner__img">
 				<img src={CommuterBanner} alt="" />
 			</div>

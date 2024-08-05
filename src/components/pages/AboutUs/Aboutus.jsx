@@ -25,7 +25,7 @@ const AboutUs = () => {
     return (
       <Background>
 
-        <div className="about-us">
+        <div id="about-us" className="about-us">
 
           <div className="about-us__header">
               <div className="section-title">

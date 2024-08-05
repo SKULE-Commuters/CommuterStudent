@@ -102,10 +102,10 @@ const clubInfo = {
 const keys = Object.keys(tips);
 const clubKeys = Object.keys(clubInfo);
 
-const Tips = () => {
+const Resources = () => {
     return (
       <Background>
-        <div className="tips">
+        <div id="resources" className="tips">
 
           <h1>Commuter Tips</h1><br/>
 
@@ -137,4 +137,4 @@ const Tips = () => {
     );
   }
   
-export default Tips;
+export default Resources;

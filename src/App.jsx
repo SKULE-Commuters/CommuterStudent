@@ -1,20 +1,26 @@
 import './App.css';
-import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Home, AboutUs, JoinUs, Resources, NavBar } from './imports';
+import { BrowserRouter as Router } from "react-router-dom";
+// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Home, AboutUs, Resources, NavBar } from './imports';
 
 function App() {
   return (
-    <Router>      
+    <Router>
       <NavBar />
-      <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path="/about-us" element={<AboutUs/>} />
-        <Route path="/join-us" element={<JoinUs/>} />
-        <Route path="/resources" element={<Resources/>} />
-      </Routes>
+      <Home />
+      <AboutUs />
+      <Resources />
     </Router>
   );
 }
 
 export default App;
+
+// keeping the router commented out for if we want to add more pages later
+    // <Router>
+    //   <NavBar />
+    //   <Routes>
+    //     <Route path="/" element={<Home/>} />
+    //     <Route path="/maps" element={<Maps/>} />
+    //   </Routes>
+    // </Router>
