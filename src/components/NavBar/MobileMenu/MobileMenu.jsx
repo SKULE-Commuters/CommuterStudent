@@ -1,5 +1,3 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { setSideBar } from "../../..";
 import "./MobileMenu.css";
@@ -15,13 +13,21 @@ const MobileMenu = (props) => {
         dispatch(setSideBar(!sideBarOn));
     }
 
+    const handleScrollTo = (id) => {
+        const element = document.getElementById(id);
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+        dispatch(setSideBar(false)); // Close the sidebar after scrolling
+    };
+
     return (
         <>
             <div className="nav-mobile-toggle">
                 <input onClick={toggleMenu} className={sideBarOn ? "checked" : ""} type="checkbox" />
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
             {/* This complicated looking nested ternary is because we don't want the mobile nav to do the slideOut animation unless clicked on.
                 Without this, the user sees the mobile nav slide out on page load, which looks unprofessional and janky. */}
@@ -29,13 +35,12 @@ const MobileMenu = (props) => {
                 e.stopPropagation(); 
                 dispatch(setSideBar(true));
             }}>
-                <NavLink to='/' className ="nav-link__mobile" onClick={toggleMenu}><p>Home</p></NavLink>
-                <NavLink to='/about-us' className ="nav-link__mobile" onClick={toggleMenu}><p>About Us</p></NavLink>
-                <NavLink to='/resources' className ="nav-link__mobile" onClick={toggleMenu}><p>Resources</p></NavLink>
+                <button className="nav-link__mobile" onClick={() => handleScrollTo('home')}><p>Home</p></button>
+                <button className="nav-link__mobile" onClick={() => handleScrollTo('about-us')}><p>About Us</p></button>
+                <button className="nav-link__mobile" onClick={() => handleScrollTo('resources')}><p>Resources</p></button>
             </div>
         </>
-    )
-
+    );
 }
 
 export default MobileMenu;
