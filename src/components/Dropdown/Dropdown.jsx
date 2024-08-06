@@ -12,8 +12,7 @@ const Dropdown = (props) => {
 
     // bold and underline the first part of the string for clubs section
     const formatItem = (item) => {
-        const regex = /^(Meeting|Time)\s+\S+\s+\S+/;
-        const match = item.match(regex);
+        const match = item.match(/^\w+\s+\w+:/);
         if (match) {
             const bolded = match[0];
             const rest = item.substring(bolded.length);
