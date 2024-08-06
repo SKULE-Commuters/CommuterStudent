@@ -115,13 +115,13 @@ const Resources = () => {
           </Dropdowns>
           <h3 style={{textAlign: 'center'}}>
             Some tips are sourced from the 2T5 Frosh Handbook. <br/> 
-            If you have any other suggestions, please let us know!
+            <a href="https://discord.com/invite/yph2EjkbhW">Let us know</a> if you have any other suggestions!
           </h3>
 
 
           {/* this next bit is commuter info */}
           <hr/>
-          <h1>Commuter Info: Joining a club!</h1>
+          <h1>Joining Clubs</h1>
           <h2>What's it like to join a club?</h2>
           <p>We've gathered information from various clubs, so you can get a sense of what it's like to be part of a club whilst having to commmute.</p>
           <Dropdowns>
@@ -129,6 +129,7 @@ const Resources = () => {
               return <Dropdown title={club} content={clubInfo[club].tips}/>
             })}
           </Dropdowns>
+          <p>Want commuters to know about your club? <a href="https://discord.com/invite/yph2EjkbhW">Contact us</a>!</p>
 
         </div>
       </Background>
