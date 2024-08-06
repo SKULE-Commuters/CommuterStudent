@@ -13,10 +13,15 @@ const MobileMenu = (props) => {
         dispatch(setSideBar(!sideBarOn));
     }
 
-    const handleScrollTo = (id) => {
-        const element = document.getElementById(id);
-        if (element) {
-            element.scrollIntoView({ behavior: 'smooth' });
+    const handleScrollTo = (id, e) => {
+        e.stopPropagation();
+        if (id === 'home') {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        } else {
+            const element = document.getElementById(id);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth' });
+            }
         }
         dispatch(setSideBar(false)); // Close the sidebar after scrolling
     };
@@ -35,9 +40,9 @@ const MobileMenu = (props) => {
                 e.stopPropagation(); 
                 dispatch(setSideBar(true));
             }}>
-                <button className="nav-link__mobile" onClick={() => handleScrollTo('home')}><p>Home</p></button>
-                <button className="nav-link__mobile" onClick={() => handleScrollTo('about-us')}><p>About Us</p></button>
-                <button className="nav-link__mobile" onClick={() => handleScrollTo('resources')}><p>Resources</p></button>
+                <button className="nav-link__mobile" onClick={e => handleScrollTo('home', e)}><p>Home</p></button>
+                <button className="nav-link__mobile" onClick={e => handleScrollTo('about-us', e)}><p>About Us</p></button>
+                <button className="nav-link__mobile" onClick={e => handleScrollTo('resources', e)}><p>Resources</p></button>
             </div>
         </>
     );
