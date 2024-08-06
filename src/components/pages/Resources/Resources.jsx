@@ -96,8 +96,6 @@ const clubInfo = {
   },
 }
 
-
-
 const keys = Object.keys(tips);
 const clubKeys = Object.keys(clubInfo);
 
@@ -105,9 +103,7 @@ const Resources = () => {
     return (
       <Background>
         <div id="resources" className="resources">
-
           <h1>Commuter Tips</h1><br/>
-
           <Dropdowns>
             {keys.map((key) => {
               return <Dropdown title={key} content={tips[key].tips} image={tips[key].image}/>
@@ -118,9 +114,8 @@ const Resources = () => {
             <a href="https://discord.com/invite/yph2EjkbhW">Let us know</a> if you have any other suggestions!
           </h3>
 
-
-          {/* this next bit is commuter info */}
           <hr/>
+
           <h1>Joining Clubs</h1>
           <h2>What's it like to join a club?</h2>
           <p>We've gathered information from various clubs, so you can get a sense of what it's like to be part of a club whilst having to commmute.</p>
@@ -131,6 +126,10 @@ const Resources = () => {
           </Dropdowns>
           <p>Want commuters to know about your club? <a href="https://discord.com/invite/yph2EjkbhW">Contact us</a>!</p>
 
+          <hr/>
+
+          <h1>Mental Health</h1>
+          <p style={{ textWrap: "balance"}}>Caring for your mental-well being can be tough, especially with a long commute. <a href="https://mentalhealth.utoronto.ca/">UofT provides resources</a> that can help you get back on track!</p>
         </div>
       </Background>
     );
