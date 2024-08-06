@@ -1,14 +1,16 @@
 .nav-links {
     box-sizing: border-box;
     padding: 3rem 0;
-    position: absolute;
+    position: fixed; /* fixed instead of absolute to fix the issue of scroll down the page while in sidebar, then sidebar closing to the top right corner instead of straight to the right */
     top: 0;
     width: 70%;
+    height: 100vh;
     left: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     background: #24347b;
+    overflow-y: auto;
 }
 
 .nav-link__mobile {
