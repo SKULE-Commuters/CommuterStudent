@@ -1,19 +1,19 @@
-.tips {
+.resources {
     padding-left: min(10vw, 5rem);
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.tips h1 {
+.resources h1 {
     margin: 1rem 0 0.5rem 0
 }
 
-.tips h2 {
+.resources h2 {
     margin: 0.5rem 0;
 }
 
-.tips p {
+.resources p {
     margin: 0.5rem 0;
     text-align: center;  
     width: 100%;

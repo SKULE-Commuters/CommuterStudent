@@ -105,7 +105,7 @@ const clubKeys = Object.keys(clubInfo);
 const Resources = () => {
     return (
       <Background>
-        <div id="resources" className="tips">
+        <div id="resources" className="resources">
 
           <h1>Commuter Tips</h1><br/>
 

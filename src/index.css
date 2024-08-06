@@ -45,7 +45,7 @@ code {
   margin-bottom: 2rem;
 }
 
-.home, .about-us, .events, .join-us, .tips {
+.home, .about-us, .events, .join-us, .resources {
   padding: min(10vh, 5rem) min(6vw, 2rem);
   margin-bottom: 5vh;
   background-color: #fff7de;
@@ -58,7 +58,7 @@ code {
 }
 
 @media screen and (max-width: 1000px){
-  .home, .about-us, .events, .join-us, .tips {
+  .home, .about-us, .events, .join-us, .resources {
     margin-left: 5vw; margin-right: 5vw;
   }
 }
