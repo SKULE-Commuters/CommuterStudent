@@ -1,3 +1,4 @@
+import ChevronDownIcon from "../../../assets/icons/chevron-down-solid.svg";
 import SocialMediaButton from "./SocialMediaButton";
 import { InstagramLogoOrange as InstagramLogo, DiscordLogo, CommuterBanner, EmailLogo } from "../../../assets";
 import { setSideBar } from "../../..";
@@ -20,6 +21,9 @@ const Home = () => {
 					<SocialMediaButton source={DiscordLogo} link="https://discord.gg/yph2EjkbhW"/>
 					<SocialMediaButton source={InstagramLogo} link="https://www.instagram.com/skule.commuters/"/>
 					<SocialMediaButton source={EmailLogo} link="mailto:webmaster@commuter.skule.ca"/>
+				</div>
+				<div className="home-banner__content__chevron">
+					<img src={ChevronDownIcon} alt="down arrow"/>
 				</div>
 			</div>
 		</div>

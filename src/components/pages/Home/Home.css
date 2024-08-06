@@ -71,7 +71,18 @@
     box-shadow: 0 0 0 min(1vw, 0.2rem) #FCB839;
 }
 
-
+.home-banner__content__chevron {
+    position: absolute;
+    bottom: 3rem;
+    left: calc(50% - 1rem); /* Centered with middle social logo */
+    justify-content: center;
+    height: 1.5rem;
+    padding: 0.5rem;
+    width: 1.5rem;
+    border: white solid 0.25rem;
+    border-radius: 50%;
+    opacity: 0.5;
+}
 
 /* DESKTOP/TABLET BREAKPOINTS */
 @media screen and (max-width: 1550px) {
