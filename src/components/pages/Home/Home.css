@@ -1,9 +1,6 @@
 .home-banner {
-    position: absolute;
-    top: 8rem; /* Height of navbar */
-
     width: 100vw;
-    height: calc(100vh - 8rem);
+    height: calc(100vh - 8rem); /* 8rem is the height of the navbar */
 
     background-color: #24347B;
 
@@ -20,13 +17,13 @@
     overflow: hidden;
 }
 
+.home-banner__img {
+    transition: 0.1s ease-in;
+}
+
 .home-banner__img img {
     width: 100%;
     z-index: 1;
-}
-
-.home-banner__img {
-    transition: 0.1s ease-in;
 }
 
 .home-banner__img:hover {
@@ -109,7 +106,7 @@
     }
     .home-banner__img {
         position: absolute;
-        top: calc(25vh - 8rem);
+        top: 25vh;
         height: 30vh;
         opacity: 0.2;
         pointer-events: none;
@@ -136,6 +133,9 @@
     }
     .home-banner__content__title {
         font-size: 2rem;
+    }
+    .home-banner__img {
+        width: 100vw;
     }
     .home-banner__img img {
         height: 50vh;

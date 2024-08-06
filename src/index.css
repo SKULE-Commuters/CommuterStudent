@@ -35,6 +35,12 @@ code {
   flex-direction: column;
 }
 
+/* Background behind navbar on home page for spacing */
+.navbar-spacer {
+  background: rgb(36, 52, 123);
+  height: 8rem;
+}
+
 .section-title {
   width: 100%;
   display: flex;
@@ -59,5 +65,11 @@ code {
 @media screen and (max-width: 1000px){
   .home, .about-us, .events, .join-us, .resources {
     margin-left: 5vw; margin-right: 5vw;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .navbar-spacer {
+    height: 5rem;
   }
 }

@@ -6,6 +6,7 @@ import { Home, AboutUs, Resources, NavBar, Footer } from './imports';
 function App() {
   return (
     <Router>
+      <div className="navbar-spacer" />
       <NavBar />
       <Home />
       <AboutUs />
