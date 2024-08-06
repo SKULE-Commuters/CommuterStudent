@@ -29,7 +29,6 @@ code {
 
 /* Custom Background */
 .custom-background {
-  padding-top: 10vw;
   background: linear-gradient(90deg, #ffa600c8, #0e31bcd6);
   display: flex;
   flex-direction: column;
