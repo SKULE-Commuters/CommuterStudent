@@ -20,22 +20,9 @@
     overflow: hidden;
 }
 
-.home-banner__background {
-    position: absolute;
-
-    background-color:rgba(36, 52, 123, 0.8);
-
-    width: 100vw;
-    height: calc(100vh - 8rem);
-    z-index: 2;
-
-    display: none; /* Only becomes visible in mobile layout */
-}
-
 .home-banner__img img {
     width: 100%;
     z-index: 1;
-    pointer-events: none;
 }
 
 .home-banner__img {
@@ -120,14 +107,12 @@
         justify-content: center;
         padding: 1rem;
     }
-    .home-banner__background {
-        display: block;
-    }
     .home-banner__img {
         position: absolute;
         top: calc(25vh - 8rem);
         height: 30vh;
-        
+        opacity: 0.2;
+        pointer-events: none;
     }
     .home-banner__img img {
         width: 100%;

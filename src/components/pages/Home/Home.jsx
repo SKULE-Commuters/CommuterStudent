@@ -22,8 +22,6 @@ const Home = () => {
 					<SocialMediaButton source={EmailLogo} link="mailto:webmaster@commuter.skule.ca"/>
 				</div>
 			</div>
-			{/* This is only for the mobile layout. It turns transluscent when mobile layout kicks in. */}
-			<div className="home-banner__background"/> 
 		</div>
     );
   }
