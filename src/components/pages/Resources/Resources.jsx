@@ -1,7 +1,6 @@
 import './Resources.css';
 import Dropdown from '../../Dropdown/Dropdown';
 import Dropdowns from '../../Dropdown/Dropdowns';
-import Footer from '../../Footer/Footer';
 import Background from '../../Background/Background';
 
 const tips = {
@@ -132,7 +131,6 @@ const Resources = () => {
           </Dropdowns>
 
         </div>
-        <Footer/>
       </Background>
     );
   }

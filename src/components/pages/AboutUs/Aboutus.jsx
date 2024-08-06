@@ -4,7 +4,6 @@ import Background from '../../Background/Background';
 import Card from '../../Card/Card.jsx';
 import Cards from '../../Card/Cards.jsx';
 import { Aayan, Baneen, Celin, Hassan, Kaitlyn, Karnbir, Leah, Lily, Mohammed, Rafiq, Sean, Siddhartha } from '../../../assets';
-import Footer from '../../Footer/Footer';
 
 // to do: change team introductions into a map function (for loop)
 // use an array of objects to store info and then map it
@@ -176,7 +175,6 @@ const AboutUs = () => {
           </div>
 
         </div>
-        <Footer/>
       </Background>
     );
   }
