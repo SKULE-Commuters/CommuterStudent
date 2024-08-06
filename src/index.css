@@ -30,7 +30,7 @@ code {
 
 /* Custom Background */
 .custom-background {
-  background: linear-gradient(90deg, #ffa600c8, #0e31bcd6);
+  background: linear-gradient(90deg, #F6DE98, #0e31bcd6);
   display: flex;
   flex-direction: column;
 }
