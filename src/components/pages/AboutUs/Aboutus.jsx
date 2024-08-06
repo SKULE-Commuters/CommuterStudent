@@ -34,18 +34,18 @@ const AboutUs = () => {
               <Cards>
                 <Card 
                   title="Our Mission" 
-                  content='We are creating a "commuterty" between commuters and non-commuters! 
-                  We aim to create a hub for commuters and non-commuters alike. 
-                  We aim to make university easier for commuters and help others who want to take transit. 
-                  In short, our mission is to create a better experience for students taking transit. 
+                  content='We are creating a "commuterty" between commuters and non-commuters!
+                  We aim to create a hub for commuters and non-commuters alike.
+                  We aim to make university easier for commuters and help others who want to take transit.
+                  In short, our mission is to create a better experience for students taking transit.
                   Whether you are a commuter or simply like trains, we are creating a commuterty for you!'
                   />
                   <Card 
                     title="What We Do" 
-                    content="We make transit and commuting enjoyable. 
-                    We provide resources, guidance, and tips for new commuters to get used to commuting and others taking transit. 
-                    We host events for the commuterty to have fun and learn more! 
-                    We advocate for a better commuting experience. 
+                    content="We make transit and commuting enjoyable.
+                    We provide resources, guidance, and tips for new commuters to get used to commuting and others taking transit.
+                    We host events for the commuterty to have fun and learn more!
+                    We advocate for a better commuting experience.
                     And of course, we provide a space for everyone to share their thoughts on transit!"
                   />
               </Cards>
