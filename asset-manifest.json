@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/CommuterStudent/static/css/main.516888fd.css",
+    "main.js": "/CommuterStudent/static/js/main.94eb0d39.js",
+    "static/media/Rafiq.png": "/CommuterStudent/static/media/Rafiq.3759f2df425e1076e8e1.png",
+    "static/media/Baneen.png": "/CommuterStudent/static/media/Baneen.a84cd7145b1815f817cc.png",
+    "static/media/Siddhartha.png": "/CommuterStudent/static/media/Siddhartha.e89c75b06c8cabf321ef.png",
+    "static/media/Karnbir.png": "/CommuterStudent/static/media/Karnbir.660a32d8116ca254620d.png",
+    "static/media/Celin.png": "/CommuterStudent/static/media/Celin.566812a402244088567d.png",
+    "static/media/Lily.png": "/CommuterStudent/static/media/Lily.762c24f5859d9c4c29a3.png",
+    "static/media/Kaitlyn.png": "/CommuterStudent/static/media/Kaitlyn.cb449e1e04a582a00834.png",
+    "static/media/Hassan.png": "/CommuterStudent/static/media/Hassan.109cc347ddf1b6b409ac.png",
+    "static/media/Aayan.png": "/CommuterStudent/static/media/Aayan.d413435460869a4b1d10.png",
+    "static/media/Leah.png": "/CommuterStudent/static/media/Leah.149fb56c249bad89b824.png",
+    "static/media/Sean.png": "/CommuterStudent/static/media/Sean.3b5f26e07be891735c22.png",
+    "static/media/Mohammed.png": "/CommuterStudent/static/media/Mohammed.bd68c4ab37dec7c4437d.png",
+    "static/media/commuterBusBanner.png": "/CommuterStudent/static/media/commuterBusBanner.b22203efeba4d0a4bf27.png",
+    "static/media/commuter.png": "/CommuterStudent/static/media/commuter.df178bee0655a4834167.png",
+    "static/media/DMSans-Regular.ttf": "/CommuterStudent/static/media/DMSans-Regular.4ee96395e07a04577aab.ttf",
+    "static/media/DMSans-Bold.ttf": "/CommuterStudent/static/media/DMSans-Bold.c423ce2dc1d85bc50799.ttf",
+    "static/media/DMSans-Medium.ttf": "/CommuterStudent/static/media/DMSans-Medium.150680530af9dd9fd00b.ttf",
+    "static/media/ttc.png": "/CommuterStudent/static/media/ttc.1ea48f1932c9f53e1e58.png",
+    "static/media/linkedin.png": "/CommuterStudent/static/media/linkedin.3a62ee53cc5909a733b9.png",
+    "static/media/instagram-orange.png": "/CommuterStudent/static/media/instagram-orange.1f7c0708e17d1d344f4a.png",
+    "static/media/instagram-blue.png": "/CommuterStudent/static/media/instagram-blue.ec88ae1c8d64218297e2.png",
+    "static/media/go-train.png": "/CommuterStudent/static/media/go-train.fb35413689b7d1a1880c.png",
+    "static/media/misc.png": "/CommuterStudent/static/media/misc.b65d71d260c86192be15.png",
+    "static/media/discord.png": "/CommuterStudent/static/media/discord.3d777b4d234c3967ddd0.png",
+    "static/media/caret.ico": "/CommuterStudent/static/media/caret.525a5c05d47382acec12.ico",
+    "static/media/youtube.png": "/CommuterStudent/static/media/youtube.1deda407f9d2e77ffec0.png",
+    "static/media/github.png": "/CommuterStudent/static/media/github.8238d24402def146c2f4.png",
+    "static/media/email.png": "/CommuterStudent/static/media/email.63fc78f34d498d87e0ae.png",
+    "index.html": "/CommuterStudent/index.html",
+    "static/media/chevron-down-solid.svg": "/CommuterStudent/static/media/chevron-down-solid.e0673e6c85e7fa989d4c702cd9f7e998.svg",
+    "main.516888fd.css.map": "/CommuterStudent/static/css/main.516888fd.css.map",
+    "main.94eb0d39.js.map": "/CommuterStudent/static/js/main.94eb0d39.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.516888fd.css",
+    "static/js/main.94eb0d39.js"
+  ]
+}
