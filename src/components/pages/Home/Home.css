@@ -74,7 +74,7 @@
 .home-banner__content__chevron {
     position: absolute;
     bottom: 3rem;
-    left: calc(50% - 1rem); /* Centered with middle social logo */
+    left: calc(50% - 1.5rem); /* Centered with middle social logo */
     justify-content: center;
     height: 1.5rem;
     padding: 0.5rem;
