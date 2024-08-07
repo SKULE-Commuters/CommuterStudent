@@ -61,8 +61,8 @@ const AboutUs = () => {
               role="Director" 
               pronouns="He/Him"
               image={Karnbir}
-              funfact={<>The +2 next to my discipline means I split both my first and second years in half! 
-              I enjoy the extra sleep...</>}
+              funfact="The +2 next to my discipline means I split both my first and second years in half! 
+              I enjoy the extra sleep..."
               linkedin="https://www.linkedin.com/in/karnbir-saini/"
               instagram="https://www.instagram.com/s.s_karn/"
             />
@@ -72,7 +72,7 @@ const AboutUs = () => {
               role="Webmaster" 
               pronouns="He/Him"
               image={Sean}
-              funfact={<>Mint Chocolate is great.</>}
+              funfact="Mint Chocolate is great."
               linkedin="https://www.linkedin.com/in/skim1601/"
               instagram="https://www.instagram.com/skim1601/"
               github="https://github.com/skim1601"
@@ -83,7 +83,7 @@ const AboutUs = () => {
               role="Webmaster" 
               pronouns="He/Him"
               image={Aayan}
-              funfact={<>I suck at basketball</>}
+              funfact="I suck at basketball"
               linkedin="https://www.linkedin.com/in/ayaan-pathan-b2360720a/"
               github="https://github.com/N00dleMaster"
             />
@@ -93,7 +93,7 @@ const AboutUs = () => {
               role="Membership Director" 
               pronouns="She/They"
               image={Celin}
-              funfact={<>I'm double jointed in my arms</>}
+              funfact="I'm double jointed in my arms"
               instagram="https://www.instagram.com/celi_bean/"
             />
             <Member 
@@ -102,7 +102,7 @@ const AboutUs = () => {
               role="Membership Director" 
               pronouns="She/Her"
               image={Baneen}
-              funfact={<>I love chandeliers!! and I’ll MAKE you love them too</>}
+              funfact="I love chandeliers!! and I’ll MAKE you love them too"
               instagram="https://www.instagram.com/cinnabaneen/"
             />
             <Member 
@@ -111,7 +111,7 @@ const AboutUs = () => {
               role="Membership Director" 
               pronouns="He/Him"
               image={Mohammed}
-              funfact={<>I got a mark of 99% in my grade 12 Calculus class</>}
+              funfact="I got a mark of 99% in my grade 12 Calculus class"
               instagram="https://www.instagram.com/mohammed.416_/"
             />
             <Member 
@@ -120,7 +120,7 @@ const AboutUs = () => {
               role="Skule Relations Director" 
               pronouns="He/Him"
               image={Rafiq}
-              funfact={<>I have been brought on as a guest speaker on multiple football & basketball radio shows. </>}
+              funfact="I have been brought on as a guest speaker on multiple football & basketball radio shows. "
               linkedin="https://www.linkedin.com/in/rafiqomair"
               instagram="https://www.instagram.com/rafiqomair/"
             />
@@ -130,7 +130,7 @@ const AboutUs = () => {
               role="Marketing Director" 
               pronouns="She/Her"
               image={Lily}
-              funfact={<>I have a fraternal twin sister!</>}
+              funfact="I have a fraternal twin sister!"
               instagram="https://www.instagram.com/jin_bbang319/"
             />
             <Member 
@@ -139,9 +139,9 @@ const AboutUs = () => {
               role="Events and Logistics Director" 
               pronouns="He/Him"
               image={Siddhartha}
-              funfact={<>I once performed a recorder duet cover of Fireflies 
+              funfact="I once performed a recorder duet cover of Fireflies 
               with my friend while another friend was default dancing and the 
-              video is on the internet somewhere </>}
+              video is on the internet somewhere "
               instagram="https://www.instagram.com/sidrc.3/"
             />
             <Member 
@@ -150,8 +150,8 @@ const AboutUs = () => {
               role="Frosh Representative" 
               pronouns="He/Him"
               image={Hassan}
-              funfact={<>I love big cities! There's something special about the skyscrapers, 
-              colorful lights, public transport vehicles, and lots of people everywhere that I adore =)</>}
+              funfact="I love big cities! There's something special about the skyscrapers, 
+              colorful lights, public transport vehicles, and lots of people everywhere that I adore =)"
               youtube="https://youtube.com/channel/UCvtF9zLfEIj8WK6c59Sn3nQ"
             />
             <Member 
@@ -160,7 +160,7 @@ const AboutUs = () => {
               role="Frosh Representative" 
               pronouns="She/Her"
               image={Leah}
-              funfact={<>My favourite Canadian aircraft is the McDonnell Douglas CF-188.</>}
+              funfact="My favourite Canadian aircraft is the McDonnell Douglas CF-188."
               instagram="https://www.instagram.com/leah.bentzur/"
             />
             <Member 
@@ -169,7 +169,7 @@ const AboutUs = () => {
               role="Frosh Representative" 
               pronouns="She/Her"
               image={Kaitlyn}
-              funfact={<>My official average on solving a 3x3 Rubik's Cube is 9.59 seconds :D</>}
+              funfact="My official average on solving a 3x3 Rubik's Cube is 9.59 seconds :D"
               instagram="https://www.instagram.com/kaitlyn.w___/"
             />
           </div>

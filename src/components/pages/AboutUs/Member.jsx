@@ -1,4 +1,5 @@
 import { LinkedInLogo, InstagramLogoBlue as InstagramLogo, YoutubeLogo, GithubLogo } from "../../../assets";
+import placeholder from "../../../assets/images/commuter.png"
 
 const SocialMedia = [
     {name: "LinkedIn", logo: LinkedInLogo},
@@ -10,12 +11,12 @@ const SocialMedia = [
 const Member = (props) => {
     return (
         <div className="member-box">
-            <img className="member-pic" src={props.image} alt="Loading.."/>
+            <img className="member-pic" src={props.image || placeholder} alt="Loading.."/>
             <h3>{props.name}</h3>
-            <h4>{props.pronouns}</h4>
-            <h5>{props.discipline}</h5>
-            <h4>{props.role}</h4>
-            <p>Fun Fact: {props.funfact}</p>
+            <h4>{props.pronouns || '\u00A0'}</h4>
+            <h5>{props.discipline || 'Eng 2T?'}</h5>
+            <h4>{props.role || 'Executive'}</h4>
+            <p>{props.funfact ? `Fun Fact: ${props.funfact}` : '\u00A0'}</p>
             {SocialMedia.map((media) => {
                 const url = props[media.name.toLowerCase()];
                 return url ? (
