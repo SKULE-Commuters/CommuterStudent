@@ -106,7 +106,7 @@ const Resources = () => {
           <h1>Commuter Tips</h1><br/>
           <Dropdowns>
             {keys.map((key) => {
-              return <Dropdown title={key} content={tips[key].tips} image={tips[key].image}/>
+              return <Dropdown key={key} title={key} content={tips[key].tips} image={tips[key].image}/>
             })}
           </Dropdowns>
           <h3 style={{textAlign: 'center'}}>
@@ -121,7 +121,7 @@ const Resources = () => {
           <p>We've gathered information from various clubs, so you can get a sense of what it's like to be part of a club whilst having to commmute.</p>
           <Dropdowns>
             {clubKeys.map((club) => {
-              return <Dropdown title={club} content={clubInfo[club].tips}/>
+              return <Dropdown key={club} title={club} content={clubInfo[club].tips}/>
             })}
           </Dropdowns>
           <p>Want commuters to know about your club? <a href="https://discord.com/invite/yph2EjkbhW">Contact us</a>!</p>
