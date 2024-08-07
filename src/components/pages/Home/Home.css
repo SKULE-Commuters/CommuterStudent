@@ -73,15 +73,15 @@
 
 .home-banner__content__chevron {
     position: absolute;
-    bottom: 3rem;
-    left: calc(50% - 1.5rem); /* Centered with middle social logo */
-    justify-content: center;
+    bottom: 2vh;
+    left: calc(50% - 1.325rem); /* Centered with middle social logo */
     height: 1.5rem;
-    padding: 0.5rem;
     width: 1.5rem;
+    padding: 0.5rem;
     border: white solid 0.25rem;
     border-radius: 50%;
-    opacity: 0.5;
+    opacity: 0.3;
+    z-index: -1;
 }
 
 /* DESKTOP/TABLET BREAKPOINTS */
