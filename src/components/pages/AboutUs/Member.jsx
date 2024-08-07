@@ -13,7 +13,7 @@ const Member = (props) => {
         <div className="member-box">
             <img className="member-pic" src={props.image || placeholder} alt="Loading.."/>
             <h3>{props.name}</h3>
-            <h4>{props.pronouns || '\u00A0'}</h4>
+            <h4>{props.pronouns ? `(${props.pronouns})` : '\u00A0'}</h4>
             <h5>{props.discipline || 'Eng 2T?'}</h5>
             <h4>{props.role || 'Executive'}</h4>
             <p>{props.funfact ? `Fun Fact: ${props.funfact}` : '\u00A0'}</p>
