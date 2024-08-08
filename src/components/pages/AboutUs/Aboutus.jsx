@@ -3,7 +3,7 @@ import Member from './Member';
 import Background from '../../Background/Background';
 import Card from '../../Card/Card.jsx';
 import Cards from '../../Card/Cards.jsx';
-import { Sean, Sunny, Eshaa } from '../../../assets';
+import { Akshat, Sean, Sunny, Eshaa, Linda, Viv } from '../../../assets';
 
 const team = [
   {
@@ -11,13 +11,16 @@ const team = [
     pronouns: "",
     discipline: "Mech 2T6",
     role: "Director",
-    image: null,
-    funfact: "",
+    image: Akshat,
+    funfact: "I love space & linux (I run NixOS)",
+    linkedin: "https://linkedin.com/in/akshatgandhi23",
+    youtube: "https://youtube.com/@maplespace_",
+    github: "https://github.com/OP-MapleSpace"
   },
   {
     name: "Sean Leung",
     pronouns: "He/Him",
-    discipline: "CIV2T6",
+    discipline: "CIV 2T6",
     role: "Vice Director",
     image: Sean,
     funfact: "Freight trains use a part of the ION Line tracks in Kitchener during non-revenue hours and gauntlet tracks are used to ensure that the trains don't hit the platforms.",
@@ -26,7 +29,7 @@ const team = [
   {
     name: "Sunny Wu",
     pronouns: "He/Him",
-    discipline: "ECE2T7",
+    discipline: "ECE 2T7",
     role: "Webmaster",
     image: Sunny,
     funfact: "My favourite colours are pink and green! The cirle around my face is green!",
@@ -36,7 +39,7 @@ const team = [
   {
     name: "Eshaa Chenthuran",
     pronouns: "She/Her",
-    discipline: "ECE2T6",
+    discipline: "ECE 2T6",
     role: "Outreach & 3rd Year Representative",
     image: Eshaa,
     funfact: "I broke my arm playing basketball once and have never played since 💀.",
@@ -44,13 +47,24 @@ const team = [
     github: "https://github.com/eshaachenthuran"
   },
   {
-    name: "pls fill out the form",
-    pronouns: "",
-    discipline: "",
-    role: "",
-    image: null,
-    funfact: "",
+    name: "Linda ",
+    pronouns: "She/Her",
+    discipline: "CIV 2T6",
+    role: "Media & Marketing",
+    image: Linda,
+    funfact: "My dream is to be an architect",
+    linkedin: "https://www.linkedin.com/in/linda-lin-42395b237/",
+    instagram: "https://www.instagram.com/_linda1209?igsh=cmo4NGUxNTE5Zmp0&utm_source=qr"
   },
+  {
+    name: "Viv Huynh",
+    pronouns: "She/Her",
+    discipline: "Mech 2T4",
+    role: "4th Year Representative",
+    image: Viv,
+    funfact: "I make keyboards!",
+    linkedin: "http://linkedin.com/in/viv-huynh"
+  }
 ]
 
 const AboutUs = () => {
