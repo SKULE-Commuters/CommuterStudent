@@ -225,6 +225,12 @@ const Resources = () => {
 
           <h1>Mental Health</h1>
           <p style={{ textWrap: "balance"}}>Caring for your mental-well being can be tough, especially with a long commute. <a href="https://mentalhealth.utoronto.ca/">UofT provides resources</a> that can help you get back on track!</p>
+
+          <hr/>
+
+          <h1>Other Info</h1>
+          <p>Explore more Skule Commuter resources at our <a href="https://linktr.ee/skule.commuters">LinkTree</a>. You can find our social links there along with information on joining the Skule Commuter Directorship team (when applicable).</p>
+          <p>You'll find up-to-date announcements in our <a href="https://discord.com/invite/yph2EjkbhW">Discord server</a> too.</p>
         </div>
       </Background>
     );
