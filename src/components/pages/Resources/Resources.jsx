@@ -177,7 +177,35 @@ const clubInfo = {
       "Commuter notes: The Cannon is the perfect low commitment club for a commuter student! We have idea meetings and the occasional editing meeting, but writing for the Cannon can be done from the comfort of your own home (or a GO train). Our contributors are given a lot of flexibility and independence with completing their work. "
     ]
   },
-  // blank template
+  "University of Toronto Chemical Vehicle": {
+    "tips": [
+      "Club description: UTCV is a multidisciplinary design team dedicated to designing, building, and perfecting a chemically-powered, environmentally friendly, autonomous car on a yearly basis and competes at the AIChE Chem-E-Car competitions. Check our work and past projects at our website: utcv.ca! ",
+      "Meeting frequency: Weekly",
+      "Meeting length: 1-3 hours",
+      "Meeting method: In-person",
+      "Weekly commitment: 1-3 hours",
+      "Commuter notes: Due to the building regulation and lab safety consideration, most of the lab sessions and meetings are during weekdays and on-campus at the Wallberg Building. We do understand this may be difficult for commuters, however, we schedules our sessions according to members' availability and tries to accommodate as much as possible! "
+    ]
+  },
+  "Canadian Society for Chemical Engineering (CSChE UofT)": {
+    "tips": [
+      "Club description: The Canadian Society for Chemical Engineering (CSChE) is a national, non-profit, professional association that unites all established and aspiring chemical engineers from across Canada. The University of Toronto Chapter (our club) has helped hundreds of chemical engineering (and adjacent) students achieve their career goals through connections with professors, alumni, recruiters, and industry leaders and equipping them with the tools they need to excel in a professional environment. Fill out this form if you would like to join our general membership program: https://forms.gle/ZniD6eJnGMwTob3J9",
+      "Meeting frequency: Every 2 weeks",
+      "Meeting length: 1-3 hours",
+      "Meeting method: In-person",
+      "Weekly commitment: 1-3 hours",
+    ]
+  },
+  "University of Toronto Outing Club (UTOC)": {
+    "tips": [
+      "Club description: The University of Toronto Outing Club is a non-profit organization committed to making the outdoors accessible to students of the University of Toronto and GTA. As a club, we facilitate trips around Ontario, provide rental gear to students interested in planning their own outdoor adventures, and aim to create a welcoming environment where members with similar hobbies can connect! Throughout the school year, we regularly run weekend cabin trips that serve as a great way to get out of the city, destress from school, and make great memories with peers.",
+      "Meeting frequency: There are no regular meetings. Instead, students meet up at events sent out in our monthly newsletter.",
+      "Meeting length: 1-3 hours",
+      "Meeting method: In-person",
+      "Weekly commitment: <1 hour",
+      "Commuter notes: Short meet-up events typically take place on campus or within downtown Toronto. Longer weekend outings, like our cabin trips, take us far out of the city and require students to carpool. The club coordinates these carpools and can usually accommodate members who live farther from campus. (Plus drivers get their gas costs covered!)"
+    ]
+  },
   // "": {
   //   "tips": [
   //     "Club description: ",
