@@ -184,22 +184,22 @@ const Resources = () => {
               return <Dropdown key={key} title={key} content={tips[key].tips} image={tips[key].image}/>
             })}
           </Dropdowns>
-          <h3 style={{textAlign: 'center'}}>
+          <p>
             Some tips are sourced from the 2T5 Frosh Handbook. <br/> 
-            <a href="https://discord.com/invite/yph2EjkbhW">Let us know</a> if you have any other suggestions!
-          </h3>
+            <a href="https://discord.com/invite/yph2EjkbhW">Contact us</a> if you have any other suggestions!
+          </p>
 
           <hr/>
 
           <h1>Joining Clubs</h1>
           <h2>What's it like to join a club?</h2>
-          <p>We've gathered information from various clubs, so you can get a sense of what it's like to be part of a club whilst having to commmute.</p>
+          <p>We've gathered information from various clubs, so you can get a sense of what it's like to be part of a club whilst having to commmute. <br/><br/></p>
           <Dropdowns>
             {clubKeys.map((club) => {
               return <Dropdown key={club} title={club} content={clubInfo[club].tips}/>
             })}
           </Dropdowns>
-          <p>Want commuters to know about your club? <a href="https://discord.com/invite/yph2EjkbhW">Contact us</a>!</p>
+          <p>Want commuters to know about your club? <a href="https://docs.google.com/forms/d/e/1FAIpQLSfPJoUOOKM1GoTeBuK0Zngc2F5PAjBX7Mj1Qkcc6AXa1n5tWA/viewform">Let us know</a>!</p>
 
           <hr/>
 
