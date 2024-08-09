@@ -72,7 +72,7 @@ const team = [
     role: "PEY Representative",
     image: Celin,
     funfact: "I was the ultimate f!rosh back when I was a first yeat",
-    Instagram: "https://www.instagram.com/celi_bean/"
+    instagram: "https://www.instagram.com/celi_bean/"
   },
 
 ]
