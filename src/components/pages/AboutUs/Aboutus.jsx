@@ -3,7 +3,7 @@ import Member from './Member';
 import Background from '../../Background/Background';
 import Card from '../../Card/Card.jsx';
 import Cards from '../../Card/Cards.jsx';
-import { Akshat, Sean, Sunny, Eshaa, Linda, Viv } from '../../../assets';
+import { Akshat, Sean, Sunny, Eshaa, Linda, Viv, Celin } from '../../../assets';
 
 const team = [
   {
@@ -64,7 +64,17 @@ const team = [
     image: Viv,
     funfact: "I make keyboards!",
     linkedin: "http://linkedin.com/in/viv-huynh"
-  }
+  },
+  {
+    name: "Celin Begeshev",
+    pronouns: "She/They",
+    discipline: "Mech 2T5",
+    role: "PEY Representative",
+    image: Celin,
+    funfact: "I was the ultimate f!rosh back when I was a first yeat",
+    Instagram: "https://www.instagram.com/celi_bean/"
+  },
+
 ]
 
 const AboutUs = () => {
