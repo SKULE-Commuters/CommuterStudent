@@ -47,6 +47,7 @@ const NavBar = () => {
                 <button className="nav-link" onClick={() => handleScrollTo('home')}><p>Home</p></button>
                 <button className="nav-link" onClick={() => handleScrollTo('about-us')}><p>About Us</p></button>
                 <button className="nav-link" onClick={() => handleScrollTo('resources')}><p>Resources</p></button>
+                <button className="nav-link" onClick={() => handleScrollTo('clubs')}><p>Clubs</p></button>
             </span>
             <span className="nav-mobile-container">
                 <MobileMenu firstOpen={firstOpen} setFirstOpen={setFirstOpen}/>

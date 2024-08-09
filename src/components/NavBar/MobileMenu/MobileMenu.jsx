@@ -43,6 +43,7 @@ const MobileMenu = (props) => {
                 <button className="nav-link__mobile" onClick={e => handleScrollTo('home', e)}><p>Home</p></button>
                 <button className="nav-link__mobile" onClick={e => handleScrollTo('about-us', e)}><p>About Us</p></button>
                 <button className="nav-link__mobile" onClick={e => handleScrollTo('resources', e)}><p>Resources</p></button>
+                <button className="nav-link__mobile" onClick={e => handleScrollTo('clubs', e)}><p>Clubs</p></button>
             </div>
         </>
     );
