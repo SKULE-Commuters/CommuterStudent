@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import './Clubs.css';
 import Dropdown from '../../Dropdown/Dropdown';
 import Dropdowns from '../../Dropdown/Dropdowns';
@@ -189,9 +190,8 @@ const clubInfo = {
       "Meeting method: Hybrid",
       "Weekly commitment: 5+ hours",
       "Commuter notes: Meetings usually occur after classes end around 5-7 PM and sometimes end at 8-9 PM."
-    ]
+    ],
   },
-// },
   // "": {
   //   "tips": [
   //     "Club description: ",
@@ -207,22 +207,57 @@ const clubInfo = {
 const clubKeys = Object.keys(clubInfo);
 
 const Clubs = () => {
-    return (
-      <Background>
-        <div id="clubs" className="resources">
+  const [searchTerm, setSearchTerm] = useState('');
 
-          <h1>Clubs</h1>
-          <h2>What's it like to join a club?</h2>
-          <p>We've gathered information from various clubs, so you can get a sense of what it's like to be part of a club whilst having to commmute. <br/><br/></p>
-          <Dropdowns>
-            {clubKeys.map((club) => {
-              return <Dropdown key={club} title={club} content={clubInfo[club].tips}/>
-            })}
-          </Dropdowns>
-          <p>Want commuters to know about your club? <a href="https://docs.google.com/forms/d/e/1FAIpQLSfPJoUOOKM1GoTeBuK0Zngc2F5PAjBX7Mj1Qkcc6AXa1n5tWA/viewform">Let us know</a>!</p>
-        </div>
-      </Background>
-    );
-  }
+  const [selectedLengths, setSelectedLengths] = useState([]);
+  const [selectedMethods, setSelectedMethods] = useState([]);
+  const [selectedCommitments, setSelectedCommitments] = useState([]);
+  
+  const [filterSkule, setFilterSkule] = useState(false);
+  const [filterDesignTeam, setFilterDesignTeam] = useState(false);
+  const [filterDisciplineClub, setFilterDisciplineClub] = useState(false);
+
+  const filterClubs = () => {
+    return clubKeys.filter((club) => {
+      const search = searchTerm.toLowerCase();
+      const tips = clubInfo[club].tips.join(' ').toLowerCase();
+      const description = clubInfo[club].tips[0].toLowerCase();
+  
+      // Checks if any filters are selected - if not, it displays everything, and if any selected, check if the club meets the criteria
+      const lengthMatch = selectedLengths.length === 0 || selectedLengths.some(length => tips[2].includes(length.toLowerCase()));
+      const methodMatch = selectedMethods.length === 0 || selectedMethods.some(method => tips[3].includes(method.toLowerCase()));
+      const commitmentMatch = selectedCommitments.length === 0 || selectedCommitments.some(commitment => tips[4].includes(commitment.toLowerCase()));
+
+      const skuleMatch = !filterSkule || clubInfo[club]['skule'];
+      const designTeamMatch = !filterDesignTeam || clubInfo[club]['design team'];
+      const disciplineClubMatch = !filterDisciplineClub || clubInfo[club]['discipline club'];
+  
+      return (
+        (club.toLowerCase().includes(search) || description.includes(search)) &&
+        methodMatch && lengthMatch && commitmentMatch &&
+        skuleMatch && designTeamMatch && disciplineClubMatch
+      );
+    });
+  };
+
+  const filteredClubs = filterClubs();
+
+  return (
+    <Background>
+      <div id="clubs" className="resources">
+
+        <h1>Clubs</h1>
+        <h2>What's it like to join a club?</h2>
+        <p>We've gathered information from various clubs, so you can get a sense of what it's like to be part of a club whilst having to commmute. <br/><br/></p>
+        <Dropdowns>
+          {filteredClubs.map((club) => {
+            return <Dropdown key={club} title={club} content={clubInfo[club].tips}/>
+          })}
+        </Dropdowns>
+        <p>Want commuters to know about your club? <a href="https://docs.google.com/forms/d/e/1FAIpQLSfPJoUOOKM1GoTeBuK0Zngc2F5PAjBX7Mj1Qkcc6AXa1n5tWA/viewform">Let us know</a>!</p>
+      </div>
+    </Background>
+  );
+}
   
 export default Clubs;
