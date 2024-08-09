@@ -15,4 +15,4 @@ export const Sunny = require('./images/TeamImages/Sunny.jpg');
 export const Eshaa = require('./images/TeamImages/Eshaa.jpg');
 export const Linda = require('./images/TeamImages/Linda.jpg');
 export const Viv = require('./images/TeamImages/Viv.jpg');
-export const Celin = require('./images/TeamImages/Celin.jpg');
+export const Celin = require('./images/TeamImages/Celin.jpg'); 

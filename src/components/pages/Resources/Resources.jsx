@@ -206,6 +206,26 @@ const clubInfo = {
       "Commuter notes: Short meet-up events typically take place on campus or within downtown Toronto. Longer weekend outings, like our cabin trips, take us far out of the city and require students to carpool. The club coordinates these carpools and can usually accommodate members who live farther from campus. (Plus drivers get their gas costs covered!)"
     ]
   },
+  "MSE Club": {
+    "tips": [
+      "Club description: MSE Club is the Student Representative Body for all Materials Science and Engineering undergraduate students. If you are an MSE student and are looking to get involved with the MSE community through community outreach, events, academics, student advocacy, and dope vibes, JOIN US!!!",
+      "Meeting frequency: Weekly (usually)",
+      "Meeting length: <1 hour",
+      "Meeting method: In-person",
+      "Weekly commitment: <1 hour",
+    ]
+  },
+  "Blue Sky Solar Racing": {
+    "tips": [
+      "Club description: We are a student design team that designs and engineers solar-powered vehicles to race in the World Solar Challenge in Australia, which occurs every 2 years.",
+      "Meeting frequency: 1-3 times/week (varies)",
+      "Meeting length: 1-3 hours",
+      "Meeting method: Hybrid",
+      "Weekly commitment: 5+ hours",
+      "Commuter notes: Meetings usually occur after classes end around 5-7 PM and sometimes end at 8-9 PM."
+    ]
+  },
+// },
   // "": {
   //   "tips": [
   //     "Club description: ",
