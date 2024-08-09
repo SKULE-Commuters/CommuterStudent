@@ -38,62 +38,137 @@ const tips = {
 
 
 const clubInfo = {
-  "University of Toronto Aerospace Team": {
+  "Toike Oike": {
     "tips": [
-      "Meeting Frequency: Variable; Around 2-3 times a week on average.",
-      "Meeting Length: 3 hours",
-      "Meeting Methods: Hybrid",
-      "Time commitment: Around 5 hours per week."
+      "Club description: The premium satire newspaper at UofT! If you have aspirations of doing something creative while completing your engineering degree, we are the club for you! Check us out at toike.skule.ca",
+      "Meeting frequency: Monthly",
+      "Meeting length: <1 hour",
+      "Meeting method: Hybrid",
+      "Weekly commitment: <1 hour",
+      "Commuter notes: Meetings are generally in the pit, sometime in the evening; around 6pm."
     ]
   },
-  "University of Toronto Concrete Canoe Team": {
+  "St. George Capital": {
     "tips": [
-      "Meeting Frequency: Weekly for subteams and monthly for the whole team.",
-      "Meeting Length: 30 minutes to 1 hour.",
-      "Meeting Methods: Hybrid",
-      "Time commitment: 1-2 hours per week."
+      "Club description: Innovative student led investment design team aimed at leveraging macro/equity research alongside quantitative methods. The team is very project based with a variety of projects available to members that will give them the experience to land roles in Trading and Quantitative Finance. We are also currently building an investment portfolio that students can be a part of.",
+      "Meeting frequency: Weekly",
+      "Meeting length: 1-3 hours",
+      "Meeting method: Hybrid",
+      "Weekly commitment: 3-5 hours",
+      "Commuter notes: Usually our meetings are in the evenings on school nights on campus. We organize them to be flexible for everyone's times. "
     ]
   },
-  "Skule Archives": {
+  "Sustainable Engineers Association": {
     "tips": [
-      "Meeting Frequency: 1-2 times every 2 weeks.",
-      "Meeting Length: 1 hour",
-      "Meeting Methods: Hybrid",
-      "Time commitment: 2 hours a week, maximum."
+      "Club description: The Sustainable Engineers Association (SEA) is fueled by the drive to increase interest and awareness about sustainability. Our events allow us to educate students on the technical aspects of sustainable design, provide support for students to develop their own visions and interest in sustainability, and create a platform for networking with industry professionals. Through seminars, plant tours, career fairs, competitions, conference, workshops, and student projects, SEA offers a wide variety of ways to get involved and participate throughout the year. Email chair@sea.skule.ca for more info or follow us on FB @SEAUofT and IG @seauoft.",
+      "Meeting frequency: Monthly",
+      "Meeting length: <1 hour",
+      "Meeting method: Hybrid",
+      "Weekly commitment: <1 hour",
+      "Commuter notes: We try to accommodate commuters by offering virtual/hybrid meetings so students do not need to stay late on campus or come on weekends!"
     ]
   },
-  "Robotics for Space Exploration": {
+  "Skule French-speaking Society": {
     "tips": [
-      "Meeting Frequency: (1-2)/week, a 4hr session on saturday and shorter meetings mid-week as needed.",
-      "Meeting Length: 4 hours",
-      "Meeting Methods: Some subteams can be hybrid, some must be in person in Myhal.",
-      "Time commitment: 6 hours a week."
+      "Club description: The Skule French-speaking Society is creating a vibrant community for French-speaking engineering students at all levels, starting from scratch. Our goal is to offer a space where students can practise their French and connect with others who share similar interests through enjoyable and relaxing activities. Over the past year, we organised events like a Café gathering and French film outings. This year, we've hosted a range of activities including a Crêpes Café, French Movie Night, Valentine’s Day Origami session, and an Academic Speakers event. We’ve also collaborated with various clubs, such as Hard-Hat Café, the Language Initiative Exchange Club, and the French Course Union Program Club.  SFS is always looking to grow its community, so please fill the form in their instagram bio @uoftsfs to join as an executive or general member to receive emails about our next events! Add us and dm us on instagram @uoftsfs ! You dont have to be an engineering student to join!",
+      "Meeting frequency: Every 2 weeks",
+      "Meeting length: <1 hour",
+      "Meeting method: Remote",
+      "Weekly commitment: 1-3 hours",
+      "Commuter notes: The meetings are remote, so you should be able to join even when you're at home. The events are in-person and would require you to be on campus, but you can always help with the planning online. "
     ]
   },
-  "Canadian Association of Food Engineers": {
+  "EngiSci Club": {
     "tips": [
-      "Meeting Frequency: Biweekly",
-      "Meeting Length: 1 hour",
-      "Meeting Methods: Online",
-      "Time commitment: 3 hours"
+      "Club description: EngSci Club is the official discipline club for all EngSci students. It consists of elected and appointed students who work to represent all EngSci students through Faculty advocacy, help strengthen the connection between EngSci and the rest of the engineering department, and work to bring the EngSci community together through fun events.",
+      "Meeting frequency: Every week, every two weeks, or once a month depending on the role and external circumstances (i.e. midterm/final exam season).",
+      "Meeting length: <1 hour",
+      "Meeting method: Remote",
+      "Weekly commitment: <1 hour",
+      "Commuter notes: The time commitment varies depending on the role, but we we do recognize and respect that you are a student! You also do not need any previous experience to apply, we welcome and encourage anyone interested!"
     ]
   },
-  "Spark Design Club": {
+  "University of Toronto Smash Ultimate Club": {
     "tips": [
-      "Meeting Frequency: Once a week for general members, twice a week for exec members.",
-      "Meeting Length: 1 hour.",
-      "Meeting Methods: Our fall and winter semesters will be in person because club members are provided with hands-on mechatronics build sessions. if a club member has a special exception that prevents them from joining the fall/winter meetings in person, we will implement a hybrid meeting format.",
-      "Time commitment: 2-3h for general members (1h meetings, 1-2h research). 3-4h for exec members (2h meetings, 1-2h research).",
+      "Club description: UTSmash is the central gathering point for Super Smash Bros. Ultimate (Smash Ultimate) players and enthusiasts at the University of Toronto to play, discuss, compete, and enjoy Smash Ultimate.",
+      "Meeting frequency: Weekly",
+      "Meeting length: 1-3 hours",
+      "Meeting method: In-person",
+      "Weekly commitment: <1 hour",
+      "Commuter notes: There is no commitment to join the club! We hold weekly free tournaments that are open to all and our Discord server is used for discussing Smash in and out of U of T. Any players of any level are welcome to stop by and join the tournament bracket, play a few friendlies, or just talk about the game. Events are usually held on Friday evenings."
+    ]
+  },
+  "UofT Toastmasters": {
+    "tips": [
+      "Club description: UofT Toastmasters is a club dedicated to helping students improve their public speaking and leadership skills. We have regular meetings that allow students to take on leadership roles, or to speak about topics they are interested in. ",
+      "Meeting frequency: 1-2 times/week",
+      "Meeting length: 1-3 hours",
+      "Meeting method: Hybrid",
+      "Weekly commitment: <1 hour",
+      "Commuter notes: Our meetings are usually held on the St. George campus from 6:00-8:00PM."
+    ]
+  },
+  "University of Toronto Robotics Association (UTRA)": {
+    "tips": [
+      "Club description: UTRA is the premier robotics student group at the University of Toronto. Our mission is to foster creativity and innovation while cultivating technology leaders of the future by providing students with opportunities to design and build advanced robotic technologies.",
+      "Meeting frequency: Weekly",
+      "Meeting length: 1-3 hours",
+      "Meeting method: Hybrid",
+      "Weekly commitment: 1-3 hours",
+      "Commuter notes: UTRA officially represents the University of Toronto in many prestigious international competitions. We currently have 6 sub-teams that focus on design, education and skill-building. We provide students interested in this broad field of robotics the opportunity to experience different aspects and find their passion. Hands-on participation on-campus at the Myhal Arena is highly encouraged!"
+    ]
+  },
+  "University of Toronto Open Source Society": {
+    "tips": [
+      "Club description: Building the Open Future.\nWe do software, hardware and outreach in an open source way.",
+      "Meeting frequency: Weekly",
+      "Meeting length: 1-3 hours",
+      "Meeting method: In-person",
+      "Weekly commitment: 3-5 hours",
+      "Commuter notes: Our meeting is totally optional. It is in-person working session/office hour."
+    ]
+  },
+  "Concrete Toboggan Design Team": {
+    "tips": [
+      "Club description: TBog is an award winning design team that builds a large toboggan with concrete skis, competing against teams across Canada in steering, braking, speed, and team spirit (represented by our theme that we chose every year). Get experience pouring and testing concrete, laying up carbon fibre, machining metal, and using power tools!! Anyone and everyone is welcome to join the team, with no commitment required, follow us @uoftbog on Instagram to hear about work sessions!",
+      "Meeting frequency: Weekly",
+      "Meeting length: 1-3 hours",
+      "Meeting method: Hybrid",
+      "Weekly commitment: 1-3 hours",
+      "Commuter notes: Meetings usually occur on Sundays, however a hybrid option is available"
     ]
   },
   "Skule™ Choir": {
     "tips": [
-      "Meeting Frequency: Once a week",
-      "Meeting Length: 2 hours",
-      "Meeting Methods: Hybrid",
-      "Time commitment: 2 hours a week."
+      "Club description: Skule™ Choir is a 30-member SATB mixed chorus that performs a wide range of music. We are open to all members of the community, regardless of field of study or music background!",
+      "Meeting frequency: Weekly",
+      "Meeting length: 1-3 hours",
+      "Meeting method: In-person",
+      "Weekly commitment: 1-3 hours",
+      "Commuter notes: Rehearsals are every Thursday evening from 7pm-9pm in the Myhal Music Room (MY 041). Once a semester we hold a weekend workshop, usually on campus for about 2-3hrs to learn a large amount of music at once. We are also often invited to perform at events both on and off campus, generally in the Downtown Toronto area."
     ]
   },
+  "The Cannon Magazine": {
+    "tips": [
+      "Club description: The Cannon is an arts and culture magazine, published once a semester. It is a space for engineering students who are passionate about writing, art, and journalism. All are welcome to contribute to the Cannon!",
+      "Meeting frequency: 3-6 times/year",
+      "Meeting length: <1 hour",
+      "Meeting method: Hybrid",
+      "Weekly commitment: <1 hour",
+      "Commuter notes: The Cannon is the perfect low commitment club for a commuter student! We have idea meetings and the occasional editing meeting, but writing for the Cannon can be done from the comfort of your own home (or a GO train). Our contributors are given a lot of flexibility and independence with completing their work. "
+    ]
+  },
+  // blank template
+  // "": {
+  //   "tips": [
+  //     "Club description: ",
+  //     "Meeting frequency: ",
+  //     "Meeting length: ",
+  //     "Meeting method: ",
+  //     "Weekly commitment: ",
+  //     "Commuter notes: "
+  //   ]
+  // },
 }
 
 const keys = Object.keys(tips);
