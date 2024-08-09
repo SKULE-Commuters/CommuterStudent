@@ -95,7 +95,9 @@ const AboutUs = () => {
                   And of course, we provide a space for everyone to share their thoughts on transit!"
                 />
             </Cards>
-        </div>  
+        </div>
+
+        <hr/>
 
         <div className="section-title">
           <h1>Meet Our Team</h1>
