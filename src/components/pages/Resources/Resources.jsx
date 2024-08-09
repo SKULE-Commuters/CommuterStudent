@@ -148,6 +148,25 @@ const clubInfo = {
       "Commuter notes: Rehearsals are every Thursday evening from 7pm-9pm in the Myhal Music Room (MY 041). Once a semester we hold a weekend workshop, usually on campus for about 2-3hrs to learn a large amount of music at once. We are also often invited to perform at events both on and off campus, generally in the Downtown Toronto area."
     ]
   },
+  "University of Toronto Supermilage (UTSM)": {
+    "tips": [
+      "Club description: We're a club that builds cars to focus on energy efficiency. We build 2 cars: a battery electric prototype car to push the limits of energy efficiency, and a hydrogen urban concept car to demonstrate the possibility of real world energy efficiency.",
+      "Meeting frequency: 2-3 times/week",
+      "Meeting length: 1-3 hours",
+      "Meeting method: In-person",
+      "Weekly commitment: 3-5 hours",
+      "Commuter notes: Meetings occur Wednesday night but the bulk of our meetings happen on weekends because we need longer stints continuously to execute some of our activities. All meetings happen either at Myhal or 256 McCaul St. We'd love to have you attend our kickoff meeting on Sep 11th, 2024"
+    ]
+  },
+  "University of Toronto Sports Analytics Student Group (UTSPAN)": {
+    "tips": [
+      "Club description: Do you have a passion for sports and data? UTSPAN is the perfect club for you. We are a tight-knit community that competes in the world’s largest competitions, conducts research at the highest level, and connects members to industry leaders. Over time, we have built a great reputation in the sports analytics field and are recognized globally as one of the largest and most successful student groups.",
+      "Meeting frequency: Weekly",
+      "Meeting length: 1-3 hours",
+      "Meeting method: Hybrid",
+      "Weekly commitment: 1-3 hours"
+    ]
+  },
   "The Cannon Magazine": {
     "tips": [
       "Club description: The Cannon is an arts and culture magazine, published once a semester. It is a space for engineering students who are passionate about writing, art, and journalism. All are welcome to contribute to the Cannon!",
