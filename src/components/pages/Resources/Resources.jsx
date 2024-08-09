@@ -78,7 +78,7 @@ const clubInfo = {
       "Commuter notes: The meetings are remote, so you should be able to join even when you're at home. The events are in-person and would require you to be on campus, but you can always help with the planning online. "
     ]
   },
-  "EngiSci Club": {
+  "EngSci Club": {
     "tips": [
       "Club description: EngSci Club is the official discipline club for all EngSci students. It consists of elected and appointed students who work to represent all EngSci students through Faculty advocacy, help strengthen the connection between EngSci and the rest of the engineering department, and work to bring the EngSci community together through fun events.",
       "Meeting frequency: Every week, every two weeks, or once a month depending on the role and external circumstances (i.e. midterm/final exam season).",
