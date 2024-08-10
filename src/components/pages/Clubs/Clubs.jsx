@@ -14,7 +14,8 @@ const clubInfo = {
       "Meeting method: Hybrid",
       "Weekly commitment: <1 hour",
       "Commuter notes: Meetings are generally in the pit, sometime in the evening; around 6pm."
-    ]
+    ],
+    "categories": ["Skule"]
   },
   "St. George Capital": {
     "tips": [
@@ -34,7 +35,8 @@ const clubInfo = {
       "Meeting method: Hybrid",
       "Weekly commitment: <1 hour",
       "Commuter notes: We try to accommodate commuters by offering virtual/hybrid meetings so students do not need to stay late on campus or come on weekends!"
-    ]
+    ],
+    "categories": ["Skule"]
   },
   "Skule French-speaking Society": {
     "tips": [
@@ -44,7 +46,8 @@ const clubInfo = {
       "Meeting method: Remote",
       "Weekly commitment: 1-3 hours",
       "Commuter notes: The meetings are remote, so you should be able to join even when you're at home. The events are in-person and would require you to be on campus, but you can always help with the planning online. "
-    ]
+    ],
+    "categories": ["Skule"]
   },
   "EngSci Club": {
     "tips": [
@@ -54,7 +57,8 @@ const clubInfo = {
       "Meeting method: Remote",
       "Weekly commitment: <1 hour",
       "Commuter notes: The time commitment varies depending on the role, but we we do recognize and respect that you are a student! You also do not need any previous experience to apply, we welcome and encourage anyone interested!"
-    ]
+    ],
+    "categories": ["Discipline Club"]
   },
   "University of Toronto Smash Ultimate Club": {
     "tips": [
@@ -84,7 +88,8 @@ const clubInfo = {
       "Meeting method: Hybrid",
       "Weekly commitment: 1-3 hours",
       "Commuter notes: UTRA officially represents the University of Toronto in many prestigious international competitions. We currently have 6 sub-teams that focus on design, education and skill-building. We provide students interested in this broad field of robotics the opportunity to experience different aspects and find their passion. Hands-on participation on-campus at the Myhal Arena is highly encouraged!"
-    ]
+    ],
+    "categories": ["Design Team"]
   },
   "University of Toronto Open Source Society": {
     "tips": [
@@ -104,7 +109,8 @@ const clubInfo = {
       "Meeting method: Hybrid",
       "Weekly commitment: 1-3 hours",
       "Commuter notes: Meetings usually occur on Sundays, however a hybrid option is available"
-    ]
+    ],
+    "categories": ["Design Team"]
   },
   "Skule™ Choir": {
     "tips": [
@@ -114,7 +120,8 @@ const clubInfo = {
       "Meeting method: In-person",
       "Weekly commitment: 1-3 hours",
       "Commuter notes: Rehearsals are every Thursday evening from 7pm-9pm in the Myhal Music Room (MY 041). Once a semester we hold a weekend workshop, usually on campus for about 2-3hrs to learn a large amount of music at once. We are also often invited to perform at events both on and off campus, generally in the Downtown Toronto area."
-    ]
+    ],
+    "categories": ["Skule"]
   },
   "University of Toronto Supermilage (UTSM)": {
     "tips": [
@@ -124,7 +131,8 @@ const clubInfo = {
       "Meeting method: In-person",
       "Weekly commitment: 3-5 hours",
       "Commuter notes: Meetings occur Wednesday night but the bulk of our meetings happen on weekends because we need longer stints continuously to execute some of our activities. All meetings happen either at Myhal or 256 McCaul St. We'd love to have you attend our kickoff meeting on Sep 11th, 2024"
-    ]
+    ],
+    "categories": ["Design Team"]
   },
   "University of Toronto Sports Analytics Student Group (UTSPAN)": {
     "tips": [
@@ -143,7 +151,8 @@ const clubInfo = {
       "Meeting method: Hybrid",
       "Weekly commitment: <1 hour",
       "Commuter notes: The Cannon is the perfect low commitment club for a commuter student! We have idea meetings and the occasional editing meeting, but writing for the Cannon can be done from the comfort of your own home (or a GO train). Our contributors are given a lot of flexibility and independence with completing their work. "
-    ]
+    ],
+    "categories": ["Skule"]
   },
   "University of Toronto Chemical Vehicle": {
     "tips": [
@@ -153,7 +162,8 @@ const clubInfo = {
       "Meeting method: In-person",
       "Weekly commitment: 1-3 hours",
       "Commuter notes: Due to the building regulation and lab safety consideration, most of the lab sessions and meetings are during weekdays and on-campus at the Wallberg Building. We do understand this may be difficult for commuters, however, we schedules our sessions according to members' availability and tries to accommodate as much as possible! "
-    ]
+    ],
+    "categories": ["Design Team"]
   },
   "Canadian Society for Chemical Engineering (CSChE UofT)": {
     "tips": [
@@ -181,7 +191,8 @@ const clubInfo = {
       "Meeting length: <1 hour",
       "Meeting method: In-person",
       "Weekly commitment: <1 hour",
-    ]
+    ],
+    "categories": ["Discipline Club"]
   },
   "Blue Sky Solar Racing": {
     "tips": [
@@ -192,6 +203,7 @@ const clubInfo = {
       "Weekly commitment: 5+ hours",
       "Commuter notes: Meetings usually occur after classes end around 5-7 PM and sometimes end at 8-9 PM."
     ],
+    "categories": ["Design Team"]
   },
   // "": {
   //   "tips": [
