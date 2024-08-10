@@ -4,6 +4,7 @@ import Dropdown from '../../Dropdown/Dropdown';
 import Dropdowns from '../../Dropdown/Dropdowns';
 import FilterDropdown from '../../Dropdown/FilterDropdown';
 import Background from '../../Background/Background';
+import Multiselect from '../../Multiselect/Multiselect';
 
 const clubInfo = {
   "Toike Oike": {
@@ -237,27 +238,6 @@ const clubInfo = {
   //     "Commuter notes: "
   //   ]
   // },
-}
-
-const MultiSelect = ({ options, selectedOptions, onChange }) => {
-  return (
-    <div className="multiselect">
-      {options.map(option => (
-        <div>
-                  <label key={option}>
-          {option}
-        </label>
-        <input
-          type="checkbox"
-          value={option}
-          checked={selectedOptions[option]}
-          onChange={() => onChange(option)}
-        />
-        </div>
-
-      ))}
-    </div>
-    );
 };
 
 const clubKeys = Object.keys(clubInfo);
@@ -310,7 +290,7 @@ const Clubs = () => {
       <div className="multiselect__container">
         <li className="dropdown__content__item">
           <label>Meeting Length:</label>
-          <MultiSelect
+          <Multiselect
             options={lengthOptions}
             selectedOptions={selectedLengths}
             onChange={handleLengthChange}
@@ -318,7 +298,7 @@ const Clubs = () => {
         </li>
         <li className="dropdown__content__item">
           <label>Meeting Method:</label>
-          <MultiSelect
+          <Multiselect
             options={methodOptions}
             selectedOptions={selectedMethods}
             onChange={handleMethodChange}
@@ -326,7 +306,7 @@ const Clubs = () => {
         </li>
         <li className="dropdown__content__item">
           <label>Weekly Commitment:</label>
-          <MultiSelect
+          <Multiselect
             options={commitmentOptions}
             selectedOptions={selectedCommitments}
             onChange={handleCommitmentChange}
@@ -334,7 +314,7 @@ const Clubs = () => {
         </li>
         <li className="dropdown__content__item">
           <label>Category:</label>
-          <MultiSelect
+          <Multiselect
             options={categoryOptions}
             selectedOptions={selectedCategories}
             onChange={handleCategoryChange}
