@@ -2,6 +2,7 @@ import { useState } from 'react';
 import './Clubs.css';
 import Dropdown from '../../Dropdown/Dropdown';
 import Dropdowns from '../../Dropdown/Dropdowns';
+import FilterDropdown from '../../Dropdown/FilterDropdown';
 import Background from '../../Background/Background';
 
 const clubInfo = {
@@ -204,43 +205,125 @@ const clubInfo = {
   // },
 }
 
+const MultiSelect = ({ options, selectedOptions, onChange }) => {
+  return (
+    <div className="multi-select">
+      {options.map(option => (
+        <label key={option}>
+          <input
+            type="checkbox"
+            value={option}
+            checked={selectedOptions[option]}
+            onChange={() => onChange(option)}
+          />
+          {option}
+        </label>
+
+      ))}
+    </div>
+    );
+};
+
 const clubKeys = Object.keys(clubInfo);
 
 const Clubs = () => {
   const [searchTerm, setSearchTerm] = useState('');
 
-  const [selectedLengths, setSelectedLengths] = useState([]);
-  const [selectedMethods, setSelectedMethods] = useState([]);
-  const [selectedCommitments, setSelectedCommitments] = useState([]);
+  const lengthOptions = ["<1 hour", "1-3 hours", "3-5 hours", "5+ hours"];
+  const methodOptions = ["Hybrid", "In-person", "Remote"];
+  const commitmentOptions = ["<1 hour", "1-3 hours", "3-5 hours", "5+ hours"];
+  const categoryOptions = ["Skule", "Design Team", "Discipline Club"];
+
+  const createMap = (options) => {
+    return options.reduce((acc, option) => {
+      acc[option] = false;
+      return acc;
+    }, {});
+  };
+
+  const [selectedLengths, setSelectedLengths] = useState(createMap(lengthOptions));
+  const [selectedMethods, setSelectedMethods] = useState(createMap(methodOptions));
+  const [selectedCommitments, setSelectedCommitments] = useState(createMap(commitmentOptions));
+  const [selectedCategories, setselectedCategories] = useState(createMap(categoryOptions));
+
+  const handleSearchTextChange = (e) => {
+    setSearchTerm(e.target.value);
+  };  
+  const handleLengthChange = (option) => {
+    setSelectedLengths({ ...selectedLengths, [option]: !selectedLengths[option] });
+  };
+  const handleMethodChange = (option) => {
+    setSelectedMethods({ ...selectedMethods, [option]: !selectedMethods[option] });
+  };
+  const handleCommitmentChange = (option) => {
+    setSelectedCommitments({ ...selectedCommitments, [option]: !selectedCommitments[option] });
+  };
+  const handleCategoryChange = (option) => {
+    setselectedCategories({ ...selectedCategories, [option]: !selectedCategories[option] });
+  };
   
-  const [filterSkule, setFilterSkule] = useState(false);
-  const [filterDesignTeam, setFilterDesignTeam] = useState(false);
-  const [filterDisciplineClub, setFilterDisciplineClub] = useState(false);
+  const filterOptions = (
+    <div className="filter-options">
+      <input
+        type="text"
+        placeholder="Search by name or description"
+        onChange={handleSearchTextChange}
+      />
+      <div className="multi-selects">
+        <label>Length:</label>
+        <MultiSelect
+          options={lengthOptions}
+          selectedOptions={selectedLengths}
+          onChange={handleLengthChange}
+        />
+        <label>Method:</label>
+        <MultiSelect
+          options={methodOptions}
+          selectedOptions={selectedMethods}
+          onChange={handleMethodChange}
+        />
+        <label>Commitment:</label>
+        <MultiSelect
+          options={commitmentOptions}
+          selectedOptions={selectedCommitments}
+          onChange={handleCommitmentChange}
+        />
+        <label>Category:</label>
+        <MultiSelect
+          options={categoryOptions}
+          selectedOptions={selectedCategories}
+          onChange={handleCategoryChange}
+        />
+      </div>
+    </div>
+  );
 
   const filterClubs = () => {
-    return clubKeys.filter((club) => {
-      const search = searchTerm.toLowerCase();
-      const tips = clubInfo[club].tips.join(' ').toLowerCase();
-      const description = clubInfo[club].tips[0].toLowerCase();
-  
-      // Checks if any filters are selected - if not, it displays everything, and if any selected, check if the club meets the criteria
-      const lengthMatch = selectedLengths.length === 0 || selectedLengths.some(length => tips[2].includes(length.toLowerCase()));
-      const methodMatch = selectedMethods.length === 0 || selectedMethods.some(method => tips[3].includes(method.toLowerCase()));
-      const commitmentMatch = selectedCommitments.length === 0 || selectedCommitments.some(commitment => tips[4].includes(commitment.toLowerCase()));
+    const isMatch = (selectedOptions, detail) => {
+      return (
+        // Checks if any filters are selected - if not, it displays everything, OR if any selected, check if the club meets the criteria
+        // Looks complicated because it's dealing with maps and arrays
+        Object.keys(selectedOptions).every(key => !selectedOptions[key]) ||
+        Object.keys(selectedOptions).some(option => selectedOptions[option] && detail.includes(option))
+      )
+    };
+    const categoryMatch = (category, categories) => {
+      return !selectedCategories[category] || (categories && categories.includes(category));
+    };
 
-      const skuleMatch = !filterSkule || clubInfo[club]['skule'];
-      const designTeamMatch = !filterDesignTeam || clubInfo[club]['design team'];
-      const disciplineClubMatch = !filterDisciplineClub || clubInfo[club]['discipline club'];
+    return clubKeys.filter((club) => {
+      const tips = clubInfo[club].tips;
+      const categories = clubInfo[club].categories ?? null;
+      const search = searchTerm.toLowerCase().trim();
+      const description = clubInfo[club].tips[0].toLowerCase();
   
       return (
         (club.toLowerCase().includes(search) || description.includes(search)) &&
-        methodMatch && lengthMatch && commitmentMatch &&
-        skuleMatch && designTeamMatch && disciplineClubMatch
+        isMatch(selectedLengths, tips[2]) && isMatch(selectedMethods, tips[3]) && isMatch(selectedCommitments, tips[4]) &&
+        categoryMatch("Skule", categories) && categoryMatch("Design Team", categories) && categoryMatch("Discipline Club", categories)
       );
     });
   };
-
-  const filteredClubs = filterClubs();
 
   return (
     <Background>
@@ -249,8 +332,11 @@ const Clubs = () => {
         <h1>Clubs</h1>
         <h2>What's it like to join a club?</h2>
         <p>We've gathered information from various clubs, so you can get a sense of what it's like to be part of a club whilst having to commmute. <br/><br/></p>
+
+        <FilterDropdown title="Filter Clubs" filterOptions={filterOptions} />
+
         <Dropdowns>
-          {filteredClubs.map((club) => {
+          {filterClubs().map((club) => {
             return <Dropdown key={club} title={club} content={clubInfo[club].tips}/>
           })}
         </Dropdowns>
