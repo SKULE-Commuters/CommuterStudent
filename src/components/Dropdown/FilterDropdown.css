@@ -71,10 +71,6 @@
     border: 1px solid #24347b;
 }
 
-.filter__options input[type="checkbox"] {
-    margin-right: 0.5rem;
-}
-
 .multiselect__container {
     display: flex;
     flex-wrap: wrap;

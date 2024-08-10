@@ -1,0 +1,12 @@
+.multiselect {
+    display: flex;
+    flex-direction: column;
+}
+
+.multiselect label {
+    margin-top: 0.25rem;
+}
+
+.multiselect input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
