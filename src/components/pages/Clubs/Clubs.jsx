@@ -241,17 +241,19 @@ const clubInfo = {
 
 const MultiSelect = ({ options, selectedOptions, onChange }) => {
   return (
-    <div className="multi-select">
+    <div className="multiselect">
       {options.map(option => (
-        <label key={option}>
-          <input
-            type="checkbox"
-            value={option}
-            checked={selectedOptions[option]}
-            onChange={() => onChange(option)}
-          />
+        <div>
+                  <label key={option}>
           {option}
         </label>
+        <input
+          type="checkbox"
+          value={option}
+          checked={selectedOptions[option]}
+          onChange={() => onChange(option)}
+        />
+        </div>
 
       ))}
     </div>
@@ -263,7 +265,7 @@ const clubKeys = Object.keys(clubInfo);
 const Clubs = () => {
   const [searchTerm, setSearchTerm] = useState('');
 
-  const lengthOptions = ["<1 hour", "1-3 hours", "3-5 hours", "5+ hours"];
+  const lengthOptions = ["<1 hour", "1-3 hours"];
   const methodOptions = ["Hybrid", "In-person", "Remote"];
   const commitmentOptions = ["<1 hour", "1-3 hours", "3-5 hours", "5+ hours"];
   const categoryOptions = ["Skule", "Design Team", "Discipline Club"];
@@ -297,39 +299,49 @@ const Clubs = () => {
   };
   
   const filterOptions = (
-    <div className="filter-options">
-      <input
-        type="text"
-        placeholder="Search by name or description"
-        onChange={handleSearchTextChange}
-      />
-      <div className="multi-selects">
-        <label>Length:</label>
-        <MultiSelect
-          options={lengthOptions}
-          selectedOptions={selectedLengths}
-          onChange={handleLengthChange}
+    <ul className="filter__options">
+      <li className="dropdown__content__item">
+        <input
+          type="text"
+          placeholder="Search by name or description"
+          onChange={handleSearchTextChange}
         />
-        <label>Method:</label>
-        <MultiSelect
-          options={methodOptions}
-          selectedOptions={selectedMethods}
-          onChange={handleMethodChange}
-        />
-        <label>Commitment:</label>
-        <MultiSelect
-          options={commitmentOptions}
-          selectedOptions={selectedCommitments}
-          onChange={handleCommitmentChange}
-        />
-        <label>Category:</label>
-        <MultiSelect
-          options={categoryOptions}
-          selectedOptions={selectedCategories}
-          onChange={handleCategoryChange}
-        />
+      </li>
+      <div className="multiselect__container">
+        <li className="dropdown__content__item">
+          <label>Meeting Length:</label>
+          <MultiSelect
+            options={lengthOptions}
+            selectedOptions={selectedLengths}
+            onChange={handleLengthChange}
+          />
+        </li>
+        <li className="dropdown__content__item">
+          <label>Meeting Method:</label>
+          <MultiSelect
+            options={methodOptions}
+            selectedOptions={selectedMethods}
+            onChange={handleMethodChange}
+          />
+        </li>
+        <li className="dropdown__content__item">
+          <label>Weekly Commitment:</label>
+          <MultiSelect
+            options={commitmentOptions}
+            selectedOptions={selectedCommitments}
+            onChange={handleCommitmentChange}
+          />
+        </li>
+        <li className="dropdown__content__item">
+          <label>Category:</label>
+          <MultiSelect
+            options={categoryOptions}
+            selectedOptions={selectedCategories}
+            onChange={handleCategoryChange}
+          />
+        </li>
       </div>
-    </div>
+    </ul>
   );
 
   const filterClubs = () => {
