@@ -32,7 +32,7 @@ const team = [
     discipline: "ECE 2T7",
     role: "Webmaster",
     image: Sunny,
-    funfact: "My favourite colours are pink and green! The cirle around my face is green!",
+    funfact: "My favourite colours are pink and green! The circle around my face is green!",
     linkedin: "https://www.linkedin.com/in/wu-sunny/",
     github: "https://github.com/sunnwydays"
   },
