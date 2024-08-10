@@ -319,20 +319,19 @@ const Clubs = () => {
         Object.keys(selectedOptions).some(option => selectedOptions[option] && detail.includes(option))
       )
     };
-    const categoryMatch = (category, categories) => {
-      return !selectedCategories[category] || (categories && categories.includes(category));
-    };
 
     return clubKeys.filter((club) => {
       const tips = clubInfo[club].tips;
-      const categories = clubInfo[club].categories ?? null;
+      const categories = clubInfo[club].categories ?? [];
       const search = searchTerm.toLowerCase().trim();
       const description = clubInfo[club].tips[0].toLowerCase();
   
       return (
         (club.toLowerCase().includes(search) || description.includes(search)) &&
-        isMatch(selectedLengths, tips[2]) && isMatch(selectedMethods, tips[3]) && isMatch(selectedCommitments, tips[4]) &&
-        categoryMatch("Skule", categories) && categoryMatch("Design Team", categories) && categoryMatch("Discipline Club", categories)
+        isMatch(selectedLengths, tips[2]) &&
+        isMatch(selectedMethods, tips[3]) &&
+        isMatch(selectedCommitments, tips[4]) &&
+        isMatch(selectedCategories, categories)
       );
     });
   };
