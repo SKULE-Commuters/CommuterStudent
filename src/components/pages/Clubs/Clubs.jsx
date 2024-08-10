@@ -205,6 +205,28 @@ const clubInfo = {
     ],
     "categories": ["Design Team"]
   },
+  "Engineers Without Borders": {
+    "tips": [
+      "Club description: Engineers Without Borders is a club of like minded individuals hoping to inspire positive change in the U of T community and beyond!  We focus on issues in our community and connect them to issues around the globe through hands-on projects, learning, and advocacy.  You can get involved at any as a general member, or join a specific project in our Community, Technical, or Programs branches! Engineering is about more than just building cool stuff; it's about building a better future.",
+      "Meeting frequency: Flexible (once per week to several times per month)",
+      "Meeting length: 1-3 hours",
+      "Meeting method: Hybrid",
+      "Weekly commitment: 1-3 hours",
+      "Commuter notes: There are no strict meeting times. Meetings are flexible and will aim to take everyone's availabilities into account."
+    ],
+    "categories": ["Skule"]
+  },
+  "Latin Engineering Students' Association": {
+    "tips": [
+      "Club description: The Latin Engineering Students' Association (LESA) is a club where Latinx engineering students can connect with each other. The association is open to anyone interested in learning about Latin culture and promoting cultural issues.",
+      "Meeting frequency: Executive Members: 2 times/month. General Members: Various fun events each month, attendance not mandatory.",
+      "Meeting length: 1-3 hours",
+      "Meeting method: In-person",
+      "Weekly commitment: <1 hour",
+      "Commuter notes: Members interested in being on the executive team are required to attend two, one-hour meetings per month, held after 6PM on campus (time chosen based on all executives' availablity). General members are free to attend or not attend any of the events that we host."
+    ],
+    "categories": ["Skule"]
+  },
   // "": {
   //   "tips": [
   //     "Club description: ",
