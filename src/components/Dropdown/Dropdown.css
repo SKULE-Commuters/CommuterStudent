@@ -36,6 +36,7 @@
 
 .dropdown__header__caret img {
     height: 50%;
+    max-height: 1.9rem;
 }
 
 .dropdown__header__title {
