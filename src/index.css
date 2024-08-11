@@ -73,3 +73,7 @@ code {
     height: 5rem;
   }
 }
+
+a:hover {
+  color: hsl(271, 68%, 47%);
+}
