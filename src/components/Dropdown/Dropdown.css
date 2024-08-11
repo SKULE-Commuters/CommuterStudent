@@ -10,6 +10,11 @@
     justify-content: center;
     background-color: #24347b;
     cursor: pointer;
+    transition: background-color 0.2s ease-in;
+}
+
+.dropdown__header:hover {
+    background-color: hsl(229, 55%, 26%);
 }
 
 .dropdown__header__caret {
