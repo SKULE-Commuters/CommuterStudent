@@ -76,4 +76,5 @@ code {
 
 a:hover {
   color: hsl(271, 68%, 47%);
+  text-decoration: none;
 }
