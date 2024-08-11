@@ -273,49 +273,49 @@ const Clubs = () => {
   const handleCategoryChange = option => handleOptionChange(option, selectedCategories, setselectedCategories);
   
   const filterOptions = (
-    <ul className="filter__options">
-      <li className="dropdown__content__item">
+    <div className="filter__options">
+      <div className="filter__dropdown__content__item">
         <input
           type="text"
           placeholder="Search by name or description"
           onChange={handleSearchTextChange}
         />
-      </li>
+      </div>
       <div className="multiselect__container">
-        <li className="dropdown__content__item">
+        <div className="filter__dropdown__content__item">
           <label>Meeting Length:</label>
           <Multiselect
             options={lengthOptions}
             selectedOptions={selectedLengths}
             onChange={handleLengthChange}
           />
-        </li>
-        <li className="dropdown__content__item">
+        </div>
+        <div className="filter__dropdown__content__item">
           <label>Meeting Method:</label>
           <Multiselect
             options={methodOptions}
             selectedOptions={selectedMethods}
             onChange={handleMethodChange}
           />
-        </li>
-        <li className="dropdown__content__item">
+        </div>
+        <div className="filter__dropdown__content__item">
           <label>Weekly Commitment:</label>
           <Multiselect
             options={commitmentOptions}
             selectedOptions={selectedCommitments}
             onChange={handleCommitmentChange}
           />
-        </li>
-        <li className="dropdown__content__item">
+        </div>
+        <div className="filter__dropdown__content__item">
           <label>Category:</label>
           <Multiselect
             options={categoryOptions}
             selectedOptions={selectedCategories}
             onChange={handleCategoryChange}
           />
-        </li>
+        </div>
       </div>
-    </ul>
+    </div>
   );
 
   const filterClubs = () => {

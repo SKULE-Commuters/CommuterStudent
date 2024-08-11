@@ -2,64 +2,54 @@
     overflow: hidden;
     width: 100%;
     max-width: 50rem;
+    margin-bottom: 1rem;
 }
 
 /* Header */
-.dropdown__header {
-    position: relative;
-    width: 100%;
+.filter__dropdown__header {
     display: flex;
     justify-content: center;
-    background-color: #24347b;
     cursor: pointer;
 }
 
-.dropdown__header__title {
-    text-align: center;
+.filter__dropdown__header:hover h3 {
+    color: hsl(229, 55%, 30%);
+    text-decoration: underline;
 }
 
-.dropdown__header__title h3 {
-    color: #fcb839;
+.filter__dropdown__header__title h3 {
+    color: hsl(229, 55%, 31%, 0.8);
+    font-style: italic;
 }
 
 /* Content */
-.dropdown__content {
-    background-color: #525d92;
+.filter__dropdown__content {
+    background-color: hsl(229, 13%, 95%);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border-radius: 1.5rem;
 }
 
-.dropdown__content ul {
-    padding: 1rem 7% 1rem 10%;
-    margin: 0;
-}
-
-.dropdown__content.closed-ul {
+.filter__dropdown__content.closed-ul {
     max-height: 0;
     overflow: hidden;
     transition: max-height 2s cubic-bezier(0, 2, 1, 1);
 }
 
-.dropdown__content.open-ul {
+.filter__dropdown__content.open-ul {
     max-height: 80rem; /*Because css is funky I have to set a max-height greater than the list will ever get for the transition property to work*/
     margin: 0;
     transition: max-height 0.5s ease-in;
 }
 
-.dropdown__content__item {
-    margin-bottom: 0.7rem;
-    color:#d7d1c0;
+.filter__dropdown__content__item {
+    color: hsl(44, 22%, 35%);
 }
 
-/* Club filter styling */
-/* filter__options (ul) > multiselect__container (div) > dropdown__content__item (li) > multiselect (div) */
-
-
-
 .filter__options {
-    /* no bullets */
-    list-style-type: none;
+    padding: 1rem 7% 1rem 7%;
+    margin: 0;
 }
 
 .filter__options input[type="text"] {
@@ -69,36 +59,35 @@
     box-sizing: border-box;
     border-radius: 0.5rem;
     border: 1px solid #24347b;
+    font-size: 1rem;
 }
 
 .multiselect__container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 /* Mobile breakpoints */
 @media only screen and (max-width: 850px) {
-    .dropdown__header__caret {
+    .filter__dropdown__header__caret {
         left: 1rem;
     }
-    .dropdown__content__item {
+    .filter__dropdown__content__item {
         list-style: none;
     }
-    .dropdown__header_title {
+    .filter__dropdown__header_title {
         font-size: 1rem;
     }
 }
 
 @media only screen and (max-width: 675px) {
-    .dropdown__header__title h3 {
+    .filter__dropdown__header__title h3 {
         font-size: 1rem;
         margin-left: 3rem;
         margin-right: 3rem;
-        text-wrap: pretty;
     }
-    .events .dropdown__header__title h3 {
+    .events .filter__dropdown__header__title h3 {
         margin: 1rem 1rem 1rem 4rem;
     }
 }
-
