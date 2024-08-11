@@ -377,7 +377,7 @@ const Clubs = () => {
 
         <h1>Clubs</h1>
         <h2>What's it like to join a club?</h2>
-        <p>We've gathered information from various clubs, so you can get a sense of what it's like to be part of a club whilst having to commmute. <br/><br/></p>
+        <p>We've gathered information from various UofT clubs to give you sense of what it's like to be part of a club whilst having to commmute.<br/><br/></p>
 
         <FilterDropdown title="Filter Clubs" filterOptions={filterOptions} />
 
