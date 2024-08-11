@@ -228,6 +228,27 @@ const clubInfo = {
     ],
     "categories": ["Skule"]
   },
+  "Canadian Society for Civil Engineers (CSCE UofT)": {
+    "tips": [
+      "Club description: The mission of CSCE is to close the gap between those with an interest in Civil Engineering, the world of academia, and the industry. CSCE plays a vital part in the Engineering student experience by providing opportunities to learn technical skills, network with professionals, attend lectures from industry leaders, discover career paths beyond undergrad, and more.",
+      "Meeting frequency: Biweekly",
+      "Meeting length: <1 hour",
+      "Meeting method: Hybrid",
+      "Weekly commitment: 1-3 hours",
+      "Commuter notes: Events are done in-person typically after school hours "
+    ]
+  },
+  "University of Toronto's Wind Turbine Design Team (UTWind)": {
+    "tips": [
+      "Club description: We are the University of Toronto’s only Wind Turbine Design team. Every year we build a sustainable small scaled wind turbine for the International Small Wind Turbine Competition. UTWind is divided into 5 sub-teams: Aerodynamics, Mech and Manufacturing, Control Systems, Power and Sustainability. Follow us on instagram @utwindclub to look out for opportunities to join our WINDerful team. Visit the UTWind website at https://www.utwind.com/",
+      "Meeting frequency: Weekly",
+      "Meeting length: 1-3 hours",
+      "Meeting method: Hybrid",
+      "Weekly commitment: <1 hour",
+      "Commuter notes: Meeting times depends on the individual sub-teams. Most sub-teams will have hybrid meeting options and meet on weekdays after 6pm. All in-person meetings take place in the Myhal Arena. Many sub-team leads are commuters so can understand the struggles and will be flexible."
+    ],
+    "categories": ["Design Team"]
+  },
   // "": {
   //   "tips": [
   //     "Club description: ",
