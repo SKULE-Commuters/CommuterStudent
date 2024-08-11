@@ -22,8 +22,12 @@ const MobileMenu = (props) => {
             if (element) {
                 element.scrollIntoView({ behavior: 'smooth' });
             }
+            // Hide navbar after user clicks a link, after scrolling or else navbar stays open
+            setTimeout(() => {
+                props.updateDisplayNav(false);
+            }, 800);
         }
-        dispatch(setSideBar(false)); // Close the sidebar after scrolling
+        dispatch(setSideBar(false));
     };
 
     return (
@@ -37,7 +41,7 @@ const MobileMenu = (props) => {
             {/* This complicated looking nested ternary is because we don't want the mobile nav to do the slideOut animation unless clicked on.
                 Without this, the user sees the mobile nav slide out on page load, which looks unprofessional and janky. */}
             <div className={`nav-links ${(props.firstOpen ? (sideBarOn ? "inView" : "outOfView") : "")}`} style={{height: window.innerHeight + "px"}} onClick={(e) => {
-                e.stopPropagation(); 
+                e.stopPropagation();
                 dispatch(setSideBar(true));
             }}>
                 <button className="nav-link__mobile" onClick={e => handleScrollTo('home', e)}><p>Home</p></button>
