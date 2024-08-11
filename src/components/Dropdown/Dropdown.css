@@ -10,7 +10,7 @@
     justify-content: center;
     background-color: #24347b;
     cursor: pointer;
-    transition: background-color 0.2s ease-in;
+    transition: background-color 0.2s;
 }
 
 .dropdown__header:hover {
