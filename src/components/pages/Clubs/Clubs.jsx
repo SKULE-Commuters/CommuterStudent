@@ -262,21 +262,15 @@ const Clubs = () => {
   const [selectedCommitments, setSelectedCommitments] = useState(createMap(commitmentOptions));
   const [selectedCategories, setselectedCategories] = useState(createMap(categoryOptions));
 
-  const handleSearchTextChange = (e) => {
-    setSearchTerm(e.target.value);
-  };  
-  const handleLengthChange = (option) => {
-    setSelectedLengths({ ...selectedLengths, [option]: !selectedLengths[option] });
+  const handleSearchTextChange = e => setSearchTerm(e.target.value);
+
+  const handleOptionChange = (option, selectedOptions, setSelectedOptions) => {
+    setSelectedOptions({ ...selectedOptions, [option]: !selectedOptions[option] });
   };
-  const handleMethodChange = (option) => {
-    setSelectedMethods({ ...selectedMethods, [option]: !selectedMethods[option] });
-  };
-  const handleCommitmentChange = (option) => {
-    setSelectedCommitments({ ...selectedCommitments, [option]: !selectedCommitments[option] });
-  };
-  const handleCategoryChange = (option) => {
-    setselectedCategories({ ...selectedCategories, [option]: !selectedCategories[option] });
-  };
+  const handleLengthChange = option => handleOptionChange(option, selectedLengths, setSelectedLengths);
+  const handleMethodChange = option => handleOptionChange(option, selectedMethods, setSelectedMethods);
+  const handleCommitmentChange = option => handleOptionChange(option, selectedCommitments, setSelectedCommitments);
+  const handleCategoryChange = option => handleOptionChange(option, selectedCategories, setselectedCategories);
   
   const filterOptions = (
     <ul className="filter__options">
