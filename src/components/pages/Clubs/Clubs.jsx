@@ -59,6 +59,7 @@ const clubInfo = {
       "Weekly commitment: <1 hour",
       "Commuter notes: The time commitment varies depending on the role, but we we do recognize and respect that you are a student! You also do not need any previous experience to apply, we welcome and encourage anyone interested!"
     ],
+    "image": require("../../../assets/ClubLogos/engsci.png"),
     "categories": ["Discipline Club"]
   },
   "University of Toronto Smash Ultimate Club": {
@@ -79,7 +80,8 @@ const clubInfo = {
       "Meeting method: Hybrid",
       "Weekly commitment: <1 hour",
       "Commuter notes: Our meetings are usually held on the St. George campus from 6:00-8:00PM."
-    ]
+    ],
+    "image": require("../../../assets/ClubLogos/toastmasters.png")
   },
   "University of Toronto Robotics Association (UTRA)": {
     "tips": [
@@ -90,6 +92,7 @@ const clubInfo = {
       "Weekly commitment: 1-3 hours",
       "Commuter notes: UTRA officially represents the University of Toronto in many prestigious international competitions. We currently have 6 sub-teams that focus on design, education and skill-building. We provide students interested in this broad field of robotics the opportunity to experience different aspects and find their passion. Hands-on participation on-campus at the Myhal Arena is highly encouraged!"
     ],
+    "image": require("../../../assets/ClubLogos/utra.png"),
     "categories": ["Design Team"]
   },
   "University of Toronto Open Source Society": {
@@ -164,6 +167,7 @@ const clubInfo = {
       "Weekly commitment: 1-3 hours",
       "Commuter notes: Due to the building regulation and lab safety consideration, most of the lab sessions and meetings are during weekdays and on-campus at the Wallberg Building. We do understand this may be difficult for commuters, however, we schedules our sessions according to members' availability and tries to accommodate as much as possible! "
     ],
+    "image": require("../../../assets/ClubLogos/utcv.png"),
     "categories": ["Design Team"]
   },
   "Canadian Society for Chemical Engineering (CSChE UofT)": {
@@ -236,7 +240,8 @@ const clubInfo = {
       "Meeting method: Hybrid",
       "Weekly commitment: 1-3 hours",
       "Commuter notes: Events are done in-person typically after school hours "
-    ]
+    ],
+    "image": require("../../../assets/ClubLogos/csce.png")
   },
   "University of Toronto's Wind Turbine Design Team (UTWind)": {
     "tips": [
@@ -247,6 +252,7 @@ const clubInfo = {
       "Weekly commitment: <1 hour",
       "Commuter notes: Meeting times depends on the individual sub-teams. Most sub-teams will have hybrid meeting options and meet on weekdays after 6pm. All in-person meetings take place in the Myhal Arena. Many sub-team leads are commuters so can understand the struggles and will be flexible."
     ],
+    "image": require("../../../assets/ClubLogos/utwind.png"),
     "categories": ["Design Team"]
   },
   // "": {
@@ -377,7 +383,7 @@ const Clubs = () => {
 
         <Dropdowns>
           {filterClubs().map((club) => {
-            return <Dropdown key={club} title={club} content={clubInfo[club].tips}/>
+            return <Dropdown key={club} title={club} content={clubInfo[club].tips} image={clubInfo[club].image} />
           })}
         </Dropdowns>
         <p>Want commuters to know about your club? <a href="https://docs.google.com/forms/d/e/1FAIpQLSfPJoUOOKM1GoTeBuK0Zngc2F5PAjBX7Mj1Qkcc6AXa1n5tWA/viewform">Let us know</a>!</p>

@@ -28,8 +28,14 @@ const Dropdown = (props) => {
                     <img src={Caret} alt="caret" />
                 </span>
                 <div className="dropdown__header__title">
-                    <h3>
-                        {props.image && <img src={props.image} height="20px" style={{marginRight:"min(1.5vw, 1rem)"}} alt="" />}
+                    {/* margin and height combo keeps club and non-club dropdowns about the same height while displaying club logos larger */}
+                    <h3 style={props.content[0].slice(0, 16) === "Club description" ? { marginTop: "0.25em", marginBottom: "0.25em" } : {}} >
+                        {props.image && 
+                            <img src={props.image} 
+                                height={props.content[0].slice(0,16) === "Club description" ? "52px" : "20px"}
+                                style={{marginRight: "min(1.5vw, 1rem)"}}
+                                alt=""
+                            />}
                         {props.title}
                     </h3>
                 </div>
