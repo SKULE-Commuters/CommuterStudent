@@ -19,7 +19,7 @@
 }
 
 .multiselect input[type="checkbox"]:hover {
-    box-shadow: 0 0 5px hsl(229, 55%, 31%, 0.5);
+    box-shadow: 0 0 2px hsl(229, 55%, 31%, 0.3);
 }
 
 .multiselect input[type="checkbox"]:checked {
