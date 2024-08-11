@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/CommuterStudent/static/css/main.5505f941.css",
-    "main.js": "/CommuterStudent/static/js/main.48e98a8c.js",
+    "main.css": "/CommuterStudent/static/css/main.71a6fb15.css",
+    "main.js": "/CommuterStudent/static/js/main.c55c8205.js",
     "static/media/Viv.jpg": "/CommuterStudent/static/media/Viv.115623792b83fc242b48.jpg",
+    "static/media/Celin.jpg": "/CommuterStudent/static/media/Celin.d6ded5654d7456a88d12.jpg",
     "static/media/Linda.jpg": "/CommuterStudent/static/media/Linda.4e1c6c10405490d3cc11.jpg",
     "static/media/Sean.jpg": "/CommuterStudent/static/media/Sean.cb10f4442c4df2445115.jpg",
     "static/media/commuterBusBanner.png": "/CommuterStudent/static/media/commuterBusBanner.b22203efeba4d0a4bf27.png",
@@ -26,11 +27,11 @@
     "static/media/email.png": "/CommuterStudent/static/media/email.63fc78f34d498d87e0ae.png",
     "index.html": "/CommuterStudent/index.html",
     "static/media/chevron-down-solid.svg": "/CommuterStudent/static/media/chevron-down-solid.e0673e6c85e7fa989d4c702cd9f7e998.svg",
-    "main.5505f941.css.map": "/CommuterStudent/static/css/main.5505f941.css.map",
-    "main.48e98a8c.js.map": "/CommuterStudent/static/js/main.48e98a8c.js.map"
+    "main.71a6fb15.css.map": "/CommuterStudent/static/css/main.71a6fb15.css.map",
+    "main.c55c8205.js.map": "/CommuterStudent/static/js/main.c55c8205.js.map"
   },
   "entrypoints": [
-    "static/css/main.5505f941.css",
-    "static/js/main.48e98a8c.js"
+    "static/css/main.71a6fb15.css",
+    "static/js/main.c55c8205.js"
   ]
 }
