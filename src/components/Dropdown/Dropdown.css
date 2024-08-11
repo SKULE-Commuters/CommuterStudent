@@ -44,6 +44,8 @@
 
 .dropdown__header__title h3 {
     color: #fcb839;
+    display: flex;
+    align-items: center;
 }
 
 /* Content */
