@@ -20,9 +20,9 @@
 .dropdown__header__caret {
     height: 100%;
     display: flex;
-    align-items: center;
+    align-items: center; /* Center the caret vertically */
     position: absolute;
-    left: 3rem;
+    left: 2rem;
 }
 
 .dropdown__header__caret img {
@@ -48,6 +48,8 @@
     color: #fcb839;
     display: flex;
     align-items: center;
+    margin-left: 3.5rem; /* Ensure logo doesn't go overlap caret */
+    margin-right: 3.5rem; /* Even spacing so text remains centered */
 }
 
 /* Content */
@@ -81,7 +83,7 @@
 }
 
 /* Mobile breakpoints */
-@media only screen and (max-width: 850px) {
+    @media only screen and (max-width: 850px) {
     .dropdown__header__caret {
         left: 1rem;
     }
@@ -93,14 +95,22 @@
     }
     .dropdown__header__title h3 {
         font-size: 1rem;
-        margin-left: 3rem;
-        margin-right: 3rem;
-        text-wrap: pretty;
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+        text-wrap: pretty; /* Makes spacing look more natural on smaller screens */
     }
 }
 
 @media only screen and (max-width: 675px) {
     .events .dropdown__header__title h3 {
         margin: 1rem 1rem 1rem 4rem;
+    }
+    .dropdown__header__caret {
+        left: 0.5rem;
+    }
+    .dropdown__header__title h3 {
+        margin-left: 2rem;
+        margin-right: 2rem;
+        /* Wanted to decrease right-margin for more space for text but then it wouldn't be centered */
     }
 }
