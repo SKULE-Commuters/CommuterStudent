@@ -19,9 +19,10 @@
 
 .dropdown__header__caret {
     height: 100%;
+    display: flex;
+    align-items: center;
     position: absolute;
     left: 3rem;
-    top: 25%;
 }
 
 .dropdown__header__caret img {
