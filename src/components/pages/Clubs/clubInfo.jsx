@@ -185,7 +185,8 @@ export const clubInfo = {
         "Meeting method: In-person",
         "Weekly commitment: <1 hour",
         "Commuter notes: Short meet-up events typically take place on campus or within downtown Toronto. Longer weekend outings, like our cabin trips, take us far out of the city and require students to carpool. The club coordinates these carpools and can usually accommodate members who live farther from campus. (Plus drivers get their gas costs covered!)"
-      ]
+      ],
+      "image": require("../../../assets/ClubLogos/utoc.png")
     },
     "MSE Club": {
       "tips": [
@@ -254,6 +255,18 @@ export const clubInfo = {
         "Commuter notes: Meeting times depends on the individual sub-teams. Most sub-teams will have hybrid meeting options and meet on weekdays after 6pm. All in-person meetings take place in the Myhal Arena. Many sub-team leads are commuters so can understand the struggles and will be flexible."
       ],
       "image": require("../../../assets/ClubLogos/utwind.png"),
+      "categories": ["Design Team"]
+    },
+    "University of Toronto Aerospace Team": {
+      "tips": [
+        "Club description: UTAT is an interdisciplinary student design team dedicated to pushing the bounds of Aerospace design. We have four divisions: Space Systems, Rocketry, Unmanned Aerial Systems (UAS), and Aerospace Policy and Law. Space Systems develops small satellites, Rocketry launches high-altitude sounding rockets, UAS designs drones, and Aerospace Policy and Law publishes articles, research papers, and runs a podcast relating to all things aerospace. Our core mission is to foster leaders and innovators in Aerospace through ambitious projects, and encourage the community to pursue their passions in aerospace and engineering.",
+        "Meeting frequency: Weekly, sometimes more depending on what your lead requires",
+        "Meeting length: 3-5 hours",
+        "Meeting method: Hybrid",
+        "Weekly commitment: 5+ hours",
+        "Commuter notes: Meetings take place on the weekend (Sunday and Saturday depending on the division) on campus, usually Bahen or the Myhal arena. While some leads provide online meetings, the best way to experience the club is by coming in-person for hands-on work."
+      ],
+      "image": require("../../../assets/ClubLogos/utat.png"),
       "categories": ["Design Team"]
     },
     // "": {
