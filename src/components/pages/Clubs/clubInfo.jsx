@@ -269,6 +269,28 @@ export const clubInfo = {
       "image": require("../../../assets/ClubLogos/utat.png"),
       "categories": ["Design Team"]
     },
+    "Bangladeshi Students’ Association (BSA)": {
+      "tips": [
+        "Club description: The Bangladeshi Students' Association (BSA) at the University of Toronto is dedicated to celebrating and promoting the rich cultural heritage of Bangladesh within the university community. BSA actively promotes Bangladeshi culture through a range of dynamic events such as \"Hok Kolorob,\" \"Shimana Periye,\" \"Shornali Shondha\", \"Melay Jaire\" and more. By organising such a variety of cultural, social, educational, and networking events, BSA fosters leadership, integration, and a sense of community among its members. Underlining its commitment to social responsibility, BSA is actively supporting global and local charitable causes and raising awareness.",
+        "Meeting frequency: Monthly",
+        "Meeting length: 1-3 hours",
+        "Meeting method: Hybrid",
+        "Weekly commitment: <1 hour",
+        "Commuter notes: Bangladeshi Students' Association (BSA) at the University of Toronto strives to be accessible and inclusive for all students, including commuters. We primarily hold our monthly events on campus during weekdays to accommodate those who travel. Additionally, we provide virtual attendance options for those unable to be physically present. For events that might take place off-campus or during weekends, we ensure they are easily accessible via public transportation and provide detailed directions and assistance as needed. There are no significant challenges for commuters to participate in our activities, but we are always open to feedback to improve accessibility."
+      ],
+      "image": require("../../../assets/ClubLogos/bsa.png")
+    },
+    "University of Toronto Machine Intelligence Student Team (UTMIST)": {
+      "tips": [
+        "Club description: University of Toronto Machine Intelligence Student Team (UTMIST) is the largest undergraduate Machine Learning (ML) club and one of the largest Applied Science & Engineering clubs at UofT. Our goal is to help students of different backgrounds, time commitments, and prior experiences gain experiences and competencies that will help them grow and develop in their professional and academic careers in AI/ML. We provide opportunities for students to learn, grow, and develop as leaders within the field though our hackathons, workshops, ML Projects, conferences, academic lectures series, and more!",
+        "Meeting frequency: Weekly",
+        "Meeting length: 1-3 hours",
+        "Meeting method: Hybrid",
+        "Weekly commitment: 3-5 hours",
+        "Commuter notes: While on-campus meetings are encouraged for our design teams, workshops, and conferences, our events will be made accessible via Zoom and meetings for our project design teams will allow developers to meet through Zoom and/or Discord!"
+      ],
+      "image": require("../../../assets/ClubLogos/utmist.png")
+    },
     // "": {
     //   "tips": [
     //     "Club description: ",
