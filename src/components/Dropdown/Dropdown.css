@@ -90,6 +90,12 @@
     .dropdown__header_title {
         font-size: 1rem;
     }
+    .dropdown__header__title h3 {
+        font-size: 1rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        text-wrap: pretty;
+    }
 }
 
 @media only screen and (max-width: 675px) {
