@@ -16,6 +16,7 @@ const clubInfo = {
       "Weekly commitment: <1 hour",
       "Commuter notes: Meetings are generally in the pit, sometime in the evening; around 6pm."
     ],
+    "image": require("../../../assets/ClubLogos/toikeoike.png"),
     "categories": ["Skule"]
   },
   "St. George Capital": {
@@ -114,6 +115,7 @@ const clubInfo = {
       "Weekly commitment: 1-3 hours",
       "Commuter notes: Meetings usually occur on Sundays, however a hybrid option is available"
     ],
+    "image": require("../../../assets/ClubLogos/tbog.png"),
     "categories": ["Design Team"]
   },
   "Skule™ Choir": {
@@ -125,6 +127,7 @@ const clubInfo = {
       "Weekly commitment: 1-3 hours",
       "Commuter notes: Rehearsals are every Thursday evening from 7pm-9pm in the Myhal Music Room (MY 041). Once a semester we hold a weekend workshop, usually on campus for about 2-3hrs to learn a large amount of music at once. We are also often invited to perform at events both on and off campus, generally in the Downtown Toronto area."
     ],
+    "image": require("../../../assets/ClubLogos/skulechoir.png"),
     "categories": ["Skule"]
   },
   "University of Toronto Supermilage (UTSM)": {
@@ -136,6 +139,7 @@ const clubInfo = {
       "Weekly commitment: 3-5 hours",
       "Commuter notes: Meetings occur Wednesday night but the bulk of our meetings happen on weekends because we need longer stints continuously to execute some of our activities. All meetings happen either at Myhal or 256 McCaul St. We'd love to have you attend our kickoff meeting on Sep 11th, 2024"
     ],
+    "image": require("../../../assets/ClubLogos/utsm.png"),
     "categories": ["Design Team"]
   },
   "University of Toronto Sports Analytics Student Group (UTSPAN)": {
@@ -156,6 +160,7 @@ const clubInfo = {
       "Weekly commitment: <1 hour",
       "Commuter notes: The Cannon is the perfect low commitment club for a commuter student! We have idea meetings and the occasional editing meeting, but writing for the Cannon can be done from the comfort of your own home (or a GO train). Our contributors are given a lot of flexibility and independence with completing their work. "
     ],
+    "image": require("../../../assets/ClubLogos/cannon.png"),
     "categories": ["Skule"]
   },
   "University of Toronto Chemical Vehicle": {
@@ -177,7 +182,8 @@ const clubInfo = {
       "Meeting length: 1-3 hours",
       "Meeting method: In-person",
       "Weekly commitment: 1-3 hours",
-    ]
+    ],
+    "image": require("../../../assets/ClubLogos/csche.png"),
   },
   "University of Toronto Outing Club (UTOC)": {
     "tips": [
@@ -197,6 +203,7 @@ const clubInfo = {
       "Meeting method: In-person",
       "Weekly commitment: <1 hour",
     ],
+    "image": require("../../../assets/ClubLogos/mse.png"),
     "categories": ["Discipline Club"]
   },
   "Blue Sky Solar Racing": {
@@ -208,6 +215,7 @@ const clubInfo = {
       "Weekly commitment: 5+ hours",
       "Commuter notes: Meetings usually occur after classes end around 5-7 PM and sometimes end at 8-9 PM."
     ],
+    "image": require("../../../assets/ClubLogos/bluesky.png"),
     "categories": ["Design Team"]
   },
   "Engineers Without Borders": {
@@ -219,6 +227,7 @@ const clubInfo = {
       "Weekly commitment: 1-3 hours",
       "Commuter notes: There are no strict meeting times. Meetings are flexible and will aim to take everyone's availabilities into account."
     ],
+    "image": require("../../../assets/ClubLogos/ewb.png"),
     "categories": ["Skule"]
   },
   "Latin Engineering Students' Association": {
