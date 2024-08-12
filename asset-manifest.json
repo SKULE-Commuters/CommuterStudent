@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/CommuterStudent/static/css/main.c6907306.css",
-    "main.js": "/CommuterStudent/static/js/main.b6f06861.js",
+    "main.js": "/CommuterStudent/static/js/main.f21dddd7.js",
     "static/media/Viv.jpg": "/CommuterStudent/static/media/Viv.115623792b83fc242b48.jpg",
     "static/media/Celin.jpg": "/CommuterStudent/static/media/Celin.d6ded5654d7456a88d12.jpg",
+    "static/media/utoc.png": "/CommuterStudent/static/media/utoc.3661c78352776cf56d38.png",
     "static/media/Linda.jpg": "/CommuterStudent/static/media/Linda.4e1c6c10405490d3cc11.jpg",
     "static/media/Sean.jpg": "/CommuterStudent/static/media/Sean.cb10f4442c4df2445115.jpg",
     "static/media/toastmasters.png": "/CommuterStudent/static/media/toastmasters.140b8693fbec4767102b.png",
-    "static/media/utcv.png": "/CommuterStudent/static/media/utcv.1950c98fee592caabe08.png",
+    "static/media/utcv.png": "/CommuterStudent/static/media/utcv.3c8d66bb613eab37c8f2.png",
     "static/media/commuterBusBanner.png": "/CommuterStudent/static/media/commuterBusBanner.b22203efeba4d0a4bf27.png",
     "static/media/Eshaa.jpg": "/CommuterStudent/static/media/Eshaa.91136c8928d862c3080e.jpg",
     "static/media/utwind.png": "/CommuterStudent/static/media/utwind.f9ef6d12b7c379948a79.png",
@@ -20,6 +21,7 @@
     "static/media/ttc.png": "/CommuterStudent/static/media/ttc.1ea48f1932c9f53e1e58.png",
     "static/media/csche.png": "/CommuterStudent/static/media/csche.e99923d8725a22cbc943.png",
     "static/media/cannon.png": "/CommuterStudent/static/media/cannon.c0f79f28908b2b319e2e.png",
+    "static/media/utat.png": "/CommuterStudent/static/media/utat.3cf54ceb48e5aac2d6f9.png",
     "static/media/linkedin.png": "/CommuterStudent/static/media/linkedin.3a62ee53cc5909a733b9.png",
     "static/media/ewb.png": "/CommuterStudent/static/media/ewb.046370458ea7e4c3ff08.png",
     "static/media/instagram-orange.png": "/CommuterStudent/static/media/instagram-orange.1f7c0708e17d1d344f4a.png",
@@ -40,10 +42,10 @@
     "index.html": "/CommuterStudent/index.html",
     "static/media/chevron-down-solid.svg": "/CommuterStudent/static/media/chevron-down-solid.e0673e6c85e7fa989d4c702cd9f7e998.svg",
     "main.c6907306.css.map": "/CommuterStudent/static/css/main.c6907306.css.map",
-    "main.b6f06861.js.map": "/CommuterStudent/static/js/main.b6f06861.js.map"
+    "main.f21dddd7.js.map": "/CommuterStudent/static/js/main.f21dddd7.js.map"
   },
   "entrypoints": [
     "static/css/main.c6907306.css",
-    "static/js/main.b6f06861.js"
+    "static/js/main.f21dddd7.js"
   ]
 }
