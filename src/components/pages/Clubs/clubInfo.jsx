@@ -19,7 +19,8 @@ export const clubInfo = {
         "Meeting method: Hybrid",
         "Weekly commitment: 3-5 hours",
         "Commuter notes: Usually our meetings are in the evenings on school nights on campus. We organize them to be flexible for everyone's times. "
-      ]
+      ],
+      "categories": ["Design Team"]
     },
     "Sustainable Engineers Association": {
       "tips": [
