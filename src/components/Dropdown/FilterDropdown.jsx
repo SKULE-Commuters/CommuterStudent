@@ -2,7 +2,7 @@ import './FilterDropdown.css';
 import { useState } from 'react';
 
 const FilterDropdown = ({ title, image, filterOptions }) => {
-    const [isOpen, setIsOpen] = useState(false);
+    const [isOpen, setIsOpen] = useState(true);
 
     const handleToggle = () => {
         setIsOpen(!isOpen);
