@@ -12,7 +12,7 @@ const clubKeys = Object.keys(clubInfo);
 const Clubs = () => {
   const [searchTerm, setSearchTerm] = useState('');
 
-  const lengthOptions = ["<1 hour", "1-3 hours"];
+  const lengthOptions = ["<1 hour", "1-3 hours", "3-5 hours"];
   const methodOptions = ["Hybrid", "In-person", "Remote"];
   const commitmentOptions = ["<1 hour", "1-3 hours", "3-5 hours", "5+ hours"];
   const categoryOptions = ["Skule", "Design Team", "Discipline Club"];
