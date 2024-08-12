@@ -289,7 +289,8 @@ export const clubInfo = {
         "Weekly commitment: 3-5 hours",
         "Commuter notes: While on-campus meetings are encouraged for our design teams, workshops, and conferences, our events will be made accessible via Zoom and meetings for our project design teams will allow developers to meet through Zoom and/or Discord!"
       ],
-      "image": require("../../../assets/ClubLogos/utmist.png")
+      "image": require("../../../assets/ClubLogos/utmist.png"),
+      "categories": ["Design Team"]
     },
     // "": {
     //   "tips": [
