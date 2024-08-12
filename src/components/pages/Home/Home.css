@@ -62,7 +62,7 @@
 
 .home-banner__content__icons img {
     width: min(15vw, 5rem);
-    border-radius: 50%;    
+    border-radius: 50%;
     box-shadow: 0 0 0 min(1vw, 0.3rem) #FFF7DE;
     transition: all 0.7s ease-out;
 }
@@ -118,7 +118,7 @@
     .home-banner__img {
         position: absolute;
         top: 25vh;
-        height: 30vh;
+        height: min(30vh, 30vw);
         opacity: 0.2;
         pointer-events: none;
     }
