@@ -45,6 +45,7 @@
 
 .filter__dropdown__content__item {
     color: hsl(44, 22%, 35%);
+    margin-top: 0.5rem;
 }
 
 .filter__options {
