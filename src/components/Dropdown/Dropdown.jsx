@@ -29,10 +29,10 @@ const Dropdown = (props) => {
                 </span>
                 <div className="dropdown__header__title">
                     {/* margin and height combo keeps club and non-club dropdowns about the same height while displaying club logos larger */}
-                    <h3 style={props.content[0].slice(0, 16) === "Club description" ? { marginTop: "0.25em", marginBottom: "0.25em" } : {}} >
+                    <h3 style={props.content[0].slice(0, 16) === "Club description" ? { marginTop: "0.6em", marginBottom: "0.6em" } : {}} >
                         {props.image && 
                             <img src={props.image} 
-                                height={props.content[0].slice(0,16) === "Club description" ? "52px" : "20px"}
+                                height={props.content[0].slice(0,16) === "Club description" ? "40px" : "20px"}
                                 style={{marginRight: "min(1.5vw, 1rem)"}}
                                 alt=""
                             />}
