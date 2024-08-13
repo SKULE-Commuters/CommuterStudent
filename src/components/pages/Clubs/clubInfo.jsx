@@ -91,15 +91,16 @@ export const clubInfo = {
       "image": require("../../../assets/ClubLogos/utra.png"),
       "categories": ["Design Team"]
     },
-    "University of Toronto Open Source Society": {
+    "University of Toronto Open Source Society (UTOSS)": {
       "tips": [
-        "Club description: Building the Open Future.\nWe do software, hardware and outreach in an open source way.",
+        "Club description: Building the Open Future. We do software, hardware and outreach in an open source way.",
         "Meeting frequency: Weekly",
         "Meeting length: 1-3 hours",
         "Meeting method: In-person",
         "Weekly commitment: 3-5 hours",
-        "Commuter notes: Our meeting is totally optional. It is in-person working session/office hour."
-      ]
+        "Commuter notes: Please read the latest updates and policies on our GitHub Repository & Instagram @ut_oss."
+      ],
+      "image": require("../../../assets/ClubLogos/utoss.png"),
     },
     "Concrete Toboggan Design Team": {
       "tips": [
