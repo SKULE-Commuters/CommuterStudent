@@ -295,6 +295,18 @@ export const clubInfo = {
       "image": require("../../../assets/ClubLogos/utmist.png"),
       "categories": ["Design Team"]
     },
+    "Skule Ski Club": {
+      "tips": [
+        "Club description: The club plans ski trips for winter seasons (December to March), such as Blue Mountain and Mt.Tremblant! ",
+        "Meeting frequency: Weekly",
+        "Meeting length: 1-3 hours",
+        "Meeting method: Hybrid",
+        "Weekly commitment: 1-3 hours",
+        "Commuter notes: Meetings are usually online (discord), but there are some in-person meetings especially for announcements/presentations. Just let us know if you can't make it :)"
+      ],
+      "image": require("../../../assets/ClubLogos/skuleski.png"),
+      "categories": ["Skule"]
+    },
     // "": {
     //   "tips": [
     //     "Club description: ",
