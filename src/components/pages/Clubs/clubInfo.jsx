@@ -43,6 +43,7 @@ export const clubInfo = {
         "Weekly commitment: 1-3 hours",
         "Commuter notes: The meetings are remote, so you should be able to join even when you're at home. The events are in-person and would require you to be on campus, but you can always help with the planning online. "
       ],
+      "image": require("../../../assets/ClubLogos/sfs.png"),
       "categories": ["Skule"]
     },
     "EngSci Club": {
