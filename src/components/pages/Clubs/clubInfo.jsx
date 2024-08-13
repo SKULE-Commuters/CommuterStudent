@@ -20,6 +20,7 @@ export const clubInfo = {
         "Weekly commitment: 3-5 hours",
         "Commuter notes: Usually our meetings are in the evenings on school nights on campus. We organize them to be flexible for everyone's times. "
       ],
+      "image": require("../../../assets/ClubLogos/stgeorgecapital.png"),
       "categories": ["Design Team"]
     },
     "Sustainable Engineers Association": {
@@ -142,7 +143,8 @@ export const clubInfo = {
         "Meeting length: 1-3 hours",
         "Meeting method: Hybrid",
         "Weekly commitment: 1-3 hours"
-      ]
+      ],
+      "image": require("../../../assets/ClubLogos/utspan.png"),
     },
     "The Cannon Magazine": {
       "tips": [
