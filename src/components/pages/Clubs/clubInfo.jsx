@@ -66,7 +66,8 @@ export const clubInfo = {
         "Meeting method: In-person",
         "Weekly commitment: <1 hour",
         "Commuter notes: There is no commitment to join the club! We hold weekly free tournaments that are open to all and our Discord server is used for discussing Smash in and out of U of T. Any players of any level are welcome to stop by and join the tournament bracket, play a few friendlies, or just talk about the game. Events are usually held on Friday evenings."
-      ]
+      ],
+      "image": require("../../../assets/ClubLogos/utsmash.png")
     },
     "UofT Toastmasters": {
       "tips": [
@@ -237,6 +238,7 @@ export const clubInfo = {
         "Weekly commitment: <1 hour",
         "Commuter notes: Members interested in being on the executive team are required to attend two, one-hour meetings per month, held after 6PM on campus (time chosen based on all executives' availablity). General members are free to attend or not attend any of the events that we host."
       ],
+      "image": require("../../../assets/ClubLogos/lesa.png"),
       "categories": ["Skule"]
     },
     "Canadian Society for Civil Engineers (CSCE UofT)": {
