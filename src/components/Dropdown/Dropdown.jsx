@@ -48,7 +48,7 @@ const Dropdown = (props) => {
             </div>
             <div className={`dropdown__content ${(isOpen ? "open-ul" : "closed-ul")}`}>
                 {isMapDropdown ?
-                    <TransformWrapper>
+                    <TransformWrapper doubleClick = {{mode: "toggle"}} >
                         {({ zoomIn, zoomOut, resetTransform }) => (
                             <React.Fragment>
                                 <div className={`dropdown__map__controls ${controlsOnLeft ? "dropdown__map__controls__left" : "dropdown__map__controls__right"}`}>
@@ -80,3 +80,4 @@ const Dropdown = (props) => {
 
 Dropdown.defaultProps = {content: [], title: "sus", image: "sus"};
 export default Dropdown;
+
