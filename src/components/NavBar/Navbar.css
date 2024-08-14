@@ -82,3 +82,14 @@
         display: block;
     }
 }
+
+@media screen and (max-height: 600px) {
+    .nav-link p {
+        font-size: 1.5rem;
+    }
+    .nav-bar__active {
+        padding: 0 1rem;
+        height: 4rem;
+        border-width: 0.5rem;
+    }
+}
