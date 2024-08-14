@@ -72,18 +72,6 @@ export const clubInfo = {
       "image": require("../../../assets/ClubLogos/bluesky.png"),
       "categories": ["Design Team"]
     },
-    "University of Toronto's Wind Turbine Design Team (UTWind)": {
-      "tips": [
-        "Club description: We are the University of Toronto’s only Wind Turbine Design team. Every year we build a sustainable small scaled wind turbine for the International Small Wind Turbine Competition. UTWind is divided into 5 sub-teams: Aerodynamics, Mech and Manufacturing, Control Systems, Power and Sustainability. Follow us on instagram @utwindclub to look out for opportunities to join our WINDerful team. Visit the UTWind website at https://www.utwind.com/",
-        "Meeting frequency: Weekly",
-        "Meeting length: 1-3 hours",
-        "Meeting method: Hybrid",
-        "Weekly commitment: <1 hour",
-        "Commuter notes: Meeting times depends on the individual sub-teams. Most sub-teams will have hybrid meeting options and meet on weekdays after 6pm. All in-person meetings take place in the Myhal Arena. Many sub-team leads are commuters so can understand the struggles and will be flexible."
-      ],
-      "image": require("../../../assets/ClubLogos/utwind.png"),
-      "categories": ["Design Team"]
-    },
     "University of Toronto Aerospace Team": {
       "tips": [
         "Club description: UTAT is an interdisciplinary student design team dedicated to pushing the bounds of Aerospace design. We have four divisions: Space Systems, Rocketry, Unmanned Aerial Systems (UAS), and Aerospace Policy and Law. Space Systems develops small satellites, Rocketry launches high-altitude sounding rockets, UAS designs drones, and Aerospace Policy and Law publishes articles, research papers, and runs a podcast relating to all things aerospace. Our core mission is to foster leaders and innovators in Aerospace through ambitious projects, and encourage the community to pursue their passions in aerospace and engineering.",
@@ -94,6 +82,18 @@ export const clubInfo = {
         "Commuter notes: Meetings take place on the weekend (Sunday and Saturday depending on the division) on campus, usually Bahen or the Myhal arena. While some leads provide online meetings, the best way to experience the club is by coming in-person for hands-on work."
       ],
       "image": require("../../../assets/ClubLogos/utat.png"),
+      "categories": ["Design Team"]
+    },
+    "University of Toronto's Wind Turbine Design Team (UTWind)": {
+      "tips": [
+        "Club description: We are the University of Toronto’s only Wind Turbine Design team. Every year we build a sustainable small scaled wind turbine for the International Small Wind Turbine Competition. UTWind is divided into 5 sub-teams: Aerodynamics, Mech and Manufacturing, Control Systems, Power and Sustainability. Follow us on instagram @utwindclub to look out for opportunities to join our WINDerful team. Visit the UTWind website at https://www.utwind.com/",
+        "Meeting frequency: Weekly",
+        "Meeting length: 1-3 hours",
+        "Meeting method: Hybrid",
+        "Weekly commitment: <1 hour",
+        "Commuter notes: Meeting times depends on the individual sub-teams. Most sub-teams will have hybrid meeting options and meet on weekdays after 6pm. All in-person meetings take place in the Myhal Arena. Many sub-team leads are commuters so can understand the struggles and will be flexible."
+      ],
+      "image": require("../../../assets/ClubLogos/utwind.png"),
       "categories": ["Design Team"]
     },
     "Canadian Society for Chemical Engineering (CSChE UofT)": {
@@ -129,6 +129,18 @@ export const clubInfo = {
       "image": require("../../../assets/ClubLogos/sea.png"),
       "categories": ["Skule"]
     },
+    "Engineers Without Borders": {
+      "tips": [
+        "Club description: Engineers Without Borders is a club of like minded individuals hoping to inspire positive change in the U of T community and beyond!  We focus on issues in our community and connect them to issues around the globe through hands-on projects, learning, and advocacy.  You can get involved at any as a general member, or join a specific project in our Community, Technical, or Programs branches! Engineering is about more than just building cool stuff; it's about building a better future.",
+        "Meeting frequency: Flexible (once per week to several times per month)",
+        "Meeting length: 1-3 hours",
+        "Meeting method: Hybrid",
+        "Weekly commitment: 1-3 hours",
+        "Commuter notes: There are no strict meeting times. Meetings are flexible and will aim to take everyone's availabilities into account."
+      ],
+      "image": require("../../../assets/ClubLogos/ewb.png"),
+      "categories": ["Skule"]
+    },
     "EngSci Club": {
       "tips": [
         "Club description: EngSci Club is the official discipline club for all EngSci students. It consists of elected and appointed students who work to represent all EngSci students through Faculty advocacy, help strengthen the connection between EngSci and the rest of the engineering department, and work to bring the EngSci community together through fun events.",
@@ -151,18 +163,6 @@ export const clubInfo = {
       ],
       "image": require("../../../assets/ClubLogos/mse.png"),
       "categories": ["Discipline Club"]
-    },
-    "Engineers Without Borders": {
-      "tips": [
-        "Club description: Engineers Without Borders is a club of like minded individuals hoping to inspire positive change in the U of T community and beyond!  We focus on issues in our community and connect them to issues around the globe through hands-on projects, learning, and advocacy.  You can get involved at any as a general member, or join a specific project in our Community, Technical, or Programs branches! Engineering is about more than just building cool stuff; it's about building a better future.",
-        "Meeting frequency: Flexible (once per week to several times per month)",
-        "Meeting length: 1-3 hours",
-        "Meeting method: Hybrid",
-        "Weekly commitment: 1-3 hours",
-        "Commuter notes: There are no strict meeting times. Meetings are flexible and will aim to take everyone's availabilities into account."
-      ],
-      "image": require("../../../assets/ClubLogos/ewb.png"),
-      "categories": ["Skule"]
     },
     "Skule French-speaking Society": {
       "tips": [
