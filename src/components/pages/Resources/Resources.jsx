@@ -39,8 +39,8 @@ const transitMaps = {
   "TTC": {
     "image": require("../../../assets/images/ttc.png"),
     "maps": {
-      "TTC Subway and Streetcar": require("../../../assets/images/maps/ttc-subway-and-streetcar-map.png"),
-      "TTC System Map": require("../../../assets/images/maps/ttc-system-map.png")
+      "Subway and Streetcar": require("../../../assets/images/maps/ttc-subway-and-streetcar-map.png"),
+      "System Map": require("../../../assets/images/maps/ttc-system-map.png")
       },
     "link": 'https://www.ttc.ca/routes-and-schedules'
   },
@@ -55,31 +55,31 @@ const transitMaps = {
   "MiWay": {
     "image": require("../../../assets/images/miway.png"),
     "maps": {
-      "MiWay Weekday System Map": require("../../../assets/images/maps/miway-weekday-system-map.png"),
-      "MiWay Saturday System Map": require("../../../assets/images/maps/miway-saturday-system-map.png"),
-      "MiWay Sunday System Map": require("../../../assets/images/maps/miway-sunday-system-map.png")
+      "Weekday": require("../../../assets/images/maps/miway-weekday-system-map.png"),
+      "Saturday": require("../../../assets/images/maps/miway-saturday-system-map.png"),
+      "Sunday": require("../../../assets/images/maps/miway-sunday-system-map.png")
       },
     "link": 'https://www.mississauga.ca/miway-transit/maps'
   },
   "YRT": {
     "image": require("../../../assets/images/yrt.png"),
     "maps": {
-      "YRT System Map": require("../../../assets/images/maps/yrt-system-map.png"),
-      "YRT Viva Map": require("../../../assets/images/maps/yrt-viva-map.png")
+      "System Map": require("../../../assets/images/maps/yrt-system-map.png"),
+      "Viva Map": require("../../../assets/images/maps/yrt-viva-map.png")
       },
     "link": 'https://www.yrt.ca/en/schedules-and-maps/maps.aspx'
   },
   "Oakville Transit": {
     "image": require("../../../assets/images/oakville-transit.png"),
     "maps": {
-      "Oakville Transit System Map": require("../../../assets/images/maps/oakville-transit-system-map.png")
+      "System Map": require("../../../assets/images/maps/oakville-transit-system-map.png")
       },
     "link": 'https://www.oakvilletransit.ca/schedules-maps/'
   },
   "Durham Transit": {
     "image": require("../../../assets/images/durham-transit.png"),
     "maps": {
-      "Durham Transit System Map": require("../../../assets/images/maps/durham-transit-system-map.png")
+      "System Map": require("../../../assets/images/maps/durham-transit-system-map.png")
       },
     "link": 'https://www.durhamregiontransit.com/en/routes-and-schedules/system-maps.aspx'
   },
