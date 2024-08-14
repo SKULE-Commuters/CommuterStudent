@@ -32,6 +32,7 @@ export const clubInfo = {
         "Weekly commitment: <1 hour",
         "Commuter notes: We try to accommodate commuters by offering virtual/hybrid meetings so students do not need to stay late on campus or come on weekends!"
       ],
+      "image": require("../../../assets/ClubLogos/sea.png"),
       "categories": ["Skule"]
     },
     "Skule French-speaking Society": {
@@ -321,6 +322,17 @@ export const clubInfo = {
         "Commuter notes: Depending on activities being conducted (especially if antennas are involved), in-person meetings may be off-campus. Online meetings will be timed to include as many attendees as possible."
       ],
       "image": require("../../../assets/ClubLogos/utars.png")
+    },
+    "University of Toronto Nuclear Energy Association": {
+      "tips": [
+        "Club description: The UofT Nuclear Energy Association’s (UTNEA) mission is to spark student interest in all aspects of nuclear energy. We seek to host events such as lectures, colloquiums, trips, and workshops where students can learn about current developments and contemporary issues in nuclear energy from research and industry professionals.",
+        "Meeting frequency: Weekly",
+        "Meeting length: <1 hour",
+        "Meeting method: Remote",
+        "Weekly commitment: <1 hour",
+        "Commuter notes: Meetings typically occur for executives to discuss event planning and members typically don't attend but events occur on campus typically around 7PM and all day events occur on weekends."
+      ],
+      "image": require("../../../assets/ClubLogos/utnea.png")
     },
     // "": {
     //   "tips": [
