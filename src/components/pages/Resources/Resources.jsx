@@ -109,7 +109,7 @@ const Resources = () => {
 
         <h1>Transit Maps</h1>
         <p>View various maps from regional transit agencies to help you navigate your commute.<br/>
-        Zoom in and pan the maps to get a better view. Click the agency name to view maps on their webistes.</p>
+        Zoom in and pan the maps to get a better view. Click the agency name to view maps on their website.</p>
         
         {/* Render each transit agency with their respective maps */}
         {transitMapAgencies.map((agency) => {
