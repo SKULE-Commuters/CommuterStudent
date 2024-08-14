@@ -309,6 +309,17 @@ export const clubInfo = {
       "image": require("../../../assets/ClubLogos/skuleski.png"),
       "categories": ["Skule"]
     },
+    "University of Toronto Amateur Radio Society": {
+      "tips": [
+        "Club description: The University of Toronto Amateur Radio Society (UTARS), first established before WWII, aims to develop its members’ technical and professional skills through the art and science of amateur radio. UTARS focuses on antenna design, radio construction, and digital radio, in order to make contacts with radio amateurs in technically challenging ways, and participate in amateur radio contests; and in the process, strives to educate its members about amateur radio, including potentially assisting them in acquiring their Amateur Radio Operator Certificate. Visit our LinkTree at https://linktr.ee/ve3uot.",
+        "Meeting frequency: Per month: 1-2x in person, for 2h each, and 2-4x online, for 1h each",
+        "Meeting length: 1-3 hours",
+        "Meeting method: Hybrid",
+        "Weekly commitment: 1-3 hours",
+        "Commuter notes: Depending on activities being conducted (especially if antennas are involved), in-person meetings may be off-campus. Online meetings will be timed to include as many attendees as possible."
+      ],
+      "image": require("../../../assets/ClubLogos/utars.png")
+    },
     // "": {
     //   "tips": [
     //     "Club description: ",
