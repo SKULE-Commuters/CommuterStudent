@@ -34,58 +34,75 @@ const tips = {
     "image": require("../../../assets/images/misc.png")
   },
 }
-/*
+
+const transitAgencies = [
+  { name: 'TTC', link: 'https://www.ttc.ca/routes-and-schedules'},
+  { name: 'GO Transit', link: 'https://www.gotransit.com/en/system-map', searchTerm: 'GO' },
+  { name: 'MiWay', link: 'https://www.mississauga.ca/miway-transit/maps'},
+  { name: 'YRT', link: 'https://www.yrt.ca/en/schedules-and-maps/maps.aspx'},
+  { name: 'Oakville Transit', link: 'https://www.oakvilletransit.ca/schedules-maps/'},
+  { name: 'Durham Transit', link: 'https://www.durhamregiontransit.com/en/routes-and-schedules/system-maps.aspx'},
+];
+
 const transitMaps = {
   "TTC Subway and Streetcar": {
-    "link": "https://www.ttc.ca/routes-and-schedules",
     "image": require("../../../assets/images/ttc.png"),
     "map": require("../../../assets/images/maps/ttc-subway-and-streetcar-map.png")
   },
   "TTC System Map": {
-    "link": "https://www.ttc.ca/routes-and-schedules",
     "image": require("../../../assets/images/ttc.png"),
     "map": require("../../../assets/images/maps/ttc-system-map.png")
   },
   "GO Train": {
-    "link": "https://www.gotransit.com/en/system-map",
     "image": require("../../../assets/images/go-train.png"),
     "map": require("../../../assets/images/maps/go-train-map.png")
   },
   "GO Bus": {
-    "link": "https://www.gotransit.com/en/system-map",
     "image": require("../../../assets/images/go-train.png"),
     "map": require("../../../assets/images/maps/go-bus-map.png")
   },
   "GO Transit System Map": {
-    "link": "https://www.gotransit.com/en/system-map",
     "image": require("../../../assets/images/go-train.png"),
     "map": require("../../../assets/images/maps/go-transit-system-map.png")
   },
-  "MiWay": {
-    "link": "https://www.mississauga.ca/miway-transit/maps/",
+  "MiWay Weekday System Map": {
     "image": require("../../../assets/images/miway.png"),
-    "map": require("../../../assets/images/maps/miway-map.png")
+    "map": require("../../../assets/images/maps/miway-weekday-system-map.png")
   },
-  "YRT": {
-    "link": "https://www.yrt.ca/en/schedules-and-maps/maps.aspx",
+  "MiWay Saturday System Map": {
+    "image": require("../../../assets/images/miway.png"),
+    "map": require("../../../assets/images/maps/miway-saturday-system-map.png")
+  },
+  "MiWay Sunday System Map": {
+    "image": require("../../../assets/images/miway.png"),
+    "map": require("../../../assets/images/maps/miway-sunday-system-map.png")
+  },
+  "YRT System Map": {
     "image": require("../../../assets/images/yrt.png"),
-    "map": require("../../../assets/images/maps/yrt-map.png")
+    "map": require("../../../assets/images/maps/yrt-system-map.png")
   },
-  "Durham Transit": {
-    "link": "https://www.durhamregiontransit.com/en/routes-and-schedules/system-maps.aspx",
+  "YRT Viva Map": {
+    "image": require("../../../assets/images/yrt.png"),
+    "map": require("../../../assets/images/maps/yrt-viva-map.png")
+  },
+  "Oakville Transit System Map": {
+    "image": require("../../../assets/images/oakville-transit.png"),
+    "map": require("../../../assets/images/maps/oakville-transit-system-map.png")
+  },
+  "Durham Transit System Map": {
     "image": require("../../../assets/images/durham-transit.png"),
-    "map": require("../../../assets/images/maps/durham-transit-map.png")
+    "map": require("../../../assets/images/maps/durham-transit-system-map.png")
   },
 }
-*/
 
 const tipKeys = Object.keys(tips);
-// const transitMapKeys = Object.keys(transitMaps);
+const transitMapKeys = Object.keys(transitMaps);
 
 const Resources = () => {
   return (
     <Background>
       <div id="resources" className="resources">
+
         <h1>Commuter Tips</h1><br/>
         <Dropdowns>
           {tipKeys.map((key) => {
@@ -101,10 +118,21 @@ const Resources = () => {
         <hr/>
 
         <h1>Transit Maps</h1>
-        <p>View various maps from regional transit agencies to help you navigate your commute.</p>
-        {/* {transitMapKeys.map((key) => {
+        <p>View various maps from regional transit agencies to help you navigate your commute.<br/>
+        Zoom in and pan the maps to get a better view. Click the agency name to view maps on their webistes.</p>
+        
+        {/* Render each transit agency with their respective maps */}
+        {transitAgencies.map((agency) => (
+          <div key={agency.name} style={{marginTop: "0.5rem", marginBottom: "0.5rem"}}>
+            <h2><a href={agency.link}>{agency.name}</a></h2>
+            <Dropdowns>
+              {transitMapKeys.filter(key => key.includes(agency.searchTerm || agency.name)).map((key) => (
+                <Dropdown key={key} title={key} image={transitMaps[key].image} map={transitMaps[key].map} />
+              ))}
+            </Dropdowns>
+          </div>
+        ))}
 
-        })} */}
         <hr/>
 
         <h1>Mental Health</h1>

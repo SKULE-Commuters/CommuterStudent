@@ -1,7 +1,7 @@
 import './Dropdown.css';
 import { Caret } from '../../assets';
 import { useState } from 'react';
-
+import { TransformWrapper, TransformComponent } from 'react-zoom-pan-pinch';
 
 const Dropdown = (props) => {
     const [isOpen, setIsOpen] = useState(false);
@@ -21,7 +21,8 @@ const Dropdown = (props) => {
         return item;
     };
 
-    const isClubDropdown = props.content[0].slice(0, 16) === "Club description"
+    const isMapDropdown = props.map !== undefined;
+    const isClubDropdown = !isMapDropdown && props.content[0].slice(0, 16) === "Club description"
 
     return (
         <div className="dropdown">
@@ -43,11 +44,19 @@ const Dropdown = (props) => {
                 </div>
             </div>
             <div className={`dropdown__content ${(isOpen ? "open-ul" : "closed-ul")}`}>
-                <ul>
-                    {props.content.map((item, index) => (
-                            <li key={index} className="dropdown__content__item" dangerouslySetInnerHTML={{__html: formatItem(item)}}></li>
-                    ))}
-                </ul>
+                {isMapDropdown ?
+                    <TransformWrapper>
+                        <TransformComponent>
+                            <img src={props.map} alt={props.title} className="dropdown__map" />
+                        </TransformComponent>
+                    </TransformWrapper>
+                    :
+                    <ul>
+                        {props.content.map((item, index) => (
+                                <li key={index} className="dropdown__content__item" dangerouslySetInnerHTML={{__html: formatItem(item)}}></li>
+                        ))}
+                    </ul>
+                }
             </div>
         </div>
     )
