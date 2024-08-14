@@ -1,10 +1,13 @@
 import './Dropdown.css';
 import { Caret } from '../../assets';
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { TransformWrapper, TransformComponent } from 'react-zoom-pan-pinch';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSearchPlus, faSearchMinus, faTimes, faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 const Dropdown = (props) => {
     const [isOpen, setIsOpen] = useState(false);
+    const [controlsOnLeft, setControlsOnLeft] = useState(false);
 
     const handleToggle = () => {
         setIsOpen(!isOpen);
@@ -46,9 +49,21 @@ const Dropdown = (props) => {
             <div className={`dropdown__content ${(isOpen ? "open-ul" : "closed-ul")}`}>
                 {isMapDropdown ?
                     <TransformWrapper>
-                        <TransformComponent>
-                            <img src={props.map} alt={props.title} className="dropdown__map" />
-                        </TransformComponent>
+                        {({ zoomIn, zoomOut, resetTransform }) => (
+                            <React.Fragment>
+                                <div className={`dropdown__map__controls ${controlsOnLeft ? "dropdown__map__controls__left" : "dropdown__map__controls__right"}`}>
+                                <button onClick={() => zoomIn()}><FontAwesomeIcon icon={faSearchPlus} size="lg" /></button>
+                                    <button onClick={() => zoomOut()}><FontAwesomeIcon icon={faSearchMinus} size="lg" /></button>
+                                    <button onClick={() => resetTransform()}><FontAwesomeIcon icon={faTimes} size="lg" /></button>
+                                    <button onClick={() => setControlsOnLeft(!controlsOnLeft)}>
+                                        <FontAwesomeIcon icon={controlsOnLeft ? faArrowRight : faArrowLeft} size="lg" />
+                                    </button>
+                                </div>
+                                <TransformComponent>
+                                    <img src={props.map} alt={props.title} className="dropdown__map" />
+                                </TransformComponent>
+                            </React.Fragment>
+                        )}
                     </TransformWrapper>
                     :
                     <ul>

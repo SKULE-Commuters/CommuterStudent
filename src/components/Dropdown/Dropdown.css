@@ -58,6 +58,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    position: relative; /* To allow for absolute positioning of the map controls */
 }
 
 .dropdown__content ul {
@@ -84,6 +85,40 @@
 
 .dropdown__map {
     width: 100%;
+}
+
+.dropdown__map__controls {
+    position: absolute;
+    top: 0.5rem;
+    z-index: 10;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown__map__controls button {
+    color: white;
+    opacity: 0.9;
+    border: none;
+    background: hsl(230, 28%, 45%, 0.9);
+    border-radius: 50%;
+    margin: 0.1rem;
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.dropdown__map__controls__left {
+    left: 0.5rem;
+}
+.dropdown__map__controls__right {
+    right: 0.5rem;
 }
 
 /* Mobile breakpoints */
