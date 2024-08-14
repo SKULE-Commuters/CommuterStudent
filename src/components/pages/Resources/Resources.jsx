@@ -61,10 +61,6 @@ const transitMaps = {
     "image": require("../../../assets/images/go-train.png"),
     "map": require("../../../assets/images/maps/go-bus-map.png")
   },
-  "GO Transit System Map": {
-    "image": require("../../../assets/images/go-train.png"),
-    "map": require("../../../assets/images/maps/go-transit-system-map.png")
-  },
   "MiWay Weekday System Map": {
     "image": require("../../../assets/images/miway.png"),
     "map": require("../../../assets/images/maps/miway-weekday-system-map.png")
