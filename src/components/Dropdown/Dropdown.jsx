@@ -52,11 +52,11 @@ const Dropdown = (props) => {
                         {({ zoomIn, zoomOut, resetTransform }) => (
                             <React.Fragment>
                                 <div className={`dropdown__map__controls ${controlsOnLeft ? "dropdown__map__controls__left" : "dropdown__map__controls__right"}`}>
-                                <button onClick={() => zoomIn()}><FontAwesomeIcon icon={faSearchPlus} size="lg" /></button>
-                                    <button onClick={() => zoomOut()}><FontAwesomeIcon icon={faSearchMinus} size="lg" /></button>
-                                    <button onClick={() => resetTransform()}><FontAwesomeIcon icon={faTimes} size="lg" /></button>
+                                <button onClick={() => zoomIn()}><FontAwesomeIcon icon={faSearchPlus}/></button>
+                                    <button onClick={() => zoomOut()}><FontAwesomeIcon icon={faSearchMinus}/></button>
+                                    <button onClick={() => resetTransform()}><FontAwesomeIcon icon={faTimes}/></button>
                                     <button onClick={() => setControlsOnLeft(!controlsOnLeft)}>
-                                        <FontAwesomeIcon icon={controlsOnLeft ? faArrowRight : faArrowLeft} size="lg" />
+                                        <FontAwesomeIcon icon={controlsOnLeft ? faArrowRight : faArrowLeft}/>
                                     </button>
                                 </div>
                                 <TransformComponent>
