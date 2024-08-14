@@ -56,7 +56,7 @@
 .filter__options input[type="text"] {
     width: 100%;
     padding: 0.5rem;
-    margin: 0.5rem 0;
+    margin: 0 0 0.5rem 0;
     box-sizing: border-box;
     border-radius: 0.5rem;
     border: 1px solid #24347b;
