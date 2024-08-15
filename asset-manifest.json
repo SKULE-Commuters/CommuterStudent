@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CommuterStudent/static/css/main.7955dc37.css",
-    "main.js": "/CommuterStudent/static/js/main.46daa829.js",
+    "main.js": "/CommuterStudent/static/js/main.d737ed76.js",
     "static/media/durham-transit-system-map.png": "/CommuterStudent/static/media/durham-transit-system-map.debfdc564aac2f1a8815.png",
     "static/media/yrt-system-map.png": "/CommuterStudent/static/media/yrt-system-map.ea6d461e992311ad599e.png",
     "static/media/go-bus-map.png": "/CommuterStudent/static/media/go-bus-map.b4a5297c3f85fad3f206.png",
@@ -39,6 +39,7 @@
     "static/media/DMSans-Bold.ttf": "/CommuterStudent/static/media/DMSans-Bold.c423ce2dc1d85bc50799.ttf",
     "static/media/DMSans-Medium.ttf": "/CommuterStudent/static/media/DMSans-Medium.150680530af9dd9fd00b.ttf",
     "static/media/utnea.png": "/CommuterStudent/static/media/utnea.b5821c9784a3ec784666.png",
+    "static/media/utfolds.png": "/CommuterStudent/static/media/utfolds.fe31d267059c4a8c428f.png",
     "static/media/ttc.png": "/CommuterStudent/static/media/ttc.1ea48f1932c9f53e1e58.png",
     "static/media/durham-transit.png": "/CommuterStudent/static/media/durham-transit.cb2a8447fe682a4258c6.png",
     "static/media/csche.png": "/CommuterStudent/static/media/csche.e99923d8725a22cbc943.png",
@@ -68,10 +69,10 @@
     "index.html": "/CommuterStudent/index.html",
     "static/media/chevron-down-solid.svg": "/CommuterStudent/static/media/chevron-down-solid.e0673e6c85e7fa989d4c702cd9f7e998.svg",
     "main.7955dc37.css.map": "/CommuterStudent/static/css/main.7955dc37.css.map",
-    "main.46daa829.js.map": "/CommuterStudent/static/js/main.46daa829.js.map"
+    "main.d737ed76.js.map": "/CommuterStudent/static/js/main.d737ed76.js.map"
   },
   "entrypoints": [
     "static/css/main.7955dc37.css",
-    "static/js/main.46daa829.js"
+    "static/js/main.d737ed76.js"
   ]
 }
