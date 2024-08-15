@@ -335,6 +335,17 @@ export const clubInfo = {
       ],
       "image": require("../../../assets/ClubLogos/utnea.png")
     },
+    "Fly with Origami, Learn to Dream Students (UTFOLDs)": {
+      "tips": [
+        "Club description: UTFOLDs hosts workshops in order to increase the appreciation for the art of paperfolding and to help others hone their origami skills. Our workshops feature origami models of various difficulties from a variety of themes, such as animals, holidays, practical origami, and modular origami. Every workshop requires no experience, and is completely free, so feel free to drop-in anytime!",
+        "Meeting frequency: Weekly",
+        "Meeting length: 1-3 hours",
+        "Meeting method: In-person",
+        "Weekly commitment: 1-3 hours",
+        "Commuter notes: Our workshops are generally two hours long every week, but you can drop in/leave at any point during the session. We host workshops on weekday evenings, but most sessions finish before 7/8 pm."
+      ],
+      "image": require("../../../assets/ClubLogos/utfolds.png")
+    },
     // "": {
     //   "tips": [
     //     "Club description: ",
