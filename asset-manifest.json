@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CommuterStudent/static/css/main.7955dc37.css",
-    "main.js": "/CommuterStudent/static/js/main.d737ed76.js",
+    "main.js": "/CommuterStudent/static/js/main.ea483b44.js",
     "static/media/durham-transit-system-map.png": "/CommuterStudent/static/media/durham-transit-system-map.debfdc564aac2f1a8815.png",
     "static/media/yrt-system-map.png": "/CommuterStudent/static/media/yrt-system-map.ea6d461e992311ad599e.png",
     "static/media/go-bus-map.png": "/CommuterStudent/static/media/go-bus-map.b4a5297c3f85fad3f206.png",
@@ -29,12 +29,14 @@
     "static/media/utcv.png": "/CommuterStudent/static/media/utcv.3c8d66bb613eab37c8f2.png",
     "static/media/commuterBusBanner.png": "/CommuterStudent/static/media/commuterBusBanner.b22203efeba4d0a4bf27.png",
     "static/media/Eshaa.jpg": "/CommuterStudent/static/media/Eshaa.91136c8928d862c3080e.jpg",
+    "static/media/tsa.png": "/CommuterStudent/static/media/tsa.99b83385975904480dbe.png",
     "static/media/utwind.png": "/CommuterStudent/static/media/utwind.f9ef6d12b7c379948a79.png",
     "static/media/tbog.png": "/CommuterStudent/static/media/tbog.8655065b0035fed8f9d5.png",
     "static/media/csce.png": "/CommuterStudent/static/media/csce.338111a2f14122631006.png",
     "static/media/commuter.png": "/CommuterStudent/static/media/commuter.df178bee0655a4834167.png",
     "static/media/lesa.png": "/CommuterStudent/static/media/lesa.b587c0273ef40cc0f486.png",
     "static/media/bsa.png": "/CommuterStudent/static/media/bsa.cbc2e8d36df789838faa.png",
+    "static/media/utsm.png": "/CommuterStudent/static/media/utsm.7cf12eeb7a64f64e299a.png",
     "static/media/DMSans-Regular.ttf": "/CommuterStudent/static/media/DMSans-Regular.4ee96395e07a04577aab.ttf",
     "static/media/DMSans-Bold.ttf": "/CommuterStudent/static/media/DMSans-Bold.c423ce2dc1d85bc50799.ttf",
     "static/media/DMSans-Medium.ttf": "/CommuterStudent/static/media/DMSans-Medium.150680530af9dd9fd00b.ttf",
@@ -69,10 +71,10 @@
     "index.html": "/CommuterStudent/index.html",
     "static/media/chevron-down-solid.svg": "/CommuterStudent/static/media/chevron-down-solid.e0673e6c85e7fa989d4c702cd9f7e998.svg",
     "main.7955dc37.css.map": "/CommuterStudent/static/css/main.7955dc37.css.map",
-    "main.d737ed76.js.map": "/CommuterStudent/static/js/main.d737ed76.js.map"
+    "main.ea483b44.js.map": "/CommuterStudent/static/js/main.ea483b44.js.map"
   },
   "entrypoints": [
     "static/css/main.7955dc37.css",
-    "static/js/main.d737ed76.js"
+    "static/js/main.ea483b44.js"
   ]
 }
