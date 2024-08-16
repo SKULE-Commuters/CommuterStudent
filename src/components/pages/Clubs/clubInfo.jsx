@@ -36,14 +36,14 @@ export const clubInfo = {
       "categories": ["Design Team"]
     },
 
-    "University of Toronto Supermilage (UTSM)": {
+    "University of Toronto Supermilage": {
       "tips": [
-        "Club description: We're a club that builds cars to focus on energy efficiency. We build 2 cars: a battery electric prototype car to push the limits of energy efficiency, and a hydrogen urban concept car to demonstrate the possibility of real world energy efficiency.",
-        "Meeting frequency: 2-3 times/week",
+        "Club description: University of Toronto Supermileage is a group of dedicated students committed to the design and fabrication of hyper-fuel efficient vehicles. We are currently working on a Prototype class Battery Electric Vehicle and an Urban Concept class Hydrogen Fuel Cell vehicle. Our team competes annually in the Shell Eco Marathon Americas competition. Welcome to all students, more information is on our website utsm.ca !",
+        "Meeting frequency: 2 times/week",
         "Meeting length: 1-3 hours",
-        "Meeting method: In-person",
+        "Meeting method: Hybrid",
         "Weekly commitment: 3-5 hours",
-        "Commuter notes: Meetings occur Wednesday night but the bulk of our meetings happen on weekends because we need longer stints continuously to execute some of our activities. All meetings happen either at Myhal or 256 McCaul St. We'd love to have you attend our kickoff meeting on Sep 11th, 2024"
+        "Commuter notes: Depending on what division and vehicle class you join, some electrical and design meetings will be online. At least 1 meeting per week will be on the weekend. We always meet in Myhal Arena or 255 McCaul St."
       ],
       "image": require("../../../assets/ClubLogos/utsm.png"),
       "categories": ["Design Team"]
@@ -345,6 +345,17 @@ export const clubInfo = {
         "Commuter notes: Our workshops are generally two hours long every week, but you can drop in/leave at any point during the session. We host workshops on weekday evenings, but most sessions finish before 7/8 pm."
       ],
       "image": require("../../../assets/ClubLogos/utfolds.png")
+    },
+    "Tamil Students' Association": {
+      "tips": [
+        "Club description: The UTSG Tamil Students’ Association serves as a forum where Tamil students, and students affiliated with the Tamil language, culture and heritage, can come together to organize and participate in various events and projects. Whilst, the goal of the TSA is to promote Tamil culture and language within the U of T Community, it also aims to provide opportunities to bring both Tamils and non-Tamils together. For more info please check out our IG page @utsgtsa",
+        "Meeting frequency: Monthly",
+        "Meeting length: <1 hour",
+        "Meeting method: Hybrid",
+        "Weekly commitment: <1 hour",
+        "Commuter notes: Meetings are held on-campus with the option of attending virtually as required. Meetings are held on a monthly basis."
+      ],
+      "image": require("../../../assets/ClubLogos/tsa.png")
     },
     // "": {
     //   "tips": [
