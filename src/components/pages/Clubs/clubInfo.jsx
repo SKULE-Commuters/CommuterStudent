@@ -302,6 +302,30 @@ export const clubInfo = {
       ],
       "image": require("../../../assets/ClubLogos/tmi.png")
     },
+    "Interplanetary Space Exploration Team": {
+      "tips": [
+        "Club description: Are you passionate about pushing the boundaries of design and innovation? Join us to create groundbreaking solutions for the future of space travel! This school year, ISET will be participating in the Space Station Innovation Challenge, designing an innovative technology that can be used in space stations.",
+        "Meeting frequency: Weekly",
+        "Meeting length: 1-3 hours",
+        "Meeting method: Hybrid",
+        "Weekly commitment: 1-3 hours",
+        "Commuter notes: During the winter term, meeting times may vary and occur during the weekend as we participate in the Space Station Challenge. We will do our best to accomodate anyone commuting and offer hybrid options if we can."
+      ],
+      "image": require("../../../assets/ClubLogos/iset.png"),
+      "categories": ["Design Team"]
+    },
+    "Neurotech UofT": {
+      "tips": [
+        "Club description: Neurotech UofT is a leading student-run design team at the University of Toronto, dedicated to pioneering advancements in neurotechnology. We focus on developing innovative projects, collaborating with industry leaders, and providing students with hands-on experience in cutting-edge research and development. Our mission is to push the boundaries of what’s possible in neurotech and make a lasting impact in the field.",
+        "Meeting frequency: Weekly",
+        "Meeting length: 1-3 hours",
+        "Meeting method: Hybrid",
+        "Weekly commitment: 3-5 hours",
+        "Commuter notes: Neurotech UofT is committed to inclusivity and ensures that all members, including those commuting, can participate fully. We welcome online attendance for meetings to accommodate different schedules and locations."
+      ],
+      "image": require("../../../assets/ClubLogos/neurotech.png"),
+      "categories": ["Design Team"]
+    },
     "University of Toronto Outing Club (UTOC)": {
       "tips": [
         "Club description: The University of Toronto Outing Club is a non-profit organization committed to making the outdoors accessible to students of the University of Toronto and GTA. As a club, we facilitate trips around Ontario, provide rental gear to students interested in planning their own outdoor adventures, and aim to create a welcoming environment where members with similar hobbies can connect! Throughout the school year, we regularly run weekend cabin trips that serve as a great way to get out of the city, destress from school, and make great memories with peers.",
@@ -367,18 +391,6 @@ export const clubInfo = {
         "Commuter notes: Meetings are held on-campus with the option of attending virtually as required. Meetings are held on a monthly basis."
       ],
       "image": require("../../../assets/ClubLogos/tsa.png")
-    },
-    "Neurotech UofT": {
-      "tips": [
-        "Club description: Neurotech UofT is a leading student-run design team at the University of Toronto, dedicated to pioneering advancements in neurotechnology. We focus on developing innovative projects, collaborating with industry leaders, and providing students with hands-on experience in cutting-edge research and development. Our mission is to push the boundaries of what’s possible in neurotech and make a lasting impact in the field.",
-        "Meeting frequency: Weekly",
-        "Meeting length: 1-3 hours",
-        "Meeting method: Hybrid",
-        "Weekly commitment: 3-5 hours",
-        "Commuter notes: Neurotech UofT is committed to inclusivity and ensures that all members, including those commuting, can participate fully. We welcome online attendance for meetings to accommodate different schedules and locations."
-      ],
-      "image": require("../../../assets/ClubLogos/neurotech.png"),
-      "categories": ["Design Team"]
     },
     // "": {
     //   "tips": [
