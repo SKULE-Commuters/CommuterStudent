@@ -1,11 +1,10 @@
 import './App.css';
-import { BrowserRouter as Router } from "react-router-dom";
 // import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { NavBar, Home, AboutUs, Resources, Clubs, Footer } from './imports';
 
 function App() {
   return (
-    <Router>
+    <>
       <div className="navbar-spacer" />
       <NavBar />
       <Home />
@@ -13,7 +12,7 @@ function App() {
       <Resources />
       <Clubs />
       <Footer />
-    </Router>
+    </>
   );
 }
 
