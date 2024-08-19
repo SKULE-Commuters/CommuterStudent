@@ -2,7 +2,7 @@
   "name": "commuter-students-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://SKULE-Commuters.github.io/CommuterStudent",
+  "homepage": ".",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
