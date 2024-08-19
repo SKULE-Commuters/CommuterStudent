@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CommuterStudent/static/css/main.7955dc37.css",
-    "main.js": "/CommuterStudent/static/js/main.1fc8bdd6.js",
+    "main.js": "/CommuterStudent/static/js/main.0e50e141.js",
     "static/media/durham-transit-system-map.png": "/CommuterStudent/static/media/durham-transit-system-map.debfdc564aac2f1a8815.png",
     "static/media/yrt-system-map.png": "/CommuterStudent/static/media/yrt-system-map.ea6d461e992311ad599e.png",
     "static/media/go-bus-map.png": "/CommuterStudent/static/media/go-bus-map.b4a5297c3f85fad3f206.png",
@@ -73,10 +73,10 @@
     "index.html": "/CommuterStudent/index.html",
     "static/media/chevron-down-solid.svg": "/CommuterStudent/static/media/chevron-down-solid.e0673e6c85e7fa989d4c702cd9f7e998.svg",
     "main.7955dc37.css.map": "/CommuterStudent/static/css/main.7955dc37.css.map",
-    "main.1fc8bdd6.js.map": "/CommuterStudent/static/js/main.1fc8bdd6.js.map"
+    "main.0e50e141.js.map": "/CommuterStudent/static/js/main.0e50e141.js.map"
   },
   "entrypoints": [
     "static/css/main.7955dc37.css",
-    "static/js/main.1fc8bdd6.js"
+    "static/js/main.0e50e141.js"
   ]
 }
