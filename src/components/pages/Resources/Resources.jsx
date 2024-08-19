@@ -128,7 +128,7 @@ const Resources = () => {
         <hr/>
 
         <h1>Mental Health</h1>
-        <p style={{ textWrap: "balance"}}>Caring for your mental-well being can be tough, especially with a long commute. <a href="https://mentalhealth.utoronto.ca/">UofT provides resources</a> that can help you get back on track!</p>
+        <p style={{ textWrap: "balance"}}>Caring for your mental-well being can be tough, especially with long commutes. <a href="https://mentalhealth.utoronto.ca/">UofT provides resources</a> along with <a href="https://wellness.skule.ca/">Skule Mental Wellness</a>, helping you get back on track!</p>
 
         <hr/>
 
