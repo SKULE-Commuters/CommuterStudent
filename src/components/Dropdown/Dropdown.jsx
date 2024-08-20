@@ -1,6 +1,6 @@
 import './Dropdown.css';
 import { Caret } from '../../assets';
-import { Fragment, useState } from 'react';
+import { Fragment, useState, lazy, Suspense } from 'react';
 import { TransformWrapper, TransformComponent } from 'react-zoom-pan-pinch';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearchPlus, faSearchMinus, faTimes, faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
@@ -8,6 +8,14 @@ import { faSearchPlus, faSearchMinus, faTimes, faArrowLeft, faArrowRight } from 
 const Dropdown = (props) => {
     const [isOpen, setIsOpen] = useState(false);
     const [controlsOnLeft, setControlsOnLeft] = useState(false);
+
+    const LazyMap = lazy(() =>
+        new Promise(resolve => {
+            resolve({
+                default: ({ src, alt, className }) => <img src={src} alt={alt} className={className} />
+            });
+        })
+    );
 
     const handleToggle = () => {
         setIsOpen(!isOpen);
@@ -60,7 +68,9 @@ const Dropdown = (props) => {
                                     </button>
                                 </div>
                                 <TransformComponent>
-                                    <img src={props.map} alt={props.title} className="dropdown__map" />
+                                    <Suspense fallback={<div style={{ maxWidth: "100%", width: "100%" }} />}>
+                                        <LazyMap src={props.map} alt={props.title} className="dropdown__map" />
+                                    </Suspense>
                                 </TransformComponent>
                             </Fragment>
                         )}
