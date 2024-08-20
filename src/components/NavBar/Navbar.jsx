@@ -39,7 +39,7 @@ const NavBar = () => {
     };
     
     return (
-        <div className = {displayNav || sideBarOn ? "nav-bar__active" : "nav-bar"} onClick={e => {
+        <div className = {`nav-bar ${displayNav || sideBarOn ? "nav-bar__active" : ""}`} onClick={e => {
             e.stopPropagation(); 
             dispatch(setSideBar(false));
         }}>

@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import './Clubs.css';
 import Dropdown from '../../Dropdown/Dropdown';
 import Dropdowns from '../../Dropdown/Dropdowns';
 import FilterDropdown from '../../Dropdown/FilterDropdown';

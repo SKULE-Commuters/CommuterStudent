@@ -60,6 +60,7 @@ code {
   display: flex;
   flex-direction: column;
   box-shadow: 0.75rem 0.75rem 0 rgba(0, 0, 0, 0.3);
+  align-items: center;
 }
 
 @media screen and (max-width: 1000px){

@@ -12,8 +12,6 @@
     box-sizing: border-box;
     padding: 5rem;
 
-    z-index: 0;
-
     overflow: hidden;
 }
 
@@ -23,7 +21,6 @@
 
 .home-banner__img img {
     width: 100%;
-    z-index: 1;
 }
 
 .home-banner__img:hover {
