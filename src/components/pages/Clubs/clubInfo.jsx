@@ -392,6 +392,17 @@ export const clubInfo = {
       ],
       "image": require("../../../assets/ClubLogos/tsa.png")
     },
+    "Women In Science and Engineering": {
+      "tips": [
+        "Club description: We are the the Women in Science and Engineering (WISE) - UofT Chapter. WISE was established in 1999 to support cis/trans women in STEM fields (including 2-spirit and non-binary folks comfortable in women-centered spaces). Currently, we are one of the largest and highly-regarded campus organizations at UofT, with over 700 members. We host sponsored events, networking sessions and ultimately aim to empower students to achieve their full potential as engineers, entrepreneurs, scientists, and leaders. Our goal is to celebrate the achievements of women in STEM fields and dispel myths surrounding women in STEM. Although our goal is focused on women, we ultimately hope to promote a sense of empowerment and confidence in all UofT students to reach their goals and explore new or intimidating opportunities. To you, the F!rosh reading this, we wanted to say we’re proud of you for taking this step and exploring the interesting and complicated field of engineering. We wish you good luck this year, and we are always here if you need us! Come by any of our events for career advice, networking, or anything else you need.",
+        "Meeting frequency: Biweekly",
+        "Meeting length: 1-3 hours",
+        "Meeting method: Hybrid",
+        "Weekly commitment: 1-3 hours",
+        "Commuter notes: Most of our events take place at the UTSG but we also have virtual professional development events and hybrid meeting options for commuters."
+      ],
+      "image": require("../../../assets/ClubLogos/wise.png")
+    },
     // "": {
     //   "tips": [
     //     "Club description: ",
