@@ -1,6 +1,6 @@
 import './Dropdown.css';
 import { Caret } from '../../assets';
-import React, { useState } from 'react';
+import { Fragment, useState } from 'react';
 import { TransformWrapper, TransformComponent } from 'react-zoom-pan-pinch';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearchPlus, faSearchMinus, faTimes, faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
@@ -50,7 +50,7 @@ const Dropdown = (props) => {
                 {isMapDropdown ?
                     <TransformWrapper doubleClick = {{mode: "toggle"}} >
                         {({ zoomIn, zoomOut, resetTransform }) => (
-                            <React.Fragment>
+                            <Fragment>
                                 <div className={`dropdown__map__controls ${controlsOnLeft ? "dropdown__map__controls__left" : "dropdown__map__controls__right"}`}>
                                 <button onClick={() => zoomIn()}><FontAwesomeIcon icon={faSearchPlus}/></button>
                                     <button onClick={() => zoomOut()}><FontAwesomeIcon icon={faSearchMinus}/></button>
@@ -62,7 +62,7 @@ const Dropdown = (props) => {
                                 <TransformComponent>
                                     <img src={props.map} alt={props.title} className="dropdown__map" />
                                 </TransformComponent>
-                            </React.Fragment>
+                            </Fragment>
                         )}
                     </TransformWrapper>
                     :
