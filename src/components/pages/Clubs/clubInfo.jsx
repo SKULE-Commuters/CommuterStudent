@@ -212,6 +212,18 @@ export const clubInfo = {
       "image": require("../../../assets/ClubLogos/skuleski.png"),
       "categories": ["Skule"]
     },
+    "Iron Dragons": {
+      "tips": [
+        "Club description: The University of Toronto Engineering Iron Dragons is a co-ed dragon boat club, originating and representing the Faculty of Applied Science and Engineering. We provide students with a means to learn and compete in the sport of dragon boat, with recreational and competitive crews. We welcome students of all disciplines and experience to join the Iron Dragons family, whether it is to stay fit, try a new sport, or make friends!",
+        "Meeting frequency: 1-4 times/week",
+        "Meeting length: 1-3 hours",
+        "Meeting method: In-person",
+        "Weekly commitment: 3-5 hours",
+        "Commuter notes: Our team practices are usually Saturdays somewhere near campus. However, individual training can be carried out according to your own scheduling needs throughout the week at whatever gym you prefer to use! The 3-5 hour time commitment accounts for your individual training, but in-person team practices only happen once per week for ~ 1 hour."
+      ],
+      "image": require("../../../assets/ClubLogos/irondragons.png"),
+      "categories": ["Skule"]
+    },
     "The Cannon Magazine": {
       "tips": [
         "Club description: The Cannon is an arts and culture magazine, published once a semester. It is a space for engineering students who are passionate about writing, art, and journalism. All are welcome to contribute to the Cannon!",
