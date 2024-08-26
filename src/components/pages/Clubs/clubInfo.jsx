@@ -415,6 +415,17 @@ export const clubInfo = {
       ],
       "image": require("../../../assets/ClubLogos/wise.png")
     },
+    "Club for Undergraduate Biomedical Engineering (CUBE)": {
+      "tips": [
+        "Club description: Club for Undergraduate Biomedical Engineering (CUBE) is a student-run club that provides undergrad students with exposure to the biomedical engineering field. We host various events throughout the school year including speaker seminars, lab tours, lab workshops, and an annual biomedical engineering design “hackathon”!",
+        "Meeting frequency: Events run throughout the semester",
+        "Meeting length: 1-3 hours",
+        "Meeting method: In-person",
+        "Weekly commitment: <1 hour",
+        "Commuter notes: Events occur on weekday nights after class (usually 6pm). All events occur on campus. Our larger events like hackathons and conferences occur over weekends."
+      ],
+      "image": require("../../../assets/ClubLogos/cube.png")
+    },
     // "": {
     //   "tips": [
     //     "Club description: ",
