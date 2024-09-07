@@ -32,6 +32,13 @@ export const team = [
       github: "https://github.com/sunnwydays"
     },
     {
+      name: "Vivian Lee",
+      pronouns: "She/Her",
+      discipline: "MSE 2T7",
+      role: "Operations",
+      funfact: "I like to sleep during exam",
+    },
+    {
       name: "Eshaa Chenthuran",
       pronouns: "She/Her",
       discipline: "ECE 2T6",
@@ -66,7 +73,16 @@ export const team = [
       discipline: "Mech 2T5",
       role: "PEY Representative",
       image: Celin,
-      funfact: "I was the ultimate f!rosh back when I was a first yeat",
+      funfact: "I was the ultimate f!rosh back when I was a first year",
       instagram: "https://www.instagram.com/celi_bean/"
     },
+    // {
+    //   name: "",
+    //   pronouns: "",
+    //   discipline: "",
+    //   role: "",
+    //   image: ,
+    //   funfact: "",
+    //   instagram: ""
+    // },
 ]
