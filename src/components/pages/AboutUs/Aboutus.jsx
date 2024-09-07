@@ -3,7 +3,8 @@ import Member from './Member';
 import Background from '../../Background/Background';
 import Card from '../../Card/Card.jsx';
 import Cards from '../../Card/Cards.jsx';
-import { team } from './teamInfo.jsx';
+import { team as execs } from './execsInfo.jsx';
+import { team as reps } from './repsInfo.jsx';
 
 const AboutUs = () => {
   return (
@@ -38,10 +39,35 @@ const AboutUs = () => {
         <hr/>
 
         <div className="section-title">
-          <h1>Meet Our Team</h1>
+          <h1>Meet the Execs</h1>
         </div>
         <div className="about-us__team">
-          {team.map((member) => {
+          {execs.map((member) => {
+            return (
+              <Member
+                key={member.name}
+                name={member.name}
+                discipline={member.discipline}
+                role={member.role}
+                pronouns={member.pronouns}
+                image={member.image}
+                funfact={member.funfact}
+                linkedin={member.linkedin}
+                instagram={member.instagram}
+                youtube={member.youtube}
+                github={member.github}
+              />
+            );
+          })}
+        </div>
+
+        <hr/>
+
+        <div className="section-title">
+          <h1>Meet the Reps</h1>
+        </div>
+        <div className="about-us__team">
+          {reps.map((member) => {
             return (
               <Member
                 key={member.name}
