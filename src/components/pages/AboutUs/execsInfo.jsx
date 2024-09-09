@@ -25,7 +25,7 @@ export const team = [
     name: "Michael",
     pronouns: "He/Him",
     discipline: "CIV 2T7",
-    role: "Events and Logistics",
+    role: "Events & Logistics",
     image: Michael,
     funfact: "If you take the Yonge side of Line 1 from the north, it's probably faster to get off at College or Wellesley and walk than it is to get to Queen's Park",
     instagram: "https://www.instagram.com/m.hldr/"
@@ -34,7 +34,7 @@ export const team = [
     name: "Vanda Maderová",
     pronouns: "She/Her",
     discipline: "ECE 2T7",
-    role: "Events and Logistics",
+    role: "Events & Logistics",
     image: Vanda,
     funfact: "",
     linkedin: "https://www.linkedin.com/in/vanda-maderov%C3%A1",
