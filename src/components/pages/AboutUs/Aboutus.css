@@ -38,9 +38,13 @@
     box-shadow: 0 0 0 min(1vw, 0.3rem) #53af53;
 }
 
-/* Colour given by request */
-.member-box .special-colour {
+/* Colours given by request */
+.member-box .akshat-colour {
     box-shadow: 0 0 0 min(1vw, 0.3rem) #008cff;
+}
+
+.member-box .vanda-colour {
+    box-shadow: 0 0 0 min(1vw, 0.3rem) rgb(206, 201, 101);
 }
 
 .member-box p {
