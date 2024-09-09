@@ -1,4 +1,4 @@
-import { Akshat, Sean, Sunny, Eshaa, Linda } from '../../../assets';
+import { Akshat, Sean, Sunny, Eshaa, Linda, David, Michael, Vanda } from '../../../assets';
 
 export const team = [
   {
@@ -22,14 +22,23 @@ export const team = [
     linkedin: "https://www.linkedin.com/in/sean-leung-0b8b9017b/",
   },
   {
-    name: "Sunny Wu",
+    name: "Michael",
     pronouns: "He/Him",
+    discipline: "CIV 2T7",
+    role: "Events and Logistics",
+    image: Michael,
+    funfact: "If you take the Yonge side of Line 1 from the north, it's probably faster to get off at College or Wellesley and walk than it is to get to Queen's Park",
+    instagram: "https://www.instagram.com/m.hldr/"
+  },
+  {
+    name: "Vanda Maderová",
+    pronouns: "She/Her",
     discipline: "ECE 2T7",
-    role: "Webmaster",
-    image: Sunny,
-    funfact: "My favourite colours are pink and green! The circle around my face is green!",
-    linkedin: "https://www.linkedin.com/in/wu-sunny/",
-    github: "https://github.com/sunnwydays"
+    role: "Events and Logistics",
+    image: Vanda,
+    funfact: "",
+    linkedin: "https://www.linkedin.com/in/vanda-maderov%C3%A1",
+    instagram: "https://www.instagram.com/vandamaderova/"
   },
   {
     name: "Vivian Lee",
@@ -37,6 +46,15 @@ export const team = [
     discipline: "MSE 2T7",
     role: "Operations",
     funfact: "I like to sleep during exam",
+  },
+  {
+    name: "David Qian",
+    pronouns: "He/Him",
+    discipline: "CIV 2T6",
+    role: "Operations",
+    image: David,
+    funfact: "I like meeting new people!",
+    linkedin: "www.linkedin.com/in/david-qian-255976252"
   },
   {
     name: "Eshaa Chenthuran",
@@ -57,6 +75,16 @@ export const team = [
     funfact: "My dream is to be an architect",
     linkedin: "https://www.linkedin.com/in/linda-lin-42395b237/",
     instagram: "https://www.instagram.com/_linda1209?igsh=cmo4NGUxNTE5Zmp0&utm_source=qr"
+  },
+  {
+    name: "Sunny Wu",
+    pronouns: "He/Him",
+    discipline: "ECE 2T7",
+    role: "Webmaster",
+    image: Sunny,
+    funfact: "My favourite colours are pink and green! The circle around my face is green!",
+    linkedin: "https://www.linkedin.com/in/wu-sunny/",
+    github: "https://github.com/sunnwydays"
   },
   // {
   //   name: "",

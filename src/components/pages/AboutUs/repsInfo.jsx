@@ -1,6 +1,15 @@
-import { Eshaa, Viv, Celin } from '../../../assets';
+import { Michael, Eshaa, Viv, Celin } from '../../../assets';
 
 export const team = [
+  {
+    name: "Michael",
+    pronouns: "He/Him",
+    discipline: "CIV 2T7",
+    role: "2nd Year Representative",
+    image: Michael,
+    funfact: "If you take the Yonge side of Line 1 from the north, it's probably faster to get off at College or Wellesley and walk than it is to get to Queen's Park",
+    instagram: "https://www.instagram.com/m.hldr/"
+  },
   {
     name: "Eshaa Chenthuran",
     pronouns: "She/Her",
