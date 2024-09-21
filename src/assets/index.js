@@ -6,8 +6,9 @@ export const InstagramLogoBlue = require('./images/instagram-blue.png');
 export const DiscordLogo = require('./images/discord.png');
 export const LinkedInLogo = require('./images/linkedin.png');
 export const YoutubeLogo = require('./images/youtube.png');
+export const LinktreeLogo = require('./images/linktree.png');
 export const GithubLogo = require('./images/github.png');
-export const EmailLogo = require('./images/email.png')
+// export const EmailLogo = require('./images/email.png')
 
 export const Akshat = require('./images/TeamImages/Akshat.jpg');
 export const Sean = require('./images/TeamImages/Sean.jpg');

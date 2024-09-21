@@ -1,9 +1,13 @@
 import ChevronDownIcon from "../../../assets/icons/chevron-down-solid.svg";
 import SocialMediaButton from "./SocialMediaButton";
-import { InstagramLogoOrange as InstagramLogo, DiscordLogo, CommuterBanner, EmailLogo } from "../../../assets";
+import { InstagramLogoOrange as InstagramLogo, DiscordLogo, CommuterBanner, LinktreeLogo } from "../../../assets";
 import { setSideBar } from "../../..";
 import { useDispatch } from 'react-redux';
 import './Home.css';
+
+const DiscordLink = "https://discord.gg/yph2EjkbhW";
+const InstagramLink = "https://www.instagram.com/skule.commuters/";
+const LinktreeLink = "https://linktr.ee/skule.commuters";
 
 const Home = () => {
 	const dispatch = useDispatch();
@@ -18,9 +22,9 @@ const Home = () => {
 					<h1>Commuter Student Project Directorship</h1>
 				</div>
 				<div className="home-banner__content__icons">
-					<SocialMediaButton source={DiscordLogo} link="https://discord.gg/yph2EjkbhW"/>
-					<SocialMediaButton source={InstagramLogo} link="https://www.instagram.com/skule.commuters/"/>
-					<SocialMediaButton source={EmailLogo} link="mailto:webmaster@commuter.skule.ca"/>
+					<SocialMediaButton source={DiscordLogo} link={DiscordLink}/>
+					<SocialMediaButton source={InstagramLogo} link={InstagramLink}/>
+					<SocialMediaButton source={LinktreeLogo} link={LinktreeLink}/>
 				</div>
 				<div className="home-banner__content__chevron">
 					<img src={ChevronDownIcon} alt="down arrow"/>
