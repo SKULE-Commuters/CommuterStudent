@@ -1,3 +1,4 @@
+import Announcement from './components/Announcement/Announcement.jsx';
 import NavBar from './components/NavBar/Navbar.jsx';
 import Home from './components/pages/Home/Home.jsx';
 import AboutUs from './components/pages/AboutUs/Aboutus.jsx';
@@ -7,4 +8,4 @@ import Resources from './components/pages/Resources/Resources.jsx';
 import Clubs from './components/pages/Clubs/Clubs.jsx';
 import Footer from './components/Footer/Footer.jsx';
 
-export { NavBar, Home, AboutUs, Events, JoinUs, Resources, Clubs, Footer };
+export { Announcement, NavBar, Home, AboutUs, Events, JoinUs, Resources, Clubs, Footer };

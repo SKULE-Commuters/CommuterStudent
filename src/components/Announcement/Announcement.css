@@ -1,0 +1,21 @@
+.announcement {
+    background: #24347B;
+    text-align: center;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.1s ease-in;
+}
+
+.announcement p {
+    background: #F1B141;
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.3);
+    margin: 0rem;
+}
+
+.announcement:hover {
+    transform: scale(1.03);
+}

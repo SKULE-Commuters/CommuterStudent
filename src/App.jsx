@@ -1,12 +1,13 @@
 import './App.css';
 // import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { NavBar, Home, AboutUs, Resources, Clubs, Footer } from './imports';
+import { Announcement, NavBar, Home, AboutUs, Resources, Clubs, Footer } from './imports';
 
 function App() {
   return (
     <>
       <div className="navbar-spacer" />
       <NavBar />
+      <Announcement />
       <Home />
       <AboutUs />
       <Resources />
