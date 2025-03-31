@@ -1,11 +1,12 @@
 .announcement {
-    background: #24347B;
-    text-align: center;
+    background: transparent;
     width: 100vw;
     display: flex;
     justify-content: center;
-    align-items: center;
-    transition: 0.1s ease-in;
+    position: fixed;
+    top: 8rem;
+    z-index: 1000;
+    transition: opacity 0.5s ease-in-out;
 }
 
 .announcement p {
@@ -16,6 +17,46 @@
     margin: 0rem;
 }
 
-.announcement:hover {
-    transform: scale(1.03);
+.announcement.visible {
+    opacity: 1;
+}
+
+.announcement.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+@media screen and (max-width: 850px) {
+    .announcement {
+        top: 5rem;
+    }
+  }
+
+  .close-btn {
+    position: relative;
+    right: 1.75rem;
+    top: 0.5rem;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #333;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    transition: background-color 0.2s ease;
+}
+
+.close-btn:hover {
+    background: #555;
+}
+
+.close-btn:active {
+    background: #000;
 }
