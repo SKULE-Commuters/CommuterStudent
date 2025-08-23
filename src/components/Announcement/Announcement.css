@@ -3,6 +3,7 @@
     width: 100vw;
     display: flex;
     justify-content: center;
+    text-align: center;
     position: fixed;
     top: 8rem;
     z-index: 1000;

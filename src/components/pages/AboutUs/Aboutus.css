@@ -47,6 +47,10 @@
     box-shadow: 0 0 0 min(1vw, 0.3rem) rgb(206, 201, 101);
 }
 
+.member-box .sunny-colour {
+    box-shadow: 0 0 0 min(1vw, 0.3rem) #53af53
+}
+
 .member-box p {
     font-family: 'DM Sans Light';
 }

@@ -45,6 +45,9 @@ export const team = [
   //   role: "",
   //   image: ,
   //   funfact: "",
-  //   instagram: ""
+  //   instagram: "",
+  //   linkedin: "",
+  //   github: "",
+  //   youtube: ""
   // },
 ]

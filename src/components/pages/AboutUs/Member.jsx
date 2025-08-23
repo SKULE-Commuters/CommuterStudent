@@ -11,7 +11,8 @@ const SocialMedia = [
 const Member = (props) => {
     return (
         <div className="member-box">
-            <img className={`member-pic ${props.name === "Akshat Gandhi" ? "akshat-colour" : props.name === "Vanda Maderová" ? "vanda-colour" : "" }`} src={props.image || placeholder} alt="Loading.."/>
+            {/* TODO make a more selective color thing i think --gfaus */}
+            <img className={`member-pic ${props.hasOwnProperty('special_display') ? props.special_display : "" }`} src={props.image || placeholder} alt="Loading.."/>
             <h3>{props.name}</h3>
             <h4>{props.pronouns ? `(${props.pronouns})` : '\u00A0'}</h4>
             <h5>{props.discipline || 'Eng 2T?'}</h5>

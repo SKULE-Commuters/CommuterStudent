@@ -25,14 +25,14 @@ const AboutUs = () => {
                 In short, our mission is to create a better experience for students taking transit.
                 Whether you are a commuter or simply like trains, we are creating a commuterty for you!'
                 />
-                <Card 
-                  title="What We Do" 
-                  content="We make transit and commuting enjoyable.
-                  We provide resources, guidance, and tips for new commuters to get used to commuting and others taking transit.
-                  We host events for the commuterty to have fun and learn more!
-                  We advocate for a better commuting experience.
-                  And of course, we provide a space for everyone to share their thoughts on transit!"
-                />
+              <Card 
+                title="What We Do" 
+                content="We make transit and commuting enjoyable.
+                We provide resources, guidance, and tips for new commuters to get used to commuting and others taking transit.
+                We host events for the commuterty to have fun and learn more!
+                We advocate for a better commuting experience.
+                And of course, we provide a space for everyone to share their thoughts on transit!"
+              />
             </Cards>
         </div>
 
@@ -40,6 +40,7 @@ const AboutUs = () => {
 
         <div className="section-title">
           <h1>Meet the Execs</h1>
+          <h3>(more details soon!)</h3> {/*TODO remove once done*/}
         </div>
         <div className="about-us__team">
           {execs.map((member) => {
@@ -50,6 +51,7 @@ const AboutUs = () => {
                 discipline={member.discipline}
                 role={member.role}
                 pronouns={member.pronouns}
+                special_display={member.special_display}
                 image={member.image}
                 funfact={member.funfact}
                 linkedin={member.linkedin}
@@ -65,6 +67,7 @@ const AboutUs = () => {
 
         <div className="section-title">
           <h1>Meet the Reps</h1>
+          <h3>(more details soon!)</h3> {/*TODO remove once done*/}
         </div>
         <div className="about-us__team">
           {reps.map((member) => {
@@ -75,6 +78,7 @@ const AboutUs = () => {
                 discipline={member.discipline}
                 role={member.role}
                 pronouns={member.pronouns}
+                special_display={member.special_display}
                 image={member.image}
                 funfact={member.funfact}
                 linkedin={member.linkedin}

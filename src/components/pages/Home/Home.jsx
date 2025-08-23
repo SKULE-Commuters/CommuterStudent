@@ -26,9 +26,10 @@ const Home = () => {
 					<SocialMediaButton source={InstagramLogo} link={InstagramLink}/>
 					<SocialMediaButton source={LinktreeLogo} link={LinktreeLink}/>
 				</div>
-				<div className="home-banner__content__chevron">
+				{/* Because who looks at the footer anyway now that the site isn't organized on a single space --gfaus */}
+				{/* <div className="home-banner__content__chevron">
 					<img src={ChevronDownIcon} alt="down arrow"/>
-				</div>
+				</div> */}
 			</div>
 		</div>
     );

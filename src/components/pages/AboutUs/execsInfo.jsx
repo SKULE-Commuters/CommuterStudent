@@ -2,30 +2,23 @@ import { Akshat, Sean, Sunny, Eshaa, Linda, David, Michael, Vanda } from '../../
 
 export const team = [
   {
-    name: "Akshat Gandhi",
-    pronouns: "",
-    discipline: "Mech 2T6",
-    role: "Director",
-    image: Akshat,
-    funfact: "I love space & linux (I run NixOS)",
-    linkedin: "https://linkedin.com/in/akshatgandhi23",
-    youtube: "https://youtube.com/@maplespace_",
-    github: "https://github.com/OP-MapleSpace"
+    name: "Keting Trinh",
+    pronouns: "She/Her",
+    discipline: "Mech 2T8",
+    role: "Director"
   },
   {
-    name: "Sean Leung",
+    name: "Nick Oré",
     pronouns: "He/Him",
-    discipline: "CIV 2T6",
+    discipline: "MIN 2T8",
     role: "Vice Director",
-    image: Sean,
-    funfact: "Freight trains use a part of the ION Line tracks in Kitchener during non-revenue hours and gauntlet tracks are used to ensure that the trains don't hit the platforms.",
-    linkedin: "https://www.linkedin.com/in/sean-leung-0b8b9017b/",
+    funfact: "I walked from Burlington to Hamilton by foot on the QEW. It was not fun (I'm absolutely doing it again)."
   },
   {
     name: "Michael",
     pronouns: "He/Him",
     discipline: "CIV 2T7",
-    role: "Events & Logistics",
+    role: "Operations",
     image: Michael,
     funfact: "If you take the Yonge side of Line 1 from the north, it's probably faster to get off at College or Wellesley and walk than it is to get to Queen's Park",
     instagram: "https://www.instagram.com/m.hldr/"
@@ -36,51 +29,49 @@ export const team = [
     discipline: "ECE 2T7",
     role: "Events & Logistics",
     image: Vanda,
+    special_display: "vanda-colour",
     funfact: "",
     linkedin: "https://www.linkedin.com/in/vanda-maderov%C3%A1",
     instagram: "https://www.instagram.com/vandamaderova/"
   },
   {
-    name: "Vivian Lee",
-    pronouns: "She/Her",
-    discipline: "MSE 2T7",
-    role: "Operations",
-    funfact: "I like to sleep during exam",
-  },
-  {
-    name: "David Qian",
+    name: "Mathuran",
     pronouns: "He/Him",
-    discipline: "CIV 2T6",
-    role: "Operations",
-    image: David,
-    funfact: "I like meeting new people!",
-    linkedin: "www.linkedin.com/in/david-qian-255976252"
-  },
-  {
-    name: "Eshaa Chenthuran",
-    pronouns: "She/Her",
     discipline: "ECE 2T6",
-    role: "Outreach",
-    image: Eshaa,
-    funfact: "I broke my arm playing basketball once and have never played since 💀.",
-    linkedin: "https://ca.linkedin.com/in/eshaac",
-    github: "https://github.com/eshaachenthuran"
+    role: "Media",
   },
   {
     name: "Linda ",
     pronouns: "She/Her",
     discipline: "CIV 2T6",
-    role: "Media & Marketing",
+    role: "Marketing",
     image: Linda,
     funfact: "My dream is to be an architect",
     linkedin: "https://www.linkedin.com/in/linda-lin-42395b237/",
     instagram: "https://www.instagram.com/_linda1209?igsh=cmo4NGUxNTE5Zmp0&utm_source=qr"
   },
   {
+    name: "Nicholas A.",
+    pronouns: "He/Him",
+    discipline: "EngSci 2T8",
+    role: "Marketing",
+    funfact: ""
+  },
+  {
+    name: "Gabriel Faustino",
+    pronouns: "He/Him",
+    discipline: "Indy 2T8",
+    role: "Webmaster",
+    funfact: "I'm probably more competent at Minecraft Java modding",
+    youtube: "https://www.youtube.com/@ritchieblackmoreasamoyai",
+    github: "https://github.com/Zexonyte"
+  },
+  {
     name: "Sunny Wu",
     pronouns: "He/Him",
     discipline: "ECE 2T7",
-    role: "Webmaster",
+    role: "Webmaster Emeritius",
+    special_display: "sunny-colour",
     image: Sunny,
     funfact: "My favourite colours are pink and green! The circle around my face is green!",
     linkedin: "https://www.linkedin.com/in/wu-sunny/",
@@ -93,6 +84,9 @@ export const team = [
   //   role: "",
   //   image: ,
   //   funfact: "",
-  //   instagram: ""
+  //   instagram: "",
+  //   linkedin: "",
+  //   github: "",
+  //   youtube: ""
   // },
 ]

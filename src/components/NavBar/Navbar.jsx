@@ -47,10 +47,10 @@ const NavBar = () => {
                 <img src={CommuterLogo} alt='Skule Commuter logo'/>
             </button>
             <span className="nav-container">
-                <button className="nav-link" onClick={e => handleScrollTo('home')}><p>Home</p></button>
-                <button className="nav-link" onClick={e => handleScrollTo('about-us')}><p>About Us</p></button>
-                <button className="nav-link" onClick={e => handleScrollTo('resources')}><p>Resources</p></button>
-                <button className="nav-link" onClick={e => handleScrollTo('clubs')}><p>Clubs</p></button>
+                <a href="/"><button className="nav-link"><p>Home</p></button></a>
+                <a href="/about"><button className="nav-link"><p>About Us</p></button></a>
+                <a href="/resources"><button className="nav-link"><p>Resources</p></button></a>
+                <a href="/clubs"><button className="nav-link"><p>Clubs</p></button></a>
             </span>
             <span className="nav-mobile-container">
                 <MobileMenu firstOpen={firstOpen} setFirstOpen={setFirstOpen} updateDisplayNav={updateDisplayNav} />

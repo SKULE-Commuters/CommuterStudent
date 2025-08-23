@@ -32,6 +32,7 @@ function Announcement() {
     return (
         <div className={`announcement ${visible ? 'visible' : 'hidden'}`}>
             <p>
+                This website is currently being updated and restructured for the 2025-2026 school year, please check back regularly for updates!<br></br>
                 Fill out the <a href="https://docs.google.com/forms/d/e/1FAIpQLSdLMaWeg95iNrCxKpN9tbh-ES9ocUOdUDcLYgln4_HqD385Pw/viewform">Commuter Feedback Form!</a>
                 &nbsp;&nbsp;
             </p>
