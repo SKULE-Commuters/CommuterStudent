@@ -63,6 +63,8 @@ const AboutUs = () => {
           })}
         </div>
 
+        <h3 style={{ textWrap: "balance"}}>Want to help build our "commuterty"? <a href="https://forms.gle/Z8sf5BhjoCY918ye7">Sign up for an exec position!</a> This could be one of you!</h3>
+
         <hr/>
 
         <div className="section-title">
