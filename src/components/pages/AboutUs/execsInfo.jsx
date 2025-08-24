@@ -51,7 +51,7 @@ export const team = [
     instagram: "https://www.instagram.com/_linda1209?igsh=cmo4NGUxNTE5Zmp0&utm_source=qr"
   },
   {
-    name: "Nicholas A.",
+    name: "Nicholas Ali",
     pronouns: "He/Him",
     discipline: "EngSci 2T8",
     role: "Marketing",
