@@ -51,7 +51,7 @@ const AboutUs = () => {
                 discipline={member.discipline}
                 role={member.role}
                 pronouns={member.pronouns}
-                special_display={member.special_display}
+                specialDisplay={member.specialDisplay}
                 image={member.image}
                 funfact={member.funfact}
                 linkedin={member.linkedin}
@@ -78,7 +78,7 @@ const AboutUs = () => {
                 discipline={member.discipline}
                 role={member.role}
                 pronouns={member.pronouns}
-                special_display={member.special_display}
+                specialDisplay={member.specialDisplay}
                 image={member.image}
                 funfact={member.funfact}
                 linkedin={member.linkedin}

@@ -1,4 +1,4 @@
-import { Akshat, Sean, Sunny, Eshaa, Linda, David, Michael, Vanda } from '../../../assets';
+import { Sunny, Linda, Michael, Vanda } from '../../../assets';
 
 export const team = [
   {
@@ -29,7 +29,7 @@ export const team = [
     discipline: "ECE 2T7",
     role: "Events & Logistics",
     image: Vanda,
-    special_display: "vanda-colour",
+    specialDisplay: "vanda-colour",
     funfact: "",
     linkedin: "https://www.linkedin.com/in/vanda-maderov%C3%A1",
     instagram: "https://www.instagram.com/vandamaderova/"
@@ -71,7 +71,7 @@ export const team = [
     pronouns: "He/Him",
     discipline: "ECE 2T7",
     role: "Webmaster Emeritius",
-    special_display: "sunny-colour",
+    specialDisplay: "sunny-colour",
     image: Sunny,
     funfact: "My favourite colours are pink and green! The circle around my face is green!",
     linkedin: "https://www.linkedin.com/in/wu-sunny/",

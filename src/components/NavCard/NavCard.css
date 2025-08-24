@@ -1,0 +1,56 @@
+.navcard {
+    border-radius: 1rem;
+    box-sizing: border-box;
+    box-shadow: 0.75rem 0.75rem 0 rgba(0, 0, 0, 0.3);
+    width: 20rem;
+    height: 20rem;
+    transition: 0.1s ease-in;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    background: #32448a;
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+
+.navcard:hover {
+    background: #7381c47f;
+    background-blend-mode: multiply;
+    background-size: cover;
+    transform: scale(1.03);
+}
+
+.navcard__label {
+    margin: 0.5rem;
+    padding: 1rem;
+    color: #cac8b7;
+    line-height: 1.4;
+    font-size: 1.8rem;
+    position: relative;
+
+    transition: 0.1s ease-in;
+}
+
+.navcard:hover .navcard__label {
+    color: #fff7de;
+}
+
+.navcard__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.navcard__link {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .card {
+        font-size: 0.9rem;
+        min-height: 15rem;
+    }
+    .card__content {
+        line-height: 1.3;
+    }
+}
