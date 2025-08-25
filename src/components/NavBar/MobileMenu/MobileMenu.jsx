@@ -44,10 +44,10 @@ const MobileMenu = (props) => {
                 e.stopPropagation();
                 dispatch(setSideBar(true));
             }}>
-                <button className="nav-link__mobile" onClick={e => handleScrollTo('home', e)}><p>Home</p></button>
-                <button className="nav-link__mobile" onClick={e => handleScrollTo('about-us', e)}><p>About Us</p></button>
-                <button className="nav-link__mobile" onClick={e => handleScrollTo('resources', e)}><p>Resources</p></button>
-                <button className="nav-link__mobile" onClick={e => handleScrollTo('clubs', e)}><p>Clubs</p></button>
+                <a href="/"><button className="nav-link__mobile"><p>Home</p></button></a>
+                <a href="/about"><button className="nav-link__mobile"><p>About Us</p></button></a>
+                <a href="/resources"><button className="nav-link__mobile"><p>Resources</p></button></a>
+                <a href="/clubs"><button className="nav-link__mobile"><p>Clubs</p></button></a>
             </div>
         </>
     );
