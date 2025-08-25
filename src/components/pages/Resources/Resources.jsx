@@ -16,7 +16,7 @@ const Resources = () => {
         <NavCards>
           <NavCard label="General Transit Tips" page="/resources/tips" bgImage="images/maps-tips-bg.png" />
           <NavCard label="GTA Transit System Maps" page="/resources/maps" bgImage="images/maps-button-bg.png" />
-          {/* <NavCard label="Transit Fares and Expenses Guides" page="/resources/fares" /> */}
+          <NavCard label="Transit Fares and Expenses Guides" page="/resources/fares" bgImage="images/maps-fares-bg.png" />
           {/* <NavCard label="Rent a Skule Commuter Locker" page="/resources/lockers" /> */}
           <NavCard label="Mental Health and Other Info" page="/resources/misc" bgImage="images/maps-misc-bg.png" />
         </NavCards>

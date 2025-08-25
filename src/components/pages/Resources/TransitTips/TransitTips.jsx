@@ -51,7 +51,6 @@ const TransitTips = () => {
               Some tips are sourced from the 2T5 Frosh Handbook. <br/> 
               <a href="https://discord.com/invite/yph2EjkbhW">Contact us</a> if you have any other suggestions!
             </p>
-            <p>Check out the <a href="https://www.youtube.com/playlist?list=PL_hXA0UTYo0D5VP5XOUm7zg0fuQAwEOO1">Toronto Commuter Guide video series on YouTube</a>.<br/>It provides detailed advice on using Presto, TTC subway, and GO Transit!</p>
           </div>
         </Background>
     );

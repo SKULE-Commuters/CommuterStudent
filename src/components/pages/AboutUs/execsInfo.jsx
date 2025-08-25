@@ -35,10 +35,11 @@ export const team = [
     instagram: "https://www.instagram.com/vandamaderova/"
   },
   {
-    name: "Mathuran",
+    name: "Mathuran Sivakaran",
     pronouns: "He/Him",
     discipline: "ECE 2T6",
     role: "Media",
+    linkedin: "https://www.linkedin.com/in/mathuran-sivakaran-00720b1a5"
   },
   {
     name: "Linda ",

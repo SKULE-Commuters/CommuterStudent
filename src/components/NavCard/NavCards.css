@@ -1,25 +1,26 @@
 .navcards {
     display: grid;
     justify-items: center;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* Change to 1fr 1fr 1fr when there are 5-6 navcards*/
+    max-width: 85rem; /* Change to 65 rem when there are 5-6 navcards */
     margin-bottom: 6rem;
     font-size: 1.2rem;
     /* On 16:9, 1080p screens, the cards seem /too/ far apart. Change width of the <Cards/> element and center the grid. */
     width: 100%;
-    max-width: 65rem;
     gap: 1rem
 }
 
 
 /* Widen the grid further when going below 1700px */
 @media only screen and (max-width: 1700px) {
-    .cards {
+    .navcards {
+        grid-template-columns: 1fr 1fr 1fr;
         width: 85%;
     }
 }
 /* Finally, have the grid be full width when below 1575px */
 @media only screen and (max-width: 1575px) {
-    .cards {
+    .navcards {
         width: 100%;
     }
 }
@@ -27,16 +28,19 @@
 
 /* At 1350px, put a gap btwn the cards. The gap is not present before this because it de-centers the entire grid */
 @media only screen and (max-width: 1350px) {
-    .cards {
+    .navcards {
+        grid-template-columns: 1fr 1fr;
+        max-width: 45rem;
         gap: 2rem;
     }
 }
 
 
 @media only screen and (max-width: 1200px) {
-    .cards {
+    .navcards {
         grid-template-columns: 100%;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
+        max-width: 45rem;
         margin-bottom: 4rem; /* Because in mobile the individual card components themselves have margin-bottom of 1rem */
     }
 }

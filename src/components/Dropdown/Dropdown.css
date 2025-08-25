@@ -120,6 +120,14 @@
     right: 0.5rem;
 }
 
+.dropdown__video {
+    background-color: #525d92;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Mobile breakpoints */
     @media only screen and (max-width: 850px) {
     .dropdown__header__caret {

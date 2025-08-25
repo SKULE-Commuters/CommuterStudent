@@ -26,6 +26,7 @@ const Dropdown = (props) => {
 
     const isMapDropdown = props.map !== undefined;
     const isClubDropdown = !isMapDropdown && props.content[0].slice(0, 16) === "Club description"
+    const isVideoDropdown = props.video !== undefined;
 
     return (
         <div className="dropdown">
@@ -47,6 +48,13 @@ const Dropdown = (props) => {
                 </div>
             </div>
             <div className={`dropdown__content ${(isOpen ? "open-ul" : "closed-ul")}`}>
+                <div className="dropdown__video">
+                    { isVideoDropdown ?
+                        <iframe width="560" height="315" src={props.video} title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen /> : null
+                    }
+                </div>
                 {isMapDropdown ?
                     <TransformWrapper doubleClick = {{mode: "toggle"}} >
                         {({ zoomIn, zoomOut, resetTransform }) => (
