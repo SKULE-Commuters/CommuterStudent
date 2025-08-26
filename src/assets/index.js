@@ -20,3 +20,4 @@ export const Celin = require('./images/TeamImages/Celin.jpg');
 export const David = require('./images/TeamImages/David.jpg');
 export const Michael = require('./images/TeamImages/Michael.jpg');
 export const Vanda = require('./images/TeamImages/Vanda.jpg');
+export const NicholasA = require('./images/TeamImages/NicholasA.jpg');

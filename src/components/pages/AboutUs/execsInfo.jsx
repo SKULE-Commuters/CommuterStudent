@@ -1,4 +1,4 @@
-import { Sunny, Linda, Michael, Vanda } from '../../../assets';
+import { Sunny, Linda, Michael, Vanda, NicholasA } from '../../../assets';
 
 export const team = [
   {
@@ -56,7 +56,8 @@ export const team = [
     pronouns: "He/Him",
     discipline: "EngSci 2T8",
     role: "Marketing",
-    funfact: ""
+    image: NicholasA,
+    funfact: "If you're broke and don't have spotify premium, you can queue up songs on computer and the queue will transfer to phone (excellent for travel)"
   },
   {
     name: "Gabriel Faustino",
