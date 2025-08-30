@@ -10,6 +10,7 @@ import TransitMaps from './components/pages/Resources/TransitMaps/TransitMaps.js
 import FaresInfo from './components/pages/Resources/FaresInfo/FaresInfo.jsx';
 import MiscInfo from './components/pages/Resources/MiscInfo/MiscInfo.jsx';
 import Clubs from './components/pages/Clubs/Clubs.jsx';
+import ScrollPointer from './components/ScrollPointer/ScrollPointer.jsx';
 import Footer from './components/Footer/Footer.jsx';
 
-export { Announcement, NavBar, Home, AboutUs, Events, JoinUs, Resources, TransitTips, TransitMaps, FaresInfo, MiscInfo, Clubs, Footer };
+export { Announcement, NavBar, Home, AboutUs, Events, JoinUs, Resources, TransitTips, TransitMaps, FaresInfo, MiscInfo, Clubs, ScrollPointer, Footer };

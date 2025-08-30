@@ -1,0 +1,18 @@
+.pointer {
+    position: fixed;
+    bottom: -50%;
+    left: calc(50% - 1.325rem); /* Centered with middle social logo */
+    height: 1.5rem;
+    width: 1.5rem;
+    padding: 0.5rem;
+    border: white solid 0.25rem;
+    border-radius: 50%;
+    opacity: 1;
+    filter: drop-shadow(0.25rem 0.25rem rgba(0, 0, 0, 0.3));
+    z-index: 3;
+    transition: all 0.45s cubic-bezier(.53, 0, .55, 1);
+}
+
+.pointer__active {
+    bottom: 2%
+}

@@ -1,4 +1,3 @@
-import ChevronDownIcon from "../../../assets/icons/chevron-down-solid.svg";
 import SocialMediaButton from "./SocialMediaButton";
 import { InstagramLogoOrange as InstagramLogo, DiscordLogo, CommuterBanner, LinktreeLogo } from "../../../assets";
 import { setSideBar } from "../../..";
