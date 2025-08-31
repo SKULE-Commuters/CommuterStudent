@@ -1,4 +1,4 @@
-import { Sunny, Linda, Michael, Vanda, NicholasA } from '../../../assets';
+import { Sunny, Linda, Michael, Vanda, NicholasA, NickO } from '../../../assets';
 
 export const team = [
   {
@@ -12,6 +12,7 @@ export const team = [
     pronouns: "He/Him",
     discipline: "MIN 2T8",
     role: "Vice Director",
+    image: NickO,
     funfact: "I walked from Burlington to Hamilton by foot on the QEW. It was not fun (I'm absolutely doing it again)."
   },
   {
