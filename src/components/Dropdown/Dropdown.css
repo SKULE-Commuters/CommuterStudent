@@ -72,7 +72,8 @@
 }
 
 .dropdown__content.open-ul {
-    max-height: 100rem; /*Because css is funky I have to set a max-height greater than the list will ever get for the transition property to work*/
+    max-height: 300rem;     /*Because css is funky I have to set a max-height greater than the list will ever get for the transition property to work*/
+                            /* Increased max height from 100rem => 300rem because our new summaries are somehow just that long --gfaus */
     margin: 0;
     transition: max-height 0.5s ease-in;
 }
