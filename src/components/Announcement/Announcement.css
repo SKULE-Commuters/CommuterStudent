@@ -1,6 +1,8 @@
 .announcement {
     background: transparent;
-    width: 100vw;
+    width: auto;
+    left: 50%;
+    transform: translate(-50%, 0);
     display: flex;
     justify-content: center;
     text-align: center;

@@ -1,5 +1,6 @@
 import Announcement from './components/Announcement/Announcement.jsx';
 import NavBar from './components/NavBar/Navbar.jsx';
+import PathBar from './components/PathBar/PathBar.jsx';
 import Home from './components/pages/Home/Home.jsx';
 import AboutUs from './components/pages/AboutUs/Aboutus.jsx';
 import Events from './components/pages/Events/Events.jsx';
@@ -13,4 +14,4 @@ import Clubs from './components/pages/Clubs/Clubs.jsx';
 import ScrollPointer from './components/ScrollPointer/ScrollPointer.jsx';
 import Footer from './components/Footer/Footer.jsx';
 
-export { Announcement, NavBar, Home, AboutUs, Events, JoinUs, Resources, TransitTips, TransitMaps, FaresInfo, MiscInfo, Clubs, ScrollPointer, Footer };
+export { Announcement, NavBar, PathBar, Home, AboutUs, Events, JoinUs, Resources, TransitTips, TransitMaps, FaresInfo, MiscInfo, Clubs, ScrollPointer, Footer };

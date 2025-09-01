@@ -1,6 +1,6 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Announcement, NavBar, Home, AboutUs, Resources, TransitTips, TransitMaps, FaresInfo, MiscInfo, Clubs, ScrollPointer, Footer } from './imports';
+import { Announcement, NavBar, PathBar, Home, AboutUs, Resources, TransitTips, TransitMaps, FaresInfo, MiscInfo, Clubs, ScrollPointer, Footer } from './imports';
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
       <div className="navbar-spacer" />
       <Announcement />
       <div id="site-content">
+        <PathBar />
         <Router>
           <Routes>
             <Route path="/" element={<Home/>} />
