@@ -1,8 +1,8 @@
 # Commuter Students Website 2024-2025
 The official website for **University of Toronto Engineering Society - Commuter Student Directorship.**<br/>
 Created by Ayaan Pathan [@N00dleMaster](https://github.com/N00dleMaster) and Sean Kim [@skim1601](https://github.com/skim1601)<br/>
-Updated by Sunny Wu [@sunnwydays](https://github.com/sunnwydays)
-Updated by Gabriel Faustino [@Zexonyte](https://github.com/Zexonyte)
+Updated by Sunny Wu [@sunnwydays](https://github.com/sunnwydays)<br/>
+Updated by Gabriel Faustino [@faustigo](https://github.com/faustigo)
 
 ## Link: 
 https://commuter.skule.ca/
