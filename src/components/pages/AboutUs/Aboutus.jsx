@@ -40,7 +40,7 @@ const AboutUs = () => {
 
         <div className="section-title">
           <h1>Meet the Execs</h1>
-          <h3>(more details soon!)</h3> {/*TODO remove once done*/}
+          <h3>(Exec reveal soon!)</h3> {/*TODO remove once done*/}
         </div>
         <div className="about-us__team">
           {execs.map((member) => {
@@ -64,33 +64,6 @@ const AboutUs = () => {
         </div>
 
         <h3 style={{ textWrap: "balance"}}>Want to help build our "commuterty"? <a href="https://forms.gle/Z8sf5BhjoCY918ye7">Sign up for an exec position!</a> This could be one of you!</h3>
-
-        <hr/>
-
-        <div className="section-title">
-          <h1>Meet the Reps</h1>
-          <h3>(more details soon!)</h3> {/*TODO remove once done*/}
-        </div>
-        <div className="about-us__team">
-          {reps.map((member) => {
-            return (
-              <Member
-                key={member.name}
-                name={member.name}
-                discipline={member.discipline}
-                role={member.role}
-                pronouns={member.pronouns}
-                specialDisplay={member.specialDisplay}
-                image={member.image}
-                funfact={member.funfact}
-                linkedin={member.linkedin}
-                instagram={member.instagram}
-                youtube={member.youtube}
-                github={member.github}
-              />
-            );
-          })}
-        </div>
 
       </div>
     </Background>

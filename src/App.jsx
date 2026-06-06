@@ -7,7 +7,7 @@ function App() {
     <>
       <NavBar />
       <div className="navbar-spacer" />
-      <Announcement />
+      {/* <Announcement /> this is really outdated and should be updated before uncommenting */}
       <div id="site-content">
         <Router>
           <Routes>
